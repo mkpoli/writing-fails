@@ -1,0 +1,28 @@
+name: Submit an example
+description: Share a documented writing-direction misunderstanding.
+title: "Example: "
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Source link
+      description: Link to the original post or a reliable report, preferably with a photo.
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language
+    validations:
+      required: true
+  - type: textarea
+    id: readings
+    attributes:
+      label: Intended and accidental readings
+      description: Tell us which direction each is read in, what it says, and why the unintended reading is funny.
+    validations:
+      required: true
+  - type: textarea
+    id: credit
+    attributes:
+      label: Image credit or other context
