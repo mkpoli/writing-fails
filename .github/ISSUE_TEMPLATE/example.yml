@@ -1,5 +1,5 @@
 name: Submit an example
-description: Share a documented writing-direction misunderstanding.
+description: Share a documented writing-direction or layout misunderstanding.
 title: "Example: "
 body:
   - type: input
@@ -19,7 +19,7 @@ body:
     id: readings
     attributes:
       label: Intended and accidental readings
-      description: Tell us which direction each is read in, what it says, and why the unintended reading is funny.
+      description: Tell us how the item is meant to be read, what it accidentally says, and why the unintended reading is funny.
     validations:
       required: true
   - type: textarea
