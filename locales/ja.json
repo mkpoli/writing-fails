@@ -666,6 +666,12 @@
       "alt": "「G. Donizetti」と「G. Donizzetti」を並べた街路標識",
       "intended": "via Donizetti",
       "misread": "via Donizzetti"
+    },
+    "observatoly": {
+      "description": "香港の街路標識は「Observatory Road」を「Observatoly Road」と表示した。当局は古い傷んだ標識を業者が写したためと説明した。",
+      "alt": "「Observatoly Road」と「天文臺道」が並ぶ街路標識",
+      "intended": "Observatory Road",
+      "misread": "Observatoly Road"
     }
   }
 }

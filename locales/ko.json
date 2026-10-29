@@ -666,6 +666,12 @@
       "alt": "'G. Donizetti'와 'G. Donizzetti'를 나란히 둔 도로 표지판",
       "intended": "via Donizetti",
       "misread": "via Donizzetti"
+    },
+    "observatoly": {
+      "description": "홍콩의 도로 표지판이 'Observatory Road'를 'Observatoly Road'로 적었다. 당국은 오래되고 긁힌 표지판을 시공사가 그대로 옮겼다고 밝혔다.",
+      "alt": "'Observatoly Road'와 '天文臺道'가 나란히 적힌 도로 표지판",
+      "intended": "Observatory Road",
+      "misread": "Observatoly Road"
     }
   }
 }
