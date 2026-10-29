@@ -578,6 +578,12 @@
       "alt": "「處事一絲不掛」がスポットで囲まれた昇進通知",
       "intended": "一絲不苟",
       "misread": "一絲不掛"
+    },
+    "double-fight": {
+      "description": "英語メニューは、二種盛り合わせの「雙拼」を「double fight（二重の戦い）」、ライスロールの「腸粉」を「intestine powder（腸の粉）」と訳した。",
+      "alt": "「蘿蔔生菜雙拼」と「Radish and lettuce double fight」を並べたメニュー写真",
+      "intended": "雙拼",
+      "misread": "double fight"
     }
   }
 }

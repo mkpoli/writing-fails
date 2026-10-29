@@ -578,6 +578,12 @@
       "alt": "A promotion notice with the phrase 處事一絲不掛 spotlighted",
       "intended": "一絲不苟",
       "misread": "一絲不掛"
+    },
+    "double-fight": {
+      "description": "The English menu renders 雙拼, a two-item combo, as “double fight”, and 腸粉, a rice-noodle roll, as “intestine powder”.",
+      "alt": "Menu boards pairing 蘿蔔生菜雙拼 with “Radish and lettuce double fight”",
+      "intended": "雙拼",
+      "misread": "double fight"
     }
   }
 }

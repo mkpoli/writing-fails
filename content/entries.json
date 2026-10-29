@@ -1638,5 +1638,25 @@
     },
     "reading": null,
     "keywords": "Chinese notice 一絲不苟 一絲不掛 promotion typo"
+  },
+  {
+    "id": "double-fight",
+    "number": 83,
+    "type": "menu",
+    "language": "chinese",
+    "kind": "translation",
+    "title": "double fight",
+    "titleLang": "en",
+    "image": {
+      "src": "assets/double-fight.jpg",
+      "href": "https://www.dotdotnews.com/a/202507/23/AP68805f4ae4b08d2905301c7a.html"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "點新聞",
+      "href": "https://www.dotdotnews.com/a/202507/23/AP68805f4ae4b08d2905301c7a.html"
+    },
+    "reading": null,
+    "keywords": "Chinese menu 雙拼 double fight 腸粉 intestine powder translation"
   }
 ]
