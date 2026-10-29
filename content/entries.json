@@ -1578,5 +1578,25 @@
     },
     "reading": null,
     "keywords": "Japanese Signs ランチ うンチ 看板 豬排屋 unfamiliar"
+  },
+  {
+    "id": "noppo",
+    "number": 80,
+    "type": "label",
+    "language": "japanese",
+    "kind": "typo",
+    "title": "10.5m",
+    "titleLang": "ja",
+    "image": {
+      "src": "assets/noppo.jpg",
+      "href": "https://news.denfaminicogamer.jp/news/2604242p"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "とっとこハムタウンショップ VIA 電ファミニコゲーマー",
+      "href": "https://news.denfaminicogamer.jp/news/2604242p"
+    },
+    "reading": null,
+    "keywords": "Japanese label のっぽくん 10.5m 10.5cm typo"
   }
 ]
