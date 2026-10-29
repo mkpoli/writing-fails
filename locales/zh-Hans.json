@@ -566,6 +566,12 @@
       "alt": "官方订正图，把「误」10.5m与「正」10.5cm并排",
       "intended": "10.5cm",
       "misread": "10.5m"
+    },
+    "imagry": {
+      "description": "杯身上把「IMAGERY」印成了「IMAGRY」，少了一个E，成了一个不存在的词。",
+      "alt": "纸杯上的「IMAGRY」被红框圈出",
+      "intended": "IMAGERY",
+      "misread": "IMAGRY"
     }
   }
 }

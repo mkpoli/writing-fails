@@ -566,6 +566,12 @@
       "alt": "The shop’s notice comparing the card reading 10.5m with the corrected 10.5cm",
       "intended": "10.5cm",
       "misread": "10.5m"
+    },
+    "imagry": {
+      "description": "The cup prints IMAGRY where the slogan needs IMAGERY; the missing E leaves a word that does not exist.",
+      "alt": "A paper cup with the word IMAGRY boxed in red",
+      "intended": "IMAGERY",
+      "misread": "IMAGRY"
     }
   }
 }
