@@ -596,6 +596,12 @@
       "alt": "A handwritten fast-food board listing 咖喱肉片反 and 雞反",
       "intended": "咖喱肉片飯",
       "misread": "咖喱肉片反"
+    },
+    "guzhang": {
+      "description": "Told that a staff notice's 壞咗 was too colloquial, the manager rewrote it as 固障—the word for a fault is 故障.",
+      "alt": "A slip reading 固障 stuck to a shop counter",
+      "intended": "故障",
+      "misread": "固障"
     }
   }
 }
