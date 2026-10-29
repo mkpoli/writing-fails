@@ -63,3 +63,15 @@ html:lang(ja) .direction .dir b,html:lang(zh-Hans) .direction .dir b,html:lang(k
 html:lang(ja) .tags span,html:lang(zh-Hans) .tags span,html:lang(ko) .tags span{font-family:var(--sans);letter-spacing:0}
 html:lang(ja) .image-index,html:lang(zh-Hans) .image-index,html:lang(ko) .image-index{font-family:var(--sans)}
 
+/* Keep the submit action visible when the header narrows. */
+@media(max-width:800px){
+  .topbar .nav a:nth-child(2){display:inline-flex}
+  .topbar .nav a:first-child{display:none}
+}
+@media(max-width:520px){
+  .brand>span:last-child{display:none}
+  .topbar{height:auto;min-height:75px;padding-block:10px}
+  .topbar-right{flex-wrap:wrap;justify-content:flex-end;gap:8px}
+  .submit{padding:10px 12px}
+  .submit span{margin-left:10px}
+}
