@@ -584,6 +584,12 @@
       "alt": "菜单牌上「蘿蔔生菜雙拼」与「Radish and lettuce double fight」并列",
       "intended": "雙拼",
       "misread": "double fight"
+    },
+    "cold-is-self": {
+      "description": "告示写「お冷はセルフサービスです」（冷水自助），英文却译成「cold is self」，读来像在说“冷淡的是自己”。",
+      "alt": "写着「お冷はセルフサービスです」和「cold is self・冷是自己」的告示牌",
+      "intended": "セルフサービス",
+      "misread": "cold is self"
     }
   }
 }

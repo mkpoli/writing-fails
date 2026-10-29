@@ -1658,5 +1658,25 @@
     },
     "reading": null,
     "keywords": "Chinese menu 雙拼 double fight 腸粉 intestine powder translation"
+  },
+  {
+    "id": "cold-is-self",
+    "number": 84,
+    "type": "sign",
+    "language": "japanese",
+    "kind": "translation",
+    "title": "cold is self",
+    "titleLang": "en",
+    "image": {
+      "src": "assets/cold-is-self.jpg",
+      "href": "https://www.bastillepost.com/hongkong/article/14864675/"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "巴士的報",
+      "href": "https://www.bastillepost.com/hongkong/article/14864675/"
+    },
+    "reading": null,
+    "keywords": "Japanese sign お冷 セルフサービス cold is self translation"
   }
 ]
