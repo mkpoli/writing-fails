@@ -1698,5 +1698,25 @@
     },
     "reading": null,
     "keywords": "Chinese menu 飯 反 咖喱肉片反 handwritten board typo"
+  },
+  {
+    "id": "guzhang",
+    "number": 86,
+    "type": "notice",
+    "language": "chinese",
+    "kind": "typo",
+    "title": "固障",
+    "titleLang": "zh-Hant",
+    "image": {
+      "src": "assets/guzhang.jpg",
+      "href": "https://www.bastillepost.com/hongkong/article/15932581/"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "巴士的報",
+      "href": "https://www.bastillepost.com/hongkong/article/15932581/"
+    },
+    "reading": null,
+    "keywords": "Chinese notice 故障 固障 壞咗 manager typo"
   }
 ]
