@@ -46,6 +46,7 @@ body{background:var(--paper)}
 @media(hover:hover) and (min-width:605px){
   .card{position:relative}
   .card p{position:absolute;top:0;left:0;right:0;height:300px;min-height:0;flex:none;margin:0;padding:20px;background:rgba(26,28,25,.9);color:#f2f1ec;font-size:14px;line-height:1.6;opacity:0;transition:opacity .16s ease;pointer-events:none;overflow:auto}
+  .card-footer{border-top:0;padding-top:0}
   .card:hover p,.card:focus-within p{opacity:1}
   @media(prefers-reduced-motion:reduce){.card p{transition:none}}
 }
