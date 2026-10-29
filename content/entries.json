@@ -1978,5 +1978,25 @@
     },
     "reading": null,
     "keywords": "English road marking ELECTRIC ELECTIRC Lydney typo"
+  },
+  {
+    "id": "vehicls",
+    "number": 100,
+    "type": "marking",
+    "language": "english",
+    "kind": "typo",
+    "title": "ELECTRIC VEHICLS",
+    "titleLang": "en",
+    "image": {
+      "src": "assets/vehicls.jpg",
+      "href": "https://www.bbc.com/news/articles/cewr0qv4ggpo"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "BBC NEWS",
+      "href": "https://www.bbc.com/news/articles/cewr0qv4ggpo"
+    },
+    "reading": null,
+    "keywords": "English road marking ELECTRIC VEHICLES VEHICLS Cinderford typo"
   }
 ]

@@ -691,6 +691,12 @@
       "alt": "Road markings reading ELECTIRC VEHICLES",
       "intended": "ELECTRIC VEHICLES",
       "misread": "ELECTIRC VEHICLES"
+    },
+    "vehicls": {
+      "description": "Days after the Lydney mistake, Cinderford’s bay markings lost an e: ELECTRIC VEHICLS ONLY. Both markings were redone.",
+      "alt": "Road markings reading ELECTRIC VEHICLS ONLY",
+      "intended": "ELECTRIC VEHICLES",
+      "misread": "ELECTRIC VEHICLS"
     }
   }
 }

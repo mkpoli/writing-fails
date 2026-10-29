@@ -691,6 +691,12 @@
       "alt": "「ELECTIRC VEHICLES」と描かれた路面表示",
       "intended": "ELECTRIC VEHICLES",
       "misread": "ELECTIRC VEHICLES"
+    },
+    "vehicls": {
+      "description": "ライドニーの件の数日後、シンダーフォードの路面表示はeが一つ抜けて「ELECTRIC VEHICLS ONLY」になった。どちらも塗り直された。",
+      "alt": "「ELECTRIC VEHICLS ONLY」と描かれた路面表示",
+      "intended": "ELECTRIC VEHICLES",
+      "misread": "ELECTRIC VEHICLS"
     }
   }
 }
