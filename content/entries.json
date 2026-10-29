@@ -1878,5 +1878,25 @@
     },
     "reading": null,
     "keywords": "German sign Weißenfels Weisenfels B91 typo"
+  },
+  {
+    "id": "donizzetti",
+    "number": 95,
+    "type": "sign",
+    "language": "italian",
+    "kind": "typo",
+    "title": "via Donizzetti",
+    "titleLang": "it",
+    "image": {
+      "src": "assets/donizzetti.jpg",
+      "href": "https://www.bergamonews.it/2026/02/05/brembate-in-via-donizetti-la-z-di-troppo-sparisce-la-ditta-si-sentiva-in-colpa-ha-rimediato-subito/865847/"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "BERGAMONEWS",
+      "href": "https://www.bergamonews.it/2026/02/05/brembate-in-via-donizetti-la-z-di-troppo-sparisce-la-ditta-si-sentiva-in-colpa-ha-rimediato-subito/865847/"
+    },
+    "reading": null,
+    "keywords": "Italian sign via Donizetti Donizzetti Brembate typo"
   }
 ]
