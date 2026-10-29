@@ -31,7 +31,8 @@
     "chinese": "중국어",
     "japanese": "일본어",
     "english": "영어",
-    "spanish": "스페인어"
+    "spanish": "스페인어",
+    "french": "프랑스어"
   },
   "search": {
     "placeholder": "컬렉션 검색",
@@ -73,7 +74,8 @@
     "translation": "번역",
     "damage": "훼손",
     "english": "영어",
-    "spanish": "스페인어"
+    "spanish": "스페인어",
+    "french": "프랑스어"
   },
   "credits": {
     "photo-by": "사진: {name}",
@@ -642,6 +644,12 @@
       "alt": "'Rue St. Patick Street'가 적힌 오타와 도로 표지판",
       "intended": "St. Patrick",
       "misread": "St. Patick"
+    },
+    "neufchateau": {
+      "description": "레글리즈의 표지판은 'Neufchâteau'에서 f가 빠진 'Neuchâteau'를 가리켰고, 2020년부터 운전자가 신고할 때까지 그대로였다.",
+      "alt": "'Neuchâteau'라고 적힌 파란 도로 표지판",
+      "intended": "Neufchâteau",
+      "misread": "Neuchâteau"
     }
   }
 }

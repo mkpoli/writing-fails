@@ -31,7 +31,8 @@
     "chinese": "中国語",
     "japanese": "日本語",
     "english": "英語",
-    "spanish": "スペイン語"
+    "spanish": "スペイン語",
+    "french": "フランス語"
   },
   "search": {
     "placeholder": "コレクションを検索",
@@ -73,7 +74,8 @@
     "translation": "翻訳",
     "damage": "破損",
     "english": "英語",
-    "spanish": "スペイン語"
+    "spanish": "スペイン語",
+    "french": "フランス語"
   },
   "credits": {
     "photo-by": "写真：{name}",
@@ -642,6 +644,12 @@
       "alt": "「Rue St. Patick Street」と書かれたオタワの道路標識",
       "intended": "St. Patrick",
       "misread": "St. Patick"
+    },
+    "neufchateau": {
+      "description": "レグリーズの標識は「Neufchâteau」のfが抜けた「Neuchâteau」を指しており、2020年から運転手が通報するまでそのままだった。",
+      "alt": "「Neuchâteau」と書かれた青い道路標識",
+      "intended": "Neufchâteau",
+      "misread": "Neuchâteau"
     }
   }
 }

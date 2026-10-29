@@ -1838,5 +1838,25 @@
     },
     "reading": null,
     "keywords": "English sign St Patrick Patick Ottawa typo"
+  },
+  {
+    "id": "neufchateau",
+    "number": 93,
+    "type": "sign",
+    "language": "french",
+    "kind": "typo",
+    "title": "Neuchâteau",
+    "titleLang": "fr",
+    "image": {
+      "src": "assets/neufchateau.jpg",
+      "href": "https://www.lesoir.be/740003/article/2026-04-10/six-ans-sans-voir-lerreur-une-faute-dorthographe-sur-un-panneau-routier-enfin"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "L'AVENIR VIA LE SOIR",
+      "href": "https://www.lesoir.be/740003/article/2026-04-10/six-ans-sans-voir-lerreur-une-faute-dorthographe-sur-un-panneau-routier-enfin"
+    },
+    "reading": null,
+    "keywords": "French sign Neufchâteau Neuchâteau Léglise typo"
   }
 ]
