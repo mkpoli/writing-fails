@@ -40,6 +40,9 @@
     "placeholder": "コレクションを検索",
     "label": "コレクションを検索"
   },
+  "gallery": {
+    "status": "全{total}件中{shown}件を表示中。"
+  },
   "empty": "該当する項目がありません。検索語か絞り込みを変えてください。",
   "labels": {
     "intended": "本来",
