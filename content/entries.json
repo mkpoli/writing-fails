@@ -1718,5 +1718,25 @@
     },
     "reading": null,
     "keywords": "Chinese notice 故障 固障 壞咗 manager typo"
+  },
+  {
+    "id": "wuxian",
+    "number": 87,
+    "type": "billboard",
+    "language": "chinese",
+    "kind": "wording",
+    "title": "就無是限",
+    "titleLang": "zh-Hant",
+    "image": {
+      "src": "assets/wuxian.jpg",
+      "href": "https://www.setn.com/news/1902625"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "趙怡翔臉書 VIA 三立新聞網",
+      "href": "https://www.setn.com/news/1902625"
+    },
+    "reading": null,
+    "keywords": "Chinese billboard 就是無限 就無是限 campaign slogan"
   }
 ]
