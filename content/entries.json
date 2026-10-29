@@ -1958,5 +1958,25 @@
     },
     "reading": null,
     "keywords": "English sign California Califorina Denver typo"
+  },
+  {
+    "id": "electirc",
+    "number": 99,
+    "type": "marking",
+    "language": "english",
+    "kind": "typo",
+    "title": "ELECTIRC VEHICLES",
+    "titleLang": "en",
+    "image": {
+      "src": "assets/electirc.jpg",
+      "href": "https://www.bbc.com/news/articles/cewr0qv4ggpo"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "BBC NEWS",
+      "href": "https://www.bbc.com/news/articles/cewr0qv4ggpo"
+    },
+    "reading": null,
+    "keywords": "English road marking ELECTRIC ELECTIRC Lydney typo"
   }
 ]

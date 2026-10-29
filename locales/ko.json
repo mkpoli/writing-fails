@@ -60,7 +60,8 @@
     "poster": "포스터",
     "sign": "간판",
     "text": "텍스트",
-    "notice": "안내"
+    "notice": "안내",
+    "marking": "노면 표시"
   },
   "tags": {
     "korean": "한국어",
@@ -684,6 +685,12 @@
       "alt": "'Califorina St'라고 적힌 덴버의 초록색 도로 표지판",
       "intended": "California St",
       "misread": "Califorina St"
+    },
+    "electirc": {
+      "description": "라이드니의 노면 표시가 'ELECTRIC VEHICLES'를 'ELECTIRC VEHICLES'로 칠했다. 시장은 사진이 AI가 아닌지 직원에게 확인시켰다.",
+      "alt": "'ELECTIRC VEHICLES'라고 칠해진 노면 표시",
+      "intended": "ELECTRIC VEHICLES",
+      "misread": "ELECTIRC VEHICLES"
     }
   }
 }
