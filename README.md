@@ -1,8 +1,28 @@
 # Writing fails
 
-A collection of accidental readings caused by writing direction, layout or translation. Browse the gallery or [submit an example](https://github.com/mkpoli/writing-fails/issues/new?template=example.yml).
+A collection of accidental readings caused by writing direction, layout or translation. Browse the gallery at [writing-fails.mkpo.li](https://writing-fails.mkpo.li/) or [submit an example](https://github.com/mkpoli/writing-fails/issues/new?template=example.yml).
 
-The site is static: open `index.html` or serve this directory with any HTTP server. Images are credited and linked to their sources in the gallery.
+## Languages
+
+English is at `/`, Japanese at `/ja/`, Simplified Chinese at `/zh/` and Korean at `/ko/`. Each page is generated from `content/entries.json` and the message catalogues in `locales/`. Images are credited and linked to their sources in the gallery.
+
+Serve the directory with any HTTP server to move between languages:
+
+```sh
+python3 -m http.server
+```
+
+Opening `index.html` from disk shows the English page, but its language links need the server.
+
+## Development
+
+```sh
+bun install
+bun run build
+bun run check
+```
+
+`bun run build` writes the four HTML pages. `bun run check` runs [x18n](https://x18n.dev/) against the catalogues for missing, unused and invalid keys. `bun run verify` runs the check, rebuilds and fails when the committed pages are out of date. CI runs the same steps.
 
 ## License
 

@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "title": "Writing fails: 잘못 읽힌 글자들",
+    "description": "읽는 방향과 배치, 번역 실수 때문에 생긴 잘못된 읽기를 모은 사이트."
+  },
+  "nav": {
+    "collection": "컬렉션",
+    "submit": "사례 제보"
+  },
+  "langs": {
+    "label": "언어"
+  },
+  "hero": {
+    "tagline": "읽는 방향이나 순서가 달라지면 같은 말이 전혀 다른 뜻이 된다."
+  },
+  "filters": {
+    "label": "컬렉션 필터",
+    "all": "전체 {count}",
+    "korean": "한국어",
+    "chinese": "중국어",
+    "japanese": "일본어",
+    "signs": "간판",
+    "layout": "배치",
+    "wording": "표기",
+    "translation": "번역",
+    "gibberish": "알 수 없음",
+    "bad-meaning": "부적절한 의미"
+  },
+  "search": {
+    "placeholder": "컬렉션 검색",
+    "label": "컬렉션 검색"
+  },
+  "empty": "항목이 없습니다. 검색어나 필터를 바꿔 보세요.",
+  "labels": {
+    "intended": "의도",
+    "misread": "오독"
+  },
+  "types": {
+    "bag": "봉투",
+    "banner": "배너",
+    "billboard": "광고판",
+    "board": "게시판",
+    "label": "라벨",
+    "menu": "메뉴",
+    "noren": "노렌",
+    "note": "메모",
+    "packaging": "포장",
+    "pass": "패스",
+    "post": "게시물",
+    "poster": "포스터",
+    "sign": "간판",
+    "text": "텍스트",
+    "notice": "안내"
+  },
+  "tags": {
+    "korean": "한국어",
+    "chinese": "중국어",
+    "japanese": "일본어",
+    "signs": "간판",
+    "layout": "배치",
+    "wording": "표기",
+    "translation": "번역",
+    "gibberish": "알 수 없음",
+    "bad-meaning": "부적절한 의미"
+  },
+  "credits": {
+    "photo-by": "사진: {name}",
+    "photo": "사진: {name}",
+    "photo-via": "사진: {name}",
+    "spotted-by": "발견: {name}",
+    "reported-by": "보도: {name}",
+    "photo-reading": "사진·해석: {name}",
+    "edited-via": "편집 이미지: {name}",
+    "via": "{a}({b} 경유)"
+  },
+  "reading": "해석",
+  "footer": {
+    "license": "사이트 텍스트와 코드: {cc0} · 이미지: 출처 참고",
+    "backToTop": "맨 위로 ↑"
+  },
+  "entries": {
+    "land": {
+      "description": "임야, 대지, 상가를 가로로 읽으면 '상대임 가지야'가 된다. 뜻이 통하지 않는 말의 나열이다.",
+      "alt": "세로로 글자가 놓인 한국 부동산 간판",
+      "intended": "세로·우→좌",
+      "misread": "가로·좌→우"
+    },
+    "poem": {
+      "description": "가난과 공부에 관한 글이 '사람을 먹는다, 사람을 먹는다'로 바뀐다.",
+      "alt": "세로쓰기로 배치된 중국어 글",
+      "intended": "세로·좌→우",
+      "misread": "가로·좌→우"
+    },
+    "sign": {
+      "description": "'탕'으로 끝나는 네 가지 탕이 나란히 서면 '탕탕탕탕'이 된다. 총소리 같다.",
+      "alt": "엉뚱한 읽기를 부르는 배치의 한국 간판",
+      "intended": "세로·좌→우",
+      "misread": "가로·좌→우"
+    },
+    "udon": {
+      "description": "'우동·소바'를 세로로 쓴 간판을 가로로 읽으면 '소도반'이 된다.",
+      "alt": "우동·소바 가게 간판 사진",
+      "intended": "세로·우→좌",
+      "misread": "가로·좌→우"
+    },
+    "converter": {
+      "description": "'HD video converter'의 HD가 일본어 'エロ(야한)'처럼 보이면서 '야한 동영상 변환기'가 된다.",
+      "alt": "HD 영상 변환기 포장 사진",
+      "intended": "세로",
+      "misread": "가로·좌→우"
+    },
+    "meat": {
+      "description": "'니쿠노 코베야(고베야 정육점)'를 거꾸로 읽으면 '야베에 코노 니쿠', 곧 '이 고기 위험한데'가 된다.",
+      "alt": "'니쿠노 코베야'라고 적힌 빨간 정육점 간판",
+      "intended": "가로·좌→우",
+      "misread": "가로·우→좌"
+    },
+    "menu-rhythm": {
+      "description": "메뉴 항목의 끝 글자만 세로로 읽으면 '반반반…'이라는 리듬이 생긴다.",
+      "alt": "식당 메뉴에서 같은 글자가 반복되는 부분 확대",
+      "intended": "가로·좌→우",
+      "misread": "세로"
+    },
+    "warning": {
+      "description": "옥상 전망대가 미끄럽다는 주의문이 세로로 읽으면 기묘한 시가 된다.",
+      "alt": "짧은 가로줄로 늘어놓은 일본어 주의문",
+      "intended": "가로·좌→우",
+      "misread": "세로·우→좌"
+    },
+    "pillow": {
+      "description": "'스고이 마쿠라(대단한 베개)'를 세로로 읽으면 '스마', '고쿠', '이라'라는 세 쌍이 된다.",
+      "alt": "'스고이 마쿠라'를 이루는 세 개의 현수막",
+      "intended": "가로·좌→우",
+      "misread": "세로·좌→우"
+    },
+    "drinks": {
+      "description": "음료 메뉴가 세 줄로 놓였는데, 셋째 열을 세로로 읽으면 '코론(コロン)', 곧 '콜론'이 된다.",
+      "alt": "빨간 큰 가나를 세 줄로 쓴 노란 손글씨 음료 메뉴",
+      "intended": "가로·좌→우",
+      "misread": "세로"
+    },
+    "lift": {
+      "description": "'짐 리프트', '컨베이어', '투입 리프트'가 세로로 놓인 간판. 가로로 읽으면 가나만 '리베리', '후야후'로 나란히 읽힌다.",
+      "alt": "검은 붓글씨 세로줄과 빨간 한 줄이 있는 흰 세로형 역 간판",
+      "intended": "세로·우→좌",
+      "misread": "가로·좌→우"
+    },
+    "dental": {
+      "description": "네 가지 진료 항목이 왼쪽에서 오른쪽으로 놓였는데, 셋째 열만 세로로 읽으면 '수정아구(이를 고쳐라)'가 된다. 원래는 '아구호', 곧 이가 좋다는 뜻으로 입맛이 좋다는 말이다.",
+      "alt": "흰 글씨로 네 가지 진료 항목을 적은 파란 치과 간판",
+      "intended": "가로·좌→우",
+      "misread": "세로"
+    },
+    "banner": {
+      "description": "오른쪽에서 왼쪽으로 읽으면 '다단계로 돈을 벌려 해도 삶에 출구는 없다'는 경고지만, 왼쪽에서 오른쪽으로 읽으면 '삶에 출구는 없다, 다단계로 돈을 벌자'는 권유가 된다.",
+      "alt": "흰 한자를 두 줄 세로로 쓴 파란 경찰 현수막",
+      "intended": "세로·우→좌",
+      "misread": "세로·좌→우"
+    },
+    "inari": {
+      "description": "오른쪽에서 왼쪽으로 내려가며 놓인 패널을 읽으면 '모든 전차가 이나리역에 정차합니다'. 왼쪽에서 오른쪽으로 읽으면 '스마시 샤테이…'가 된다.",
+      "alt": "갈색 패널에 흰 글자를 오른쪽에서 왼쪽으로 내려가며 붙인 역 벽",
+      "intended": "가로·우→좌",
+      "misread": "가로·좌→우"
+    },
+    "yoyaku": {
+      "description": "패널 위에는 '예약', 아래에는 '접수 중'이 놓인다. 패널마다 위에서 아래로 읽으면 '고주요부쿠야쿠추'가 된다.",
+      "alt": "울타리에 건 빨간 패널 세 장, 각각 흰 글자 두 자",
+      "intended": "가로·좌→우",
+      "misread": "세로·좌→우"
+    },
+    "slogans": {
+      "description": "포스터는 '인민은 당을 믿는다' 위에 '좋은 끝은 없다'를 놓았다. 한 문장으로 읽으면 '인민은 당을 믿으면 좋은 끝이 없다'가 된다.",
+      "alt": "빨간 공사 가림막 포스터, 위에 '人民相信党', 아래에 '没有好下场'",
+      "intended": "두 줄",
+      "misread": "한 문장"
+    },
+    "sign-order": {
+      "description": "가게가 하려던 말은 '기술 없이 모두 솜씨'라는 뜻의 '没有科技，都是手艺'였다. 그런데 '기술'과 '솜씨'를 반대로 걸어 '솜씨 없이 모두 기술'이 되어 뜻이 뒤집혔다. 그래도 가게는 화제가 되었다.",
+      "alt": "가게 이름 아래 '没有手艺，都是科技'라고 쓴 나무 식당 간판",
+      "intended": "没有科技，都是手艺",
+      "misread": "没有手艺，都是科技"
+    },
+    "rumeso": {
+      "description": "찻집의 '라멘' 현수막이 십여 년 전 뒤집혀 옆으로 걸렸다. 뒤에서 보면 거울에 비친 가나가 '루메소'가 되는데, 가게는 그대로 두었다.",
+      "alt": "처마 밑에 옆으로 걸린, 흰 큰 가나가 있는 분홍 현수막",
+      "intended": "ラーメン",
+      "misread": "ルーメソ"
+    },
+    "billboard": {
+      "description": "999감기약이 수험철에 광고판을 거꾸로 걸었다. 999 로고가 666이 되어, 수험생이 '잘 본다'는 뜻으로 쓰는 숫자가 되었다.",
+      "alt": "거꾸로 걸려 999 로고가 666처럼 보이는 초록 버스 정류장 광고",
+      "intended": "999",
+      "misread": "666"
+    },
+    "noren": {
+      "description": "장어집 '오가와기쿠'의 노렌은 '우나기(장어)'를 오른쪽에서 왼쪽으로 새겼다. 왼쪽부터 읽으면 '기나우'가 된다.",
+      "alt": "왼쪽에 '오가와기쿠', 옆으로 '기나우'를 흰색으로 새긴 남색 노렌",
+      "intended": "가로·우→좌",
+      "misread": "가로·좌→우"
+    },
+    "toraya": {
+      "description": "과자점 '도라야'는 노렌의 상호를 오른쪽에서 왼쪽으로 새겼다. 왼쪽부터 읽으면 '야라토'가 된다.",
+      "alt": "가게 앞 흰 노렌에 검은 가나 '야라토'",
+      "intended": "가로·우→좌",
+      "misread": "가로·좌→우"
+    },
+    "florist": {
+      "description": "꽃집 간판은 '하나'를 오른쪽에서 왼쪽으로 놓아 '나하'로 읽힌다. 위의 FLORIST는 평범하게 왼쪽에서 오른쪽이다.",
+      "alt": "FLORIST 아래 가나 '나하'와 오른쪽에서 왼쪽으로 쓴 전화번호가 있는 초록 매다는 간판",
+      "intended": "가로·우→좌",
+      "misread": "가로·좌→우"
+    },
+    "yamaki": {
+      "description": "오래된 간판은 '야마키 산교 주식회사'를 오른쪽에서 왼쪽으로 새겼다. 왼쪽부터 읽으면 '사회식'으로 시작해 회사 이름이 거꾸로 흐른다.",
+      "alt": "'사회식주업산기산'으로 읽히는 짙은 나무 간판, 뒤에 옛 나무 간판들",
+      "intended": "가로·우→좌",
+      "misread": "가로·좌→우"
+    },
+    "tenpura": {
+      "description": "튀김집 노렌은 '덴푸라'를 오른쪽에서 왼쪽으로 새겼다. 왼쪽부터 읽으면 '라부텐'이 된다.",
+      "alt": "나무 점포 위에 흰색 '라부텐'을 새긴 짙은 노렌",
+      "intended": "가로·우→좌",
+      "misread": "가로·좌→우"
+    },
+    "yuujin": {
+      "description": "안내문의 세로줄이 일본어 세로쓰기와 반대로 왼쪽에서 오른쪽으로 놓였다. 오른쪽에서 왼쪽으로 읽는 사람은 줄 순서가 뒤집혀 '유인 레지(직원이 있는 계산대)'가 '유진 레지(친구 계산대)'가 된다.",
+      "alt": "세 줄 세로쓰기로 쓴 손글씨 안내문",
+      "intended": "세로·좌→우",
+      "misread": "세로·우→좌"
+    },
+    "nhyo": {
+      "description": "풍화로 '숍퍼즈' 간판이 군데군데 떨어져 '뇨하-'만 남았다. 위 옥상 간판에는 아직 가게 이름이 있다.",
+      "alt": "풍화되어 '뇨하-'만 남은 간판과 멀쩡한 옥상 간판이 있는 슈퍼 외관",
+      "intended": "ショッパーズ",
+      "misread": "ンョ゛ハー"
+    },
+    "kaoliang": {
+      "description": "옛 라벨은 '특급고량주'를 오른쪽에서 왼쪽으로 새겼다. 왼쪽부터 읽으면 '주량고급특'이 된다. 진먼의 라벨은 1980년 무렵 방향을 바꾸었다.",
+      "alt": "빨간 라벨 글자가 오른쪽에서 왼쪽으로 흐르는 옛 진먼 고량주 병",
+      "intended": "가로·우→좌",
+      "misread": "가로·좌→우"
+    },
+    "karamen": {
+      "description": "가게 이름은 '치카라 라멘(힘 라멘)'이다. 그런데 간판은 '力'을 'カ'로 그려 놓고 '치카라'는 작은 후리가나로 남겨, 지나가는 사람들에게 '카라멘(컬러 라멘)'으로 읽힌다.",
+      "alt": "'카라멘'으로 읽히는 노란 간판, 첫 글자 위에 작은 '치카라'",
+      "intended": "ちからラーメン",
+      "misread": "カラーメン"
+    },
+    "graduation": {
+      "description": "졸업 게시판은 '앞날도 찬란하다'는 뜻의 '前途亦灿灿'을 쓰려다 '烂烂(썩다)'로 인쇄했다. 졸업생들에게 썩은 미래를 빌어 준 셈이다.",
+      "alt": "'人生路漫 前途亦烂烂'이라고 쓰고 '烂烂'에 빨간 동그라미를 친 졸업 게시판",
+      "intended": "前途亦灿灿",
+      "misread": "前途亦烂烂"
+    },
+    "poster-711": {
+      "description": "포스터는 '대박'이라는 뜻의 '夯爆了'를 쓰려다 '劣爆了(형편없다)'로 인쇄했다. 광고가 팔려는 아이스크림을 욕한 셈이다.",
+      "alt": "'听劝上架啦，劣爆了'와 아이스크림 사진이 있는 세븐일레븐 포스터",
+      "intended": "夯爆了",
+      "misread": "劣爆了"
+    },
+    "mirrored-gate": {
+      "description": "주택가 정문 글자는 스텐실을 뒤집어 뿌려 '진추 샤오취'의 모든 획이 거울 글자가 되었다. 다시 칠할 때도 오류를 그대로 두어 이십 년째 남아 있다.",
+      "alt": "'金秋小区' 네 글자를 거울 글자로 칠한 주택가 정문",
+      "intended": "가로·좌→우",
+      "misread": "거울 글자"
+    },
+    "kitasenju": {
+      "description": "'기타센주' 역명판을 새로 만들면서 '千'을 '干'으로 찍었다. 아래 후리가나는 여전히 '기타센주'다.",
+      "alt": "'北干住'라고 읽히고 아래에 'きたせんじゅ'와 Kita-senju를 적은 역명판",
+      "intended": "北千住",
+      "misread": "北干住"
+    },
+    "wife": {
+      "description": "Wi-Fi를 쓰려던 간판이 'wifeあります(아내 있습니다)'가 되었다. 충전 OK는 그대로다.",
+      "alt": "'wifeあります 充電OK'라고 쓴 흰 판, 아래에 소혀 메뉴",
+      "intended": "Wi-Fiあります",
+      "misread": "wifeあります"
+    },
+    "mataichi": {
+      "description": "장어집 '우나기노 마타이치'의 주차장 간판. 상호 '又一'이 가타카나 '누-'처럼 그려져 있다.",
+      "alt": "가게 이름이 가타카나 '누-'처럼 보이는 장어집 주차 간판",
+      "intended": "又一",
+      "misread": "ヌー"
+    },
+    "spouse": {
+      "description": "미나미산리쿠 대피 안내판은 '스포츠 교류 마을'을 'Spouse Exchange Village'로 옮겼다. sports에서 두 글자가 빠져 spouse(배우자)가 되었다.",
+      "alt": "'スポーツ交流村'과 'Spouse Exchange Village'를 나란히 쓴 간판",
+      "intended": "Sports",
+      "misread": "Spouse"
+    },
+    "summit": {
+      "description": "등산로 안내판은 '정상은 이쪽'이라고 말한다. 그 아래 기계 번역이 'Click here for the summit'이라, 산이 링크라도 된 듯하다.",
+      "alt": "'山頂はこちら' 아래 'Click here for the summit'을 적은 노란 화살표 표지판",
+      "intended": "山頂はこちら",
+      "misread": "Click here"
+    },
+    "panda": {
+      "description": "동물원은 조용히 보라고 안내한다. 중국어 '静静請看'은 '조용히 보세요'이지만 '징징(판다 이름)을 보세요'로도 읽혀, 부사가 판다 이름이 된다.",
+      "alt": "'お静かにご覧ください', 'Quiet Please', '静静請看'을 겹친 판다 포스터",
+      "intended": "お静かに",
+      "misread": "静静請看"
+    },
+    "soldout": {
+      "description": "출발 시각, 차량 수, 문 수를 늘어놓은 안내판. 8시 21분 열차의 문 수 칸이 'Sold Out'이다. '만석'을 옮긴 말인데, 열차가 만원이라는 뜻이지 매진이라는 뜻은 아니다.",
+      "alt": "8:21, 8Car, Sold Out을 문 칸에 표시한 역 안내판",
+      "intended": "満席",
+      "misread": "Sold Out"
+    },
+    "lunch": {
+      "description": "현수막에는 '점심 1000엔~'이라고 적혀 있다. 히라가나로 쓴 글자가 바람에 휘어 'ら'가 'う'처럼 보이면서 '응가'로 읽힌다.",
+      "alt": "바람에 나부끼는 흰 현수막, 'うんち' 아래 '0'",
+      "intended": "ランチ",
+      "misread": "うんち"
+    },
+    "rikei": {
+      "description": "'야채 직판장' 현수막을 뒤집어 걸었다. 뒤에서 보면 거울 글자가 '이과 직판장'으로 읽힌다.",
+      "alt": "뒤에서 보면 거울 글자가 '이과 직판장'이 되는 초록 현수막",
+      "intended": "野菜直売所",
+      "misread": "理系直売所"
+    },
+    "irasshai": {
+      "description": "같은 방식으로 뒤집힌 현수막. '어서 오세요'라는 'いらっしゃいませ'가 'りさっしゃいまサ'로 돌아온다.",
+      "alt": "뒤에서 보면 거울 가나가 '리삿샤이마사'가 되는 빨간 현수막",
+      "intended": "いらっしゃいませ",
+      "misread": "りさっしゃいまサ"
+    },
+    "shachi": {
+      "description": "'샤모 냄비(투계 닭고기 전골)' 현수막을 뒤집었더니 거울 글자가 '샤치 냄비(범고래 전골)'가 되었다.",
+      "alt": "뒤에서 본 '샤치 냄비'와 냄비 사진이 있는 흰 현수막",
+      "intended": "シャモ鍋",
+      "misread": "シャチ鍋"
+    },
+    "bonkhatsu": {
+      "description": "'본초친(제등)' 현수막을 뒤에서 읽으면 '盆髪城'이 된다. 백중을 위한 머리 성이다.",
+      "alt": "뒤에서 보면 거울 글자가 '분발성'이 되는 베이지 현수막",
+      "intended": "盆提灯",
+      "misread": "盆髪城"
+    },
+    "usomasakoshi": {
+      "description": "옥수수 현수막을 뒤에서 읽으면 '우소마사코시'가 된다. 첫머리가 '거짓말'이다.",
+      "alt": "뒤에서 본 빨간 가나가 '우소마사코시'가 되는 옥수수 현수막",
+      "intended": "とうもろこし",
+      "misread": "うそまさこし"
+    },
+    "mad": {
+      "description": "노래방 현수막을 뒤집었다. 브랜드 'DAM'이 'MAD'가 되었다.",
+      "alt": "뒤에서 찍은 빨간 현수막, 위쪽에 MAD",
+      "intended": "ＤＡＭ",
+      "misread": "ＭＡＤ"
+    },
+    "ryuma": {
+      "description": "고치의 '료마의 휴일' 현수막을 뒤에서 보면 거울 글자가 '류마의 촌일(마을의 날)'이 된다. 휴일이 마을의 날이 되었다.",
+      "alt": "뒤에서 본 고치의 흰 현수막, 가나가 '류마의 촌일'",
+      "intended": "リョーマの休日",
+      "misread": "リューマの村日"
+    },
+    "huixiang": {
+      "description": "조명 간판은 '徽乡宴府', 아래 나무 현판은 '微乡宴府'로 '徽'의 윗부분이 빠졌다. 가게는 이 오류가 의도한 것이라고 말한다.",
+      "alt": "불 켜진 '徽乡宴府' 간판과 아래 나무 현판 '微乡宴府'",
+      "intended": "徽乡宴府",
+      "misread": "微乡宴府"
+    },
+    "polyu": {
+      "description": "추석 현수막은 소식의 '천리공선연'을 인용한다. 간체를 번체로 바꾸며 교정하지 않아 '里'가 '裡(안)'가 되었다.",
+      "alt": "'但願人長久，千裡共嬋娟'이라고 쓴 보라색 현수막",
+      "intended": "千里共嬋娟",
+      "misread": "千裡共嬋娟"
+    },
+    "haitang": {
+      "description": "우장의 가게는 해당화 모양 떡 '海棠糕'를 판다. 간판은 '棠'을 '堂'으로 썼고, 주민들은 실수인지 마케팅인지 두고 이야기한다.",
+      "alt": "청록 바탕에 노란 글씨로 '梅花糕 海堂糕'를 쓴 분식점 간판",
+      "intended": "海棠糕",
+      "misread": "海堂糕"
+    },
+    "disncy": {
+      "description": "홍콩의 임시 도로 표지판은 디즈니를 'Disncy', 퉁충을 'Tung Chun'으로 적었다. 둘 다 한 글자씩 빠졌다.",
+      "alt": "Tung Chun과 Disncy를 적은 노란 임시 도로 표지판",
+      "intended": "Disney",
+      "misread": "Disncy"
+    },
+    "human": {
+      "description": "상하이의 새 지하철역은 '후마루'를 'Human Road'로 표기했다. 입력기가 단어를 마저 완성한 탓이다. '푸진루'도 'Fujin Poad'가 되었다.",
+      "alt": "'呼玛路' 위에 'Human Road'를 쓰고 n에 빨간 동그라미를 한 지하철 표지판",
+      "intended": "Huma Road",
+      "misread": "Human Road"
+    },
+    "friedfish": {
+      "description": "공원이 금지한 것은 '炸鱼', 곧 폭약으로 물고기를 잡는 일이다. 번역은 '炸'를 '튀기다'로 보고 'No Fried Fish', 튀긴 생선을 금지했다.",
+      "alt": "'禁止炸鱼' 간판을 'No Fried Fish'로 옮긴 공원 게시판",
+      "intended": "禁止炸鱼",
+      "misread": "No Fried Fish"
+    },
+    "menu": {
+      "description": "야우마테이의 차찬탱은 메뉴를 소리 나는 대로 쓴다. '黑椒雞扒飯(흑초 닭다리살 덮밥)'이 '克召雞扒反'이 되었다. 광둥어로 소리 내어 읽어야 알아볼 수 있다.",
+      "alt": "소리 나는 대로 적은 차찬탱 손글씨 메뉴",
+      "intended": "黑椒雞扒飯",
+      "misread": "克召雞扒反"
+    },
+    "nuclear": {
+      "description": "배표 안내판은 '핵재 12인', 곧 정원 12명을 뜻한다. 영어는 'nuclear loading'으로 옮겨, 배가 원자로로 달리는 듯해졌다.",
+      "alt": "'核载12人'과 영어 'nuclear loading 12 people'을 인쇄한 배표 안내판",
+      "intended": "核载12人",
+      "misread": "nuclear loading"
+    },
+    "carefully": {
+      "description": "자오위 옛 마을 화장실 입구에는 '머리를 조심하라'는 '小心碰头'가 있다. 영어는 이를 그대로 옮겨 'Carefully Meet'이 되었다.",
+      "alt": "'小心碰头' 아래 'Carefully Meet'을 적은 작은 표지판",
+      "intended": "小心碰头",
+      "misread": "Carefully Meet"
+    },
+    "lionforest": {
+      "description": "쑤저우의 가로등 표지판은 '핑장루'에 옆 정원 '스쯔린'의 영어 이름을 붙였다. 그것도 'THE LION FOREST GARD'로 줄여 썼다.",
+      "alt": "'平江路'를 'THE LION FOREST GARD'로 표시한 갈색 가로등 표지판",
+      "intended": "平江路",
+      "misread": "Lion Forest Gard"
+    },
+    "slip": {
+      "description": "타일에는 '바닥이 미끄럽다'는 '小心地滑'이 적혀 있다. 글자 그대로 읽으면 '地'가 부사가 되어 '조심히 미끄러지세요'가 된다.",
+      "alt": "'小心地滑' 아래 'Slip carefully'를 적은 초록 표지판",
+      "intended": "小心地滑",
+      "misread": "Slip carefully"
+    },
+    "hottopic": {
+      "description": "카페 칠판에는 '호트독'이라고 적혀 있다. '호트도그(핫도그)'에서 가나 하나가 빠졌고, 그 아래에는 'Hot topic'이 있다. 핫도그도 화제도 아니다.",
+      "alt": "'ホットドック' 아래 'Hot topic'을 적은 칠판",
+      "intended": "ホットドッグ",
+      "misread": "Hot topic"
+    },
+    "ganmo": {
+      "description": "뷔페 카드는 '간모 조림'이라고 적혀 있다. 영어는 'Boiled cancer'로 옮겨, '간'을 암으로 본 셈이다.",
+      "alt": "'がんも煮物' 아래 'Boiled cancer'를 적은 뷔페 카드",
+      "intended": "がんも煮物",
+      "misread": "Boiled cancer"
+    },
+    "emu": {
+      "description": "시안-청두 열차 화장실은 다른 '动车(전동차)'와 교행할 때 물을 내리지 말라고 한다. 영어는 이를 'EMU'로 줄여, '에뮤라는 새를 만날 때 물을 내리지 마라'가 되었다.",
+      "alt": "'与动车交汇时请勿冲水' 아래 'NO FLUSHING WHILE MEETING EMU'를 적은 열차 화장실 표지판",
+      "intended": "勿与动车交汇冲水",
+      "misread": "Meeting EMU"
+    },
+    "civil": {
+      "description": "표지판은 운전자에게 이 길을 '문명', 곧 예의 바르게 지나라고 한다. 영어는 'SET UP THE CIVILIZATION PASSAGE'가 되어 문명 통로를 설치하라는 명령이 되었다.",
+      "alt": "'建文明通道' 아래 'SET UP THE CIVILIZATION PASSAGE'를 적은 파란 도로 표지판",
+      "intended": "建文明通道",
+      "misread": "Civil. Passage"
+    },
+    "nocandy": {
+      "description": "마트는 '무설탕 식품 전용 선반'에 'There be no candy food'라고 붙였다. 선반 이름이 '사탕이 없다'는 문장이 되었다.",
+      "alt": "'无糖食品专架' 아래 'There be no candy food'를 적은 노란 마트 간판",
+      "intended": "无糖食品",
+      "misread": "no candy food"
+    },
+    "levelgap": {
+      "description": "상하이 페리 승강장에서 '배와 부두의 높이 차이를 조심하라'는 '注意高低空档'이 'NOTE THAT THE LEVEL OF GAP'이라는 메모가 되었다.",
+      "alt": "'注意高低空档' 아래 'NOTE THAT THE LEVEL OF GAP'을 적은 상하이 페리 표지판",
+      "intended": "注意高低空档",
+      "misread": "Level of Gap"
+    },
+    "climmbing": {
+      "description": "톈티산 석굴의 표지판은 '기어오르지 마라'는 '请勿攀爬'다. 영어는 m을 겹치고 b를 끼워 넣어 'No climmbing'이 되었다.",
+      "alt": "'请勿攀爬' 아래 'No climmbing'을 적은 갈색 표지판",
+      "intended": "请勿攀爬",
+      "misread": "No climmbing"
+    },
+    "justdoti": {
+      "description": "타오위안의 캠페인 광고판은 나이키의 문구를 빌려 왔지만 마지막 두 글자를 뒤집어 'JUST DO TI'로 인쇄했다.",
+      "alt": "큰 글씨 'DO TI'가 있는 캠페인 광고판",
+      "intended": "JUST DO IT",
+      "misread": "JUST DO TI"
+    },
+    "shijuku": {
+      "description": "JR 니시후나바시역 안내판은 '신주쿠'를 'Shijuku'로 적었다. n이 하나 빠졌다. 수정은 빠진 글자 위에 흰 스티커를 붙이는 것으로 끝났다.",
+      "alt": "'新宿' 위에 'Shijuku'를 붙인 역명판",
+      "intended": "Shinjuku",
+      "misread": "Shijuku"
+    },
+    "yen": {
+      "description": "스티커에는 '￥'가 찍혀 있다. 뒤집으면 그 획이 '夫(남편)'로 읽혀, 가게가 남편을 한 장씩 파는 것처럼 된다.",
+      "alt": "뒤집으면 '夫'처럼 보이는 빨간 '￥' 스티커 한 장",
+      "intended": "￥",
+      "misread": "夫"
+    },
+    "zibo": {
+      "description": "쯔보의 광고판은 '미성년자를 돌보자'는 '关爱未成年人'에서 '未'를 빠뜨렸다. 시민에게 성인을 보호하자는 구호가 되었다.",
+      "alt": "빨간 동그라미 친 줄이 '关爱和保护成年人'로 읽히는 광고판",
+      "intended": "关爱未成年人",
+      "misread": "关爱成年人"
+    },
+    "henan-beijing": {
+      "description": "'출구 374' 표지판은 '허베이'와 '난징'을 한 줄씩 적었다. 세로로 읽으면 네 글자가 '허난'과 '베이징'이 된다. 이 사진은 편집된 것이며 원래 표지판은 알 수 없다.",
+      "alt": "'출구 374' 초록 고속도로 표지판, '河北' 아래 '南京', 오른쪽 아래에 오른쪽 위 화살표",
+      "intended": "가로·좌→우",
+      "misread": "세로"
+    },
+    "tsutaya": {
+      "description": "고치의 카드 가게가 우승자를 '쿠소헤타 괴인 이시가미'라고 축하했다. 원래 닉네임은 '쿠세헤타'인데 세와 소를 바꿔 써서 게임을 못한다고 말한 셈이 되었다.",
+      "alt": "'誤：クソヘタ怪人石神' '正：クセヘタ怪人石神'이라고 쓴 정정 게시물",
+      "intended": "クセヘタ",
+      "misread": "クソヘタ"
+    },
+    "teabag": {
+      "description": "차 체인의 봉투 씰에는 '打包在忙，吸管别忘(포장이 바빠도 빨대를 잊지 마세요)'가 적혀 있다. '再(아무리 바빠도)'가 필요한 자리에 '在'가 들어가, 당부가 현황 보고가 되었다.",
+      "alt": "'打包在忙 吸管别忘'이라고 적힌 차 가게 봉투 씰",
+      "intended": "打包再忙",
+      "misread": "打包在忙"
+    },
+    "nowwa": {
+      "description": "Nowwa Coffee의 라이트박스는 홍보대사 이름 자리에 '帅气青年男性(잘생긴 청년 남성)'을 적었다.",
+      "alt": "브랜드명 옆에 세로로 '帅气青年男性'을 넣은 포스터",
+      "intended": "杨洋",
+      "misread": "帅气青年男性"
+    },
+    "lamb": {
+      "description": "상하이의 양고기 식당은 1인분을 '19元(客)'으로 매겼다. '客'을 '克'으로 잘못 입력해 '19元(克)'이 되었다. 1그램에 19위안, 1근이면 9,500위안이다.",
+      "alt": "양고기 세 접시를 '19元（克）'로 표시하고 빨간 동그라미를 친 메뉴",
+      "intended": "19元（客）",
+      "misread": "19元（克）"
+    },
+    "tuni": {
+      "description": "상하이 디즈니의 연간권 책자는 '迪士尼'를 '迪土尼'로 인쇄했다. '士'가 '土'가 되어 공원 이름에 '투'가 붙었다.",
+      "alt": "'上海迪士尼乐园'이라고 쓰고 土를 화살표로 가리킨 디즈니 연간권 한 줄",
+      "intended": "迪士尼",
+      "misread": "迪土尼"
+    },
+    "killfish": {
+      "description": "다이소의 메다카용 흙은 'killifish(송사리)'에게 쾌적한 환경을 약속했지만, i 하나가 빠져 'killfish'가 되면서 물고기를 죽이는 흙이 되었다.",
+      "alt": "'誤:killfish 正:killifish'라고 적힌 다이소 사과문",
+      "intended": "killifish",
+      "misread": "killfish"
+    },
+    "heelo": {
+      "description": "럭킨커피 헬로키티 참의 세탁 라벨이 HELLO를 HEELO로 인쇄했다. E 하나가 더 붙어 인사말이 온라인에서 '喝喽(마셔라)'가 되었다.",
+      "alt": "HEELO KITTY라고 인쇄된 파란 세탁 라벨, 아래에 luckin coffee",
+      "intended": "HELLO KITTY",
+      "misread": "HEELO KITTY"
+    }
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "title": "Writing fails｜误读与排版失误",
+    "description": "收录因阅读方向、排版或翻译失误而产生的误读。"
+  },
+  "nav": {
+    "collection": "收藏",
+    "submit": "提交案例"
+  },
+  "langs": {
+    "label": "语言"
+  },
+  "hero": {
+    "tagline": "词句读错方向或顺序，就会变成别的意思。"
+  },
+  "filters": {
+    "label": "筛选收藏",
+    "all": "全部{count}",
+    "korean": "韩语",
+    "chinese": "中文",
+    "japanese": "日语",
+    "signs": "招牌",
+    "layout": "排版",
+    "wording": "用字",
+    "translation": "翻译",
+    "gibberish": "无法解读",
+    "bad-meaning": "负面含义"
+  },
+  "search": {
+    "placeholder": "搜索收藏",
+    "label": "搜索收藏"
+  },
+  "empty": "没有找到条目。换个关键词或筛选条件试试。",
+  "labels": {
+    "intended": "原意",
+    "misread": "误读"
+  },
+  "types": {
+    "bag": "袋子",
+    "banner": "横幅",
+    "billboard": "广告牌",
+    "board": "告示牌",
+    "label": "标签",
+    "menu": "菜单",
+    "noren": "暖帘",
+    "note": "便条",
+    "packaging": "包装",
+    "pass": "通行证",
+    "post": "帖子",
+    "poster": "海报",
+    "sign": "招牌",
+    "text": "文章",
+    "notice": "告示"
+  },
+  "tags": {
+    "korean": "韩语",
+    "chinese": "中文",
+    "japanese": "日语",
+    "signs": "招牌",
+    "layout": "排版",
+    "wording": "用字",
+    "translation": "翻译",
+    "gibberish": "无法解读",
+    "bad-meaning": "负面含义"
+  },
+  "credits": {
+    "photo-by": "图片：{name}",
+    "photo": "图片：{name}",
+    "photo-via": "图片：{name}",
+    "spotted-by": "发现：{name}",
+    "reported-by": "报道：{name}",
+    "photo-reading": "图片·解读：{name}",
+    "edited-via": "合成图片：{name}",
+    "via": "{a}（经{b}）"
+  },
+  "reading": "解读",
+  "footer": {
+    "license": "站内文字与代码：{cc0}；图片：见来源",
+    "backToTop": "回到顶部 ↑"
+  },
+  "entries": {
+    "land": {
+      "description": "「임야、대지、상가」（林地、宅地、店铺）横着读成了「상대임 가지야」，一串看不出意思的音节。",
+      "alt": "竖排文字的韩国房产招牌",
+      "intended": "竖排·右→左",
+      "misread": "横排·左→右"
+    },
+    "poem": {
+      "description": "一篇讲贫困与读书的文章，换个读法就成了「吃人吃人」。",
+      "alt": "竖排排版的中文文章",
+      "intended": "竖排·左→右",
+      "misread": "横排·左→右"
+    },
+    "sign": {
+      "description": "四道以「탕」结尾的汤排在一起，成了「탕탕탕탕」，听起来像枪声。",
+      "alt": "布局容易让人读错的韩国招牌",
+      "intended": "竖排·左→右",
+      "misread": "横排·左→右"
+    },
+    "udon": {
+      "description": "「うどん・そば」（乌冬面与荞麦面）竖排横读，就成了「そどうばん」。",
+      "alt": "乌冬面与荞麦面店招牌的照片",
+      "intended": "竖排·右→左",
+      "misread": "横排·左→右"
+    },
+    "converter": {
+      "description": "「HD video converter」里的HD看着像日语「エロ」（色情），于是成了「色情视频转换器」。",
+      "alt": "HD视频转换器包装的照片",
+      "intended": "竖排",
+      "misread": "横排·左→右"
+    },
+    "meat": {
+      "description": "「肉のこーべや」（神户屋肉店）从右往左读，成了「やべーこの肉」，意思是「这肉不妙」。",
+      "alt": "写着「肉のこーべや」的红色肉店招牌",
+      "intended": "横排·左→右",
+      "misread": "横排·右→左"
+    },
+    "menu-rhythm": {
+      "description": "顺着菜单每行的末尾往下读，就成了一串有节奏的音节：「ばんばんばん…」。",
+      "alt": "餐厅菜单上重复字符的特写",
+      "intended": "横排·左→右",
+      "misread": "竖排"
+    },
+    "warning": {
+      "description": "提醒屋顶观景台地滑的告示，竖着读下去像一首奇怪的诗。",
+      "alt": "由简短横排组成的日文警告牌",
+      "intended": "横排·左→右",
+      "misread": "竖排·右→左"
+    },
+    "pillow": {
+      "description": "「スゴイまくら」（超棒的枕头）的三条横幅逐个竖读，就成了「スま」「ゴく」「イら」三组看不懂的字。",
+      "alt": "拼成「スゴイまくら」的三条横幅",
+      "intended": "横排·左→右",
+      "misread": "竖排·左→右"
+    },
+    "drinks": {
+      "description": "饮料单排成三行，竖着读第三列，假名拼出「コロン」，也就是「冒号」。",
+      "alt": "用三行大字红色假名写成的黄色手写饮料单",
+      "intended": "横排·左→右",
+      "misread": "竖排"
+    },
+    "lift": {
+      "description": "「荷物リフト」「コンベヤ」「投入リフト」在牌子上竖排，横着读时只剩假名排成「リベリ」和「フヤフ」。",
+      "alt": "白色竖长车站招牌，黑色毛笔字竖列，旁边一列红字",
+      "intended": "竖排·右→左",
+      "misread": "横排·左→右"
+    },
+    "dental": {
+      "description": "四项诊疗项目从左往右排，竖着读第三列却成了「修正牙口」；原本的「牙口好」指牙口好、吃得香。",
+      "alt": "蓝色牙科招牌，白色四行诊疗项目",
+      "intended": "横排·左→右",
+      "misread": "竖排"
+    },
+    "banner": {
+      "description": "从右往左读是「指望传销致富、生活没有出路」，一句警惕传销的警告；从左往右读却成了「生活没有出路、指望传销致富」，警告变成了邀请。",
+      "alt": "蓝色警方横幅，两列白色竖排汉字",
+      "intended": "竖排·右→左",
+      "misread": "竖排·左→右"
+    },
+    "inari": {
+      "description": "从右往左逐级往下排的面板读作「すべての電車が稲荷駅に停車します」（所有列车都停靠稻荷站），从左往右读就成了「すまし車停…」。",
+      "alt": "车站墙上茶色面板，白色日文从右向左逐级向下",
+      "intended": "横排·右→左",
+      "misread": "横排·左→右"
+    },
+    "yoyaku": {
+      "description": "牌子上排是「ご予約」，下排是「受付中」；按每块牌子竖着读，就成了「ご受予付約中」。",
+      "alt": "栅栏上的三块红色面板，每块叠着两个白字",
+      "intended": "横排·左→右",
+      "misread": "竖排·左→右"
+    },
+    "slogans": {
+      "description": "海报把「人民相信党」放在「没有好下场」上面，连成一句读，就成了「人民相信党，没有好下场」。",
+      "alt": "红色施工围挡上的海报，「人民相信党」在上，「没有好下场」在下",
+      "intended": "两行",
+      "misread": "一句"
+    },
+    "sign-order": {
+      "description": "店家本来想写「没有科技，都是手艺」，意思是没科技、全靠手艺；牌子把「科技」和「手艺」挂反了，成了「没有手艺，都是科技」，正好相反。店反而因此走红。",
+      "alt": "木制餐馆招牌，店名下方写着「没有手艺，都是科技」",
+      "intended": "没有科技，都是手艺",
+      "misread": "没有手艺，都是科技"
+    },
+    "rumeso": {
+      "description": "一家茶馆的「ラーメン」（拉面）横幅大约十年前被翻面横挂，从背面看，镜像的假名成了「ルーメソ」，店家就这么留着了。",
+      "alt": "店檐下横挂的粉色横幅，白色大假名",
+      "intended": "ラーメン",
+      "misread": "ルーメソ"
+    },
+    "billboard": {
+      "description": "999感冒灵在考试季把广告牌倒着挂，999的标识变成666，成了考生之间「考得溜」的暗号。",
+      "alt": "倒装的绿色公交站广告牌，999的标志看着像666",
+      "intended": "999",
+      "misread": "666"
+    },
+    "noren": {
+      "description": "鳗鱼店「小川菊」的暖帘把「うなぎ」从右往左写，从左读就成了「ぎなう」。",
+      "alt": "深蓝色暖帘，左边「小川菊」，横排白字「ぎなう」",
+      "intended": "横排·右→左",
+      "misread": "横排·左→右"
+    },
+    "toraya": {
+      "description": "点心店「とらや」（虎屋）把暖帘上的店名从右往左写，从左读就成了「やらと」。",
+      "alt": "店门前白暖帘，黑字「やらと」",
+      "intended": "横排·右→左",
+      "misread": "横排·左→右"
+    },
+    "florist": {
+      "description": "花店的招牌把「ハナ」从右往左排，读成「ナハ」；上方的FLORIST却照常从左往右。",
+      "alt": "绿色吊牌，FLORIST下方是假名「ナハ」和从右往左写的电话号码",
+      "intended": "横排·右→左",
+      "misread": "横排·左→右"
+    },
+    "yamaki": {
+      "description": "老招牌把「山基産業株式会社」从右往左排，从左读便以「社会式」开头，公司名整个倒过来。",
+      "alt": "深色木招牌，写着「社会式株業産基山」，后面还有旧木牌",
+      "intended": "横排·右→左",
+      "misread": "横排·左→右"
+    },
+    "tenpura": {
+      "description": "天妇罗店的暖帘把「天婦羅」从右往左写，从左读就成了「羅婦天」。",
+      "alt": "木制店面上一块深色暖帘，白字「羅婦天」",
+      "intended": "横排·右→左",
+      "misread": "横排·左→右"
+    },
+    "yuujin": {
+      "description": "告示的竖列从左往右排，和日文竖排相反；习惯从右往左读的人会把行序读反，「有人レジ」（有人值守的收银台）就成了「友人レジ」（朋友的收银台）。",
+      "alt": "三列竖排的手写告示",
+      "intended": "竖排·左→右",
+      "misread": "竖排·右→左"
+    },
+    "nhyo": {
+      "description": "风吹日晒腐蚀了「ショッパーズ」的招牌，只剩「ンョ゛ハー」；上方屋顶的招牌还写着店名。",
+      "alt": "超市外墙，风化后只剩「ンョ゛ハー」的招牌，上方屋顶招牌完好",
+      "intended": "ショッパーズ",
+      "misread": "ンョ゛ハー"
+    },
+    "kaoliang": {
+      "description": "旧标签把「特級高粱酒」从右往左排，从左读就成了「酒粱高級特」；金门的标签在1980年前后改了方向。",
+      "alt": "旧金门高粱酒瓶，红色标签文字从右往左",
+      "intended": "横排·右→左",
+      "misread": "横排·左→右"
+    },
+    "karamen": {
+      "description": "店名叫「ちからラーメン」，招牌却把「力」画成「カ」，只把「ちから」放在小小的注音里，路人便读成「カラーメン」（彩色拉面）。",
+      "alt": "黄色招牌读作「カラーメン」，第一个字上方有小小的「ちから」",
+      "intended": "ちからラーメン",
+      "misread": "カラーメン"
+    },
+    "graduation": {
+      "description": "毕业展板本想写「前途亦灿灿」，却印成了「烂烂」，祝词变成了「前途一片腐烂」。",
+      "alt": "毕业展板「人生路漫 前途亦烂烂」，「烂烂」被红圈标出",
+      "intended": "前途亦灿灿",
+      "misread": "前途亦烂烂"
+    },
+    "poster-711": {
+      "description": "海报本想说「夯爆了」（火爆），却印成「劣爆了」（糟糕透顶），广告反而骂起了自己卖的冰淇淋。",
+      "alt": "7-Eleven海报「听劝上架啦，劣爆了」，上方是冰淇淋照片",
+      "intended": "夯爆了",
+      "misread": "劣爆了"
+    },
+    "mirrored-gate": {
+      "description": "小区大门的字是用模板从反面喷的，「金秋小区」每一笔都成了镜像；后来重刷也照旧，错误留了二十年。",
+      "alt": "小区大门，「金秋小区」四个字涂成了镜像",
+      "intended": "横排·左→右",
+      "misread": "镜像"
+    },
+    "kitasenju": {
+      "description": "「北千住」的站牌翻新时把「千」印成了「干」，下面的注音仍是「きたせんじゅ」。",
+      "alt": "车站牌「北干住」，下方注音「きたせんじゅ」和Kita-senju",
+      "intended": "北千住",
+      "misread": "北干住"
+    },
+    "wife": {
+      "description": "店里想写Wi-Fi，招牌却写着「wifeあります」（有老婆），下面还写着充电OK。",
+      "alt": "白板写着「wifeあります 充電OK」，下方是牛舌菜单",
+      "intended": "Wi-Fiあります",
+      "misread": "wifeあります"
+    },
+    "mataichi": {
+      "description": "鳗鱼店「うなぎの又一」的停车场招牌，把店名「又一」画得像片假名「ヌー」。",
+      "alt": "鳗鱼店的停车招牌，店名「又一」看起来像片假名「ヌー」",
+      "intended": "又一",
+      "misread": "ヌー"
+    },
+    "spouse": {
+      "description": "南三陆的避难指示牌把「スポーツ交流村」译成「Spouse Exchange Village」；sports少了两个字母，成了spouse（配偶）。",
+      "alt": "并排写着「スポーツ交流村」和「Spouse Exchange Village」的牌子",
+      "intended": "Sports",
+      "misread": "Spouse"
+    },
+    "summit": {
+      "description": "登山道的牌子上写着「山頂はこちら」（山顶往这边），下面的机器翻译却是「Click here for the summit」，好像山顶是个链接。",
+      "alt": "黄色箭头牌「山頂はこちら」，下方英文「Click here for the summit」",
+      "intended": "山頂はこちら",
+      "misread": "Click here"
+    },
+    "panda": {
+      "description": "动物园请大家安静观赏；中文的「静静請看」也能读成「请看静静」，把副词变成了熊猫的名字。",
+      "alt": "熊猫海报，叠着「お静かにご覧ください」「Quiet Please」「静静請看」",
+      "intended": "お静かに",
+      "misread": "静静請看"
+    },
+    "soldout": {
+      "description": "站牌列出发车时间、车厢数和车门数；8:21那班车的车门数一栏写着「Sold Out」。这是「満席」的英译，意思是满员，不是售罄。",
+      "alt": "车站显示屏，车门栏里是8:21、8Car和Sold Out",
+      "intended": "満席",
+      "misread": "Sold Out"
+    },
+    "lunch": {
+      "description": "横幅上写着「ランチ 1000円～」（午餐1000日元起）。字是平假名，被风吹得「ら」弯成「う」，看上去成了「うんち」（大便）。",
+      "alt": "风中翻动的白色横幅，「うんち」下面是「0」",
+      "intended": "ランチ",
+      "misread": "うんち"
+    },
+    "rikei": {
+      "description": "「野菜直売所」（蔬菜直销点）的横幅挂反了；从背面看，镜像的字成了「理系直売所」（理科直销点）。",
+      "alt": "从背面看，镜像文字成了「理系直売所」的绿色横幅",
+      "intended": "野菜直売所",
+      "misread": "理系直売所"
+    },
+    "irasshai": {
+      "description": "同样是挂反的横幅：「いらっしゃいませ」（欢迎光临）从背面读成了「りさっしゃいまサ」。",
+      "alt": "从背面看，镜像假名成了「りさっしゃいまサ」的红色横幅",
+      "intended": "いらっしゃいませ",
+      "misread": "りさっしゃいまサ"
+    },
+    "shachi": {
+      "description": "「シャモ鍋」（军鸡锅）的横幅挂反后，镜像的字成了「シャチ鍋」（虎鲸锅），鸡肉锅变成了虎鲸锅。",
+      "alt": "从背面看的白色横幅「シャチ鍋」，配有火锅照片",
+      "intended": "シャモ鍋",
+      "misread": "シャチ鍋"
+    },
+    "bonkhatsu": {
+      "description": "「盆提灯」的横幅从背面读成了「盆髪城」：盂兰盆节的头发城堡。",
+      "alt": "从背面看，镜像文字成了「盆髪城」的米色横幅",
+      "intended": "盆提灯",
+      "misread": "盆髪城"
+    },
+    "usomasakoshi": {
+      "description": "玉米的横幅从背面读成了「うそまさこし」，开头就是「うそ」（谎话）。",
+      "alt": "从背面看，红色假名成了「うそまさこし」的玉米横幅",
+      "intended": "とうもろこし",
+      "misread": "うそまさこし"
+    },
+    "mad": {
+      "description": "卡拉OK的横幅挂反了，品牌名「ＤＡＭ」变成了「ＭＡＤ」。",
+      "alt": "从背面拍的红色横幅，顶部写着MAD",
+      "intended": "ＤＡＭ",
+      "misread": "ＭＡＤ"
+    },
+    "ryuma": {
+      "description": "高知「リョーマの休日」（龙马的假日）的横幅从背面看，镜像假名成了「リューマの村日」（龙马的村日）。",
+      "alt": "从背面看的高知白色横幅，假名成了「リューマの村日」",
+      "intended": "リョーマの休日",
+      "misread": "リューマの村日"
+    },
+    "huixiang": {
+      "description": "灯箱上写着「徽乡宴府」，下面的木匾却是「微乡宴府」，少了「徽」的上半部分。店家说这是故意的。",
+      "alt": "亮灯招牌「徽乡宴府」，下方木匾「微乡宴府」",
+      "intended": "徽乡宴府",
+      "misread": "微乡宴府"
+    },
+    "polyu": {
+      "description": "中秋横幅引用苏轼的「千里共嬋娟」，简转繁时没有校对，「里」变成了「裡」（里面）。",
+      "alt": "紫色横幅「但願人長久，千裡共嬋娟」",
+      "intended": "千里共嬋娟",
+      "misread": "千裡共嬋娟"
+    },
+    "haitang": {
+      "description": "吴江的店卖海棠糕，招牌却把「棠」写成「堂」；当地人争论这是粗心还是营销。",
+      "alt": "青绿色招牌，黄字「梅花糕 海堂糕」",
+      "intended": "海棠糕",
+      "misread": "海堂糕"
+    },
+    "disncy": {
+      "description": "香港的临时路牌把迪士尼写成「Disncy」，把东涌写成「Tung Chun」，两个名字都少了一个字母。",
+      "alt": "黄色临时路牌，写着Tung Chun和Disncy",
+      "intended": "Disney",
+      "misread": "Disncy"
+    },
+    "human": {
+      "description": "上海新地铁站把「呼玛路」标成「Human Road」，是输入法自动补全的结果；「富锦路」也成了「Fujin Poad」。",
+      "alt": "地铁标牌「呼玛路」上方是「Human Road」，n被红圈标出",
+      "intended": "Huma Road",
+      "misread": "Human Road"
+    },
+    "friedfish": {
+      "description": "公园禁止的是「炸鱼」，即用炸药捕鱼；翻译把「炸」当成「油炸」，于是禁止的是炸鱼这道菜。",
+      "alt": "公园告示牌，「禁止炸鱼」被译成「No Fried Fish」",
+      "intended": "禁止炸鱼",
+      "misread": "No Fried Fish"
+    },
+    "menu": {
+      "description": "油麻地的茶餐厅按读音写菜单：「黑椒雞扒飯」写成「克召雞扒反」，要用粤语念出来才看得懂。",
+      "alt": "按读音拼写的茶餐厅手写菜单",
+      "intended": "黑椒雞扒飯",
+      "misread": "克召雞扒反"
+    },
+    "nuclear": {
+      "description": "船票告示上写着「核載12人」，即核定载客十二人；英文译成「nuclear loading」，仿佛船靠核反应堆航行。",
+      "alt": "船票告示「核载12人」和英文「nuclear loading 12 people」",
+      "intended": "核载12人",
+      "misread": "nuclear loading"
+    },
+    "carefully": {
+      "description": "昭余古城的厕所门口写着「小心碰头」，提醒别撞到头；英文逐字译成「Carefully Meet」。",
+      "alt": "小牌子「小心碰头」，下方英文「Carefully Meet」",
+      "intended": "小心碰头",
+      "misread": "Carefully Meet"
+    },
+    "lionforest": {
+      "description": "苏州的路灯牌给「平江路」配上了隔壁园林「狮子林」的英文名，还缩写成「THE LION FOREST GARD」。",
+      "alt": "茶色路灯牌，把「平江路」标成「THE LION FOREST GARD」",
+      "intended": "平江路",
+      "misread": "Lion Forest Gard"
+    },
+    "slip": {
+      "description": "地砖上写着「小心地滑」，提醒地面湿滑；逐字读时「地」成了副词，整句变成「小心地滑倒」。",
+      "alt": "绿色告示牌「小心地滑」，下方英文「Slip carefully」",
+      "intended": "小心地滑",
+      "misread": "Slip carefully"
+    },
+    "hottopic": {
+      "description": "咖啡馆的黑板写着「ホットドック」，比「ホットドッグ」（热狗）少一个假名；下面还写着「Hot topic」，既不是热狗，也不是话题。",
+      "alt": "黑板「ホットドック」，下方「Hot topic」",
+      "intended": "ホットドッグ",
+      "misread": "Hot topic"
+    },
+    "ganmo": {
+      "description": "自助餐的标签写着「がんも煮物」，即煮油豆腐饼；英文译成「Boiled cancer」，把「がん」当成了癌。",
+      "alt": "自助餐卡片「がんも煮物」，下方「Boiled cancer」",
+      "intended": "がんも煮物",
+      "misread": "Boiled cancer"
+    },
+    "emu": {
+      "description": "西安至成都的列车厕所请求乘客在与其他「动车」交汇时不要冲水；英文把动车缩写成「EMU」，结果成了「遇见鸸鹋时不要冲水」。",
+      "alt": "列车厕所标牌「与动车交汇时请勿冲水」，下方「NO FLUSHING WHILE MEETING EMU」",
+      "intended": "勿与动车交汇冲水",
+      "misread": "Meeting EMU"
+    },
+    "civil": {
+      "description": "路牌请司机把这条路走得「文明」些；英文却成了「SET UP THE CIVILIZATION PASSAGE」，命令人设置一条文明通道。",
+      "alt": "蓝色公路牌「建文明通道」，下方「SET UP THE CIVILIZATION PASSAGE」",
+      "intended": "建文明通道",
+      "misread": "Civil. Passage"
+    },
+    "nocandy": {
+      "description": "超市给「无糖食品专架」配上「There be no candy food」，把一个货架名写成了「这里没有糖果」的句子。",
+      "alt": "黄色超市标牌「无糖食品专架」，下方「There be no candy food」",
+      "intended": "无糖食品",
+      "misread": "no candy food"
+    },
+    "levelgap": {
+      "description": "上海渡口的「注意高低空档」（注意船与岸之间的落差）被译成公文腔的「NOTE THAT THE LEVEL OF GAP」。",
+      "alt": "上海渡口标牌「注意高低空档」，下方「NOTE THAT THE LEVEL OF GAP」",
+      "intended": "注意高低空档",
+      "misread": "Level of Gap"
+    },
+    "climmbing": {
+      "description": "天梯山石窟的牌子写着「请勿攀爬」；英文多了一个m、又插进一个b，成了「No climmbing」。",
+      "alt": "茶色牌子「请勿攀爬」，下方「No climmbing」",
+      "intended": "请勿攀爬",
+      "misread": "No climmbing"
+    },
+    "justdoti": {
+      "description": "桃园的活动广告牌借用了Nike的口号，却把最后两个字母颠倒，印成「JUST DO TI」。",
+      "alt": "活动广告牌，大写「DO TI」",
+      "intended": "JUST DO IT",
+      "misread": "JUST DO TI"
+    },
+    "shijuku": {
+      "description": "JR西船桥站的指示牌把「新宿」写成「Shijuku」，少了一个n；更正方式是在缺字母处贴一张白贴纸。",
+      "alt": "车站牌「新宿」，上面贴着「Shijuku」",
+      "intended": "Shinjuku",
+      "misread": "Shijuku"
+    },
+    "yen": {
+      "description": "贴纸印的是一排「￥」；倒过来看，笔画就成了「夫」，小店仿佛按张卖丈夫。",
+      "alt": "一版红色「￥」贴纸，倒过来看像「夫」",
+      "intended": "￥",
+      "misread": "夫"
+    },
+    "zibo": {
+      "description": "淄博的广告牌漏掉了「关爱未成年人」里的「未」，标语变成请公众关爱成年人。",
+      "alt": "广告牌，被红圈标出的那行写着「关爱和保护成年人」",
+      "intended": "关爱未成年人",
+      "misread": "关爱成年人"
+    },
+    "henan-beijing": {
+      "description": "「出口374」的路牌把「河北」和「南京」分两行排列；按列竖读，四个字就成了「河南」和「北京」。图片经过编辑，原标牌不明。",
+      "alt": "绿色高速路牌「出口374」，「河北」在上「南京」在下，右下有向右上的箭头",
+      "intended": "横排·左→右",
+      "misread": "竖排"
+    },
+    "tsutaya": {
+      "description": "高知的卡牌店祝贺冠军时写成「クソヘタ怪人石神」；他的昵称本是「クセヘタ」，セ和ソ对调，变成了「游戏烂透了」。",
+      "alt": "写着「誤：クソヘタ怪人石神」「正：クセヘタ怪人石神」的订正帖",
+      "intended": "クセヘタ",
+      "misread": "クソヘタ"
+    },
+    "teabag": {
+      "description": "奶茶店的封口贴写着「打包在忙，吸管别忘」；这里该用「再」（再忙也别忘了吸管），错成「在」，提醒就成了状态汇报。",
+      "alt": "奶茶店封口贴「打包在忙 吸管别忘」",
+      "intended": "打包再忙",
+      "misread": "打包在忙"
+    },
+    "nowwa": {
+      "description": "Nowwa Coffee的灯箱在代言人姓名的位置写上「帅气青年男性」，而不是他的名字。",
+      "alt": "海报上，品牌名旁竖排着「帅气青年男性」",
+      "intended": "杨洋",
+      "misread": "帅气青年男性"
+    },
+    "lamb": {
+      "description": "上海的羊肉店按份标价「19元（客）」，却把「客」打成「克」，成了「19元（克）」：一克19元，一斤要9500元。",
+      "alt": "菜单把三道羊肉菜标成「19元（克）」，被红圈标出",
+      "intended": "19元（客）",
+      "misread": "19元（克）"
+    },
+    "tuni": {
+      "description": "上海迪士尼的年卡手册把「迪士尼」印成「迪土尼」，「士」写成「土」，园名多了一个「tu」。",
+      "alt": "迪士尼年卡上的一行「上海迪士尼乐园」，箭头指向「土」",
+      "intended": "迪士尼",
+      "misread": "迪土尼"
+    },
+    "killfish": {
+      "description": "大创的稻田鱼用土写着「for killifish」（适合稻田鱼），少了一个i变成「killfish」，成了「杀鱼的土」。",
+      "alt": "大创的道歉告示，写着「誤:killfish 正:killifish」",
+      "intended": "killifish",
+      "misread": "killfish"
+    },
+    "heelo": {
+      "description": "瑞幸咖啡Hello Kitty挂件的洗水标把HELLO印成HEELO；多出来的E让问候在网上变成了「喝喽」。",
+      "alt": "蓝色洗水标，HEELO KITTY下面印着luckin coffee",
+      "intended": "HELLO KITTY",
+      "misread": "HEELO KITTY"
+    }
+  }
+}

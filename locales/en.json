@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "title": "Writing fails",
+    "description": "A collection of writing direction and layout misunderstandings."
+  },
+  "nav": {
+    "collection": "Collection",
+    "submit": "Submit a fail"
+  },
+  "langs": {
+    "label": "Language"
+  },
+  "hero": {
+    "tagline": "Words can mean something else when read in the wrong direction—or the wrong order."
+  },
+  "filters": {
+    "label": "Filter collection",
+    "all": "All fails {count}",
+    "korean": "Korean",
+    "chinese": "Chinese",
+    "japanese": "Japanese",
+    "signs": "Signs",
+    "layout": "Layout",
+    "wording": "Wording",
+    "translation": "Translation",
+    "gibberish": "Gibberish",
+    "bad-meaning": "Bad meaning"
+  },
+  "search": {
+    "placeholder": "Search the collection",
+    "label": "Search the collection"
+  },
+  "empty": "No entries found. Try another search or filter.",
+  "labels": {
+    "intended": "INTENDED",
+    "misread": "MISREAD"
+  },
+  "types": {
+    "bag": "BAG",
+    "banner": "BANNER",
+    "billboard": "BILLBOARD",
+    "board": "BOARD",
+    "label": "LABEL",
+    "menu": "MENU",
+    "noren": "NOREN",
+    "note": "NOTE",
+    "packaging": "PACKAGING",
+    "pass": "PASS",
+    "post": "POST",
+    "poster": "POSTER",
+    "sign": "SIGN",
+    "text": "TEXT",
+    "notice": "NOTICE"
+  },
+  "tags": {
+    "korean": "KOREAN",
+    "chinese": "CHINESE",
+    "japanese": "JAPANESE",
+    "signs": "SIGNS",
+    "layout": "LAYOUT",
+    "wording": "WORDING",
+    "translation": "TRANSLATION",
+    "gibberish": "GIBBERISH",
+    "bad-meaning": "BAD MEANING"
+  },
+  "credits": {
+    "photo-by": "PHOTO BY {name}",
+    "photo": "PHOTO {name}",
+    "photo-via": "PHOTO VIA {name}",
+    "spotted-by": "SPOTTED BY {name}",
+    "reported-by": "REPORTED BY {name}",
+    "photo-reading": "PHOTO & READING {name}",
+    "edited-via": "EDITED IMAGE VIA {name}",
+    "via": "{a} VIA {b}"
+  },
+  "reading": "THE READING",
+  "footer": {
+    "license": "Site text & code: {cc0} · Images: see sources",
+    "backToTop": "BACK TO TOP ↑"
+  },
+  "entries": {
+    "land": {
+      "description": "임야, 대지, 상가 (forest land, building land, shops) becomes 상대임 가지야—an apparent nonsense phrase.",
+      "alt": "A Korean property sign with text arranged in vertical columns",
+      "intended": "Vertical RTL",
+      "misread": "Horizontal LTR"
+    },
+    "poem": {
+      "description": "A lesson on poverty and study turns into “eat people, eat people.”",
+      "alt": "A Chinese text laid out in vertical columns",
+      "intended": "Vertical LTR",
+      "misread": "Horizontal LTR"
+    },
+    "sign": {
+      "description": "Four soups ending in 탕 (tang) become 탕탕탕탕—the sound of gunshots.",
+      "alt": "A Korean sign whose layout invites an unintended reading",
+      "intended": "Vertical LTR",
+      "misread": "Horizontal LTR"
+    },
+    "udon": {
+      "description": "うどん・そば (udon and soba) becomes the nonsensical そどうばん.",
+      "alt": "A photographed udon and soba shop sign",
+      "intended": "Vertical RTL",
+      "misread": "Horizontal LTR"
+    },
+    "converter": {
+      "description": "“HD video converter” becomes “erotic video converter” when HD resembles エロ.",
+      "alt": "The photographed HD video converter packaging",
+      "intended": "Vertical",
+      "misread": "Horizontal LTR"
+    },
+    "meat": {
+      "description": "肉のこーべや (Kobeya Meat) becomes “this meat is bad.”",
+      "alt": "A red butcher shop sign reading 肉のこーべや",
+      "intended": "Horizontal LTR",
+      "misread": "Horizontal RTL"
+    },
+    "menu": {
+      "description": "Read down, the endings of menu items become a rhythmic string of syllables.",
+      "alt": "A close-up of repeated characters on a restaurant menu",
+      "intended": "Horizontal LTR",
+      "misread": "Vertical"
+    },
+    "warning": {
+      "description": "A warning that the rooftop observation deck is slippery reads like a strange poem down the columns.",
+      "alt": "A Japanese warning sign arranged in short horizontal rows",
+      "intended": "Horizontal LTR",
+      "misread": "Vertical RTL"
+    },
+    "pillow": {
+      "description": "スゴイまくら (“amazing pillow”) becomes three puzzling pairs when each banner is read down.",
+      "alt": "Three banners spelling スゴイまくら",
+      "intended": "Horizontal LTR",
+      "misread": "Vertical LTR"
+    },
+    "drinks": {
+      "description": "The drink list is set in rows; read down the third column, the kana spell コロン, “colon.”",
+      "alt": "A yellow handwritten drinks menu with three rows of large red kana",
+      "intended": "Horizontal LTR",
+      "misread": "Vertical"
+    },
+    "lift": {
+      "description": "荷物リフト, コンベヤ and 投入リフト run down the sign in columns; read across, the kana line up as リベリ and フヤフ.",
+      "alt": "A tall white station sign with columns of brushed black lettering and one red column",
+      "intended": "Vertical RTL",
+      "misread": "Horizontal LTR"
+    },
+    "dental": {
+      "description": "Four treatments run left to right; the third column spells 修正牙口, “fix your teeth.” 牙口好, “good teeth,” goes with a hearty appetite.",
+      "alt": "A blue dental clinic sign listing four treatments in white rows",
+      "intended": "Horizontal LTR",
+      "misread": "Vertical"
+    },
+    "banner": {
+      "description": "The columns read right to left: 指望传销致富、生活没有出路, a warning against pyramid schemes. Left to right they become 生活没有出路、指望传销致富—the warning turns into an invitation.",
+      "alt": "A blue police banner with two vertical columns of white Chinese characters",
+      "intended": "Vertical RTL",
+      "misread": "Vertical LTR"
+    },
+    "inari": {
+      "description": "The panels step down from the right and read right to left: すべての電車が稲荷駅に停車します, “all trains stop at Inari Station.” Read left to right, they become すまし車停…",
+      "alt": "Brown panels of white Japanese characters stepping down a station wall from right to left",
+      "intended": "Horizontal RTL",
+      "misread": "Horizontal LTR"
+    },
+    "yoyaku": {
+      "description": "The panels read ご予約 along the top and 受付中 along the bottom; read down each panel instead and they become ご受予付約中.",
+      "alt": "Three red panels on a fence, each stacked with two white characters",
+      "intended": "Horizontal LTR",
+      "misread": "Vertical LTR"
+    },
+    "slogans": {
+      "description": "The poster sets 人民相信党 above 没有好下场; read as one sentence, the lines say the people trust the Party—and come to no good end.",
+      "alt": "A red renovation wrap with a poster reading 人民相信党 above 没有好下场",
+      "intended": "Two lines",
+      "misread": "One sentence"
+    },
+    "sign-order": {
+      "description": "The stall meant 没有科技，都是手艺—no tech, all craft. The panels went up with 科技 and 手艺 the wrong way round, so the sign promises the opposite; the shop went viral anyway.",
+      "alt": "A wooden restaurant sign reading 没有手艺，都是科技 under its name",
+      "intended": "没有科技，都是手艺",
+      "misread": "没有手艺，都是科技"
+    },
+    "rumeso": {
+      "description": "A tea shop's ラーメン banner was flipped and hung sideways about a decade ago; seen from the back the mirrored kana read ルーメソ, and the shop kept it that way.",
+      "alt": "A pink banner with large white kana hung sideways under a shop roof",
+      "intended": "ラーメン",
+      "misread": "ルーメソ"
+    },
+    "billboard": {
+      "description": "999 感冒灵 hung its billboard upside down for exam season: the logo reads 666, the students' shorthand for doing brilliantly.",
+      "alt": "A green bus-stop billboard mounted upside down, its 999 logo reading 666",
+      "intended": "999",
+      "misread": "666"
+    },
+    "noren": {
+      "description": "The noren at the eel restaurant 小川菊 sets うなぎ right to left; read left to right, the same kana spell ぎなう.",
+      "alt": "A navy noren with 小川菊 in white at the left and the kana ぎなう across it",
+      "intended": "Horizontal RTL",
+      "misread": "Horizontal LTR"
+    },
+    "toraya": {
+      "description": "The confectioner とらや hangs its noren with the name set right to left; read left to right, the kana spell やらと.",
+      "alt": "A white noren across a shop front with the kana やらと in black",
+      "intended": "Horizontal RTL",
+      "misread": "Horizontal LTR"
+    },
+    "florist": {
+      "description": "The florist's sign sets ハナ right to left, so the kana read ナハ—while FLORIST above it runs the ordinary way.",
+      "alt": "A green hanging sign reading FLORIST above the kana ナハ and a right-to-left phone line",
+      "intended": "Horizontal RTL",
+      "misread": "Horizontal LTR"
+    },
+    "yamaki": {
+      "description": "The old sign sets 山基産業株式会社 right to left; read left to right it opens 社会式, and the company name runs backwards.",
+      "alt": "A dark wooden shop sign reading 社会式株業産基山 above older wooden signs",
+      "intended": "Horizontal RTL",
+      "misread": "Horizontal LTR"
+    },
+    "tenpura": {
+      "description": "The tempura shop's noren sets 天婦羅 right to left; read left to right, the characters become 羅婦天.",
+      "alt": "A dark noren reading 羅婦天 in white above a wooden shop front",
+      "intended": "Horizontal RTL",
+      "misread": "Horizontal LTR"
+    },
+    "yuujin": {
+      "description": "The notice sets its columns left to right, the opposite of vertical Japanese, so right-to-left readers get the lines backwards—and 有人レジ, the staffed register, is typed 友人レジ.",
+      "alt": "A handwritten notice in three vertical columns",
+      "intended": "Vertical LTR",
+      "misread": "Vertical RTL"
+    },
+    "nhyo": {
+      "description": "Weathering ate parts of the ショッパーズ sign and left ンョ゛ハー; the rooftop sign above still spells the shop's name.",
+      "alt": "A supermarket facade with a weathered sign reading ンョ゛ハー and an intact rooftop sign",
+      "intended": "ショッパーズ",
+      "misread": "ンョ゛ハー"
+    },
+    "kaoliang": {
+      "description": "The old label sets 特級高粱酒 right to left, so a left-to-right reader gets 酒粱高級特; Kinmen's labels switched direction around 1980.",
+      "alt": "An old Kinmen Kaoliang bottle whose red label text runs right to left",
+      "intended": "Horizontal RTL",
+      "misread": "Horizontal LTR"
+    },
+    "karamen": {
+      "description": "The shop is called ちからラーメン, but the sign draws 力 as カ and leaves ちから in tiny furigana—so passersby read “colour ramen.”",
+      "alt": "A yellow shop sign reading カラーメン with tiny ちから furigana above the first character",
+      "intended": "ちからラーメン",
+      "misread": "カラーメン"
+    },
+    "graduation": {
+      "description": "The graduation board meant 前途亦灿灿, “the future shines,” but printed 烂烂, so it wishes the class a rotten future instead.",
+      "alt": "A graduation board reading 人生路漫 前途亦烂烂, with 烂烂 circled in red",
+      "intended": "前途亦灿灿",
+      "misread": "前途亦烂烂"
+    },
+    "poster-711": {
+      "description": "The poster meant 夯爆了, slang for “a hit,” but printed 劣爆了, “terrible,” so the advert insulted the ice cream it was selling.",
+      "alt": "A 7-Eleven poster reading 听劝上架啦，劣爆了 above pictures of ice cream",
+      "intended": "夯爆了",
+      "misread": "劣爆了"
+    },
+    "mirrored-gate": {
+      "description": "The estate stencil was sprayed from the wrong side, mirroring every stroke of 金秋小区; repainting kept the error alive for twenty years.",
+      "alt": "A residential gate whose four characters 金秋小区 are painted with mirrored strokes",
+      "intended": "Horizontal LTR",
+      "misread": "Mirrored"
+    },
+    "kitasenju": {
+      "description": "The renewed board for 北千住 printed 干 in place of 千, so it reads 北干住 while the furigana below still says きたせんじゅ.",
+      "alt": "A station board reading 北干住 with the furigana きたせんじゅ and Kita-senju underneath",
+      "intended": "北千住",
+      "misread": "北干住"
+    },
+    "wife": {
+      "description": "The shop meant Wi-Fi, but the board advertises a wife instead: wifeあります, charging OK.",
+      "alt": "A white board reading wifeあります 充電OK above a menu for beef tongue",
+      "intended": "Wi-Fiあります",
+      "misread": "wifeあります"
+    },
+    "mataichi": {
+      "description": "The parking sign belongs to うなぎの又一, but the shop name 又一 is drawn so that it reads as the katakana ヌー.",
+      "alt": "A parking sign for an eel restaurant whose name reads as the katakana ヌー",
+      "intended": "又一",
+      "misread": "ヌー"
+    },
+    "spouse": {
+      "description": "The evacuation sign in Minamisanriku renders スポーツ交流村 as Spouse Exchange Village, two letters short of a sports facility.",
+      "alt": "A sign pairing スポーツ交流村 with the English line Spouse Exchange Village",
+      "intended": "Sports",
+      "misread": "Spouse"
+    },
+    "summit": {
+      "description": "The trail sign says 山頂はこちら, “the summit is this way”; the machine translation underneath reads Click here for the summit, as if the mountain were a link.",
+      "alt": "A yellow arrow sign reading 山頂はこちら above the English line Click here for the summit",
+      "intended": "山頂はこちら",
+      "misread": "Click here"
+    },
+    "panda": {
+      "description": "The zoo asks visitors to view quietly; its Chinese line 静静請看 also reads as “please look, Jingjing”, turning the adverb into a panda’s name.",
+      "alt": "A panda poster reading お静かにご覧ください over Quiet Please and 静静請看",
+      "intended": "お静かに",
+      "misread": "静静請看"
+    },
+    "soldout": {
+      "description": "The board lists departure time, cars and doors; the 8:21 train’s door count reads Sold Out, the translation of 満席—the train is full, not on sale.",
+      "alt": "A station board showing 8:21, 8Car and Sold Out in the door column",
+      "intended": "満席",
+      "misread": "Sold Out"
+    },
+    "lunch": {
+      "description": "The banner advertises ランチ 1000円～; written in hiragana and caught by the wind, the ら bends into う, so lunch reads as うんち.",
+      "alt": "A white banner in the wind reading うんち above a 0",
+      "intended": "ランチ",
+      "misread": "うんち"
+    },
+    "rikei": {
+      "description": "A 野菜直売所 banner hung inside-out; from the back the mirrored characters read 理系直売所—“science department direct sales.”",
+      "alt": "A green banner seen from the back whose mirrored characters read 理系直売所",
+      "intended": "野菜直売所",
+      "misread": "理系直売所"
+    },
+    "irasshai": {
+      "description": "The same inside-out trick on a shop banner: いらっしゃいませ comes back as りさっしゃいまサ.",
+      "alt": "A red banner seen from the back whose mirrored kana read りさっしゃいまサ",
+      "intended": "いらっしゃいませ",
+      "misread": "りさっしゃいまサ"
+    },
+    "shachi": {
+      "description": "A シャモ鍋 banner hung inside-out; from the back the mirrored characters read シャチ鍋, an orca hotpot instead of chicken.",
+      "alt": "A white banner with シャチ鍋 and a photo of a hotpot, seen from the back",
+      "intended": "シャモ鍋",
+      "misread": "シャチ鍋"
+    },
+    "bonkhatsu": {
+      "description": "The festival-lantern banner 盆提灯, read from the back, becomes 盆髪城—a hair castle for the bon holiday.",
+      "alt": "A beige banner whose mirrored characters read 盆髪城",
+      "intended": "盆提灯",
+      "misread": "盆髪城"
+    },
+    "usomasakoshi": {
+      "description": "The sweet-corn banner read from the wrong side: とうもろこし comes out as うそまさこし, which opens with “lie.”",
+      "alt": "A corn banner seen from the back, its red kana reading うそまさこし",
+      "intended": "とうもろこし",
+      "misread": "うそまさこし"
+    },
+    "mad": {
+      "description": "A karaoke banner hung inside-out: the brand ＤＡＭ reads ＭＡＤ.",
+      "alt": "A red banner with MAD at the top, photographed from the back",
+      "intended": "ＤＡＭ",
+      "misread": "ＭＡＤ"
+    },
+    "ryuma": {
+      "description": "A Kochi banner for リョーマの休日 seen from the back: the mirrored kana read リューマの村日, a village day instead of a holiday.",
+      "alt": "A white Kochi banner seen from the back, its kana reading リューマの村日",
+      "intended": "リョーマの休日",
+      "misread": "リューマの村日"
+    },
+    "huixiang": {
+      "description": "The lit sign says 徽乡宴府; the wooden plaque below spells it 微乡宴府, minus the 徽’s top. The shop calls the error deliberate.",
+      "alt": "A restaurant with 徽乡宴府 on the lit sign and 微乡宴府 on the wooden plaque below",
+      "intended": "徽乡宴府",
+      "misread": "微乡宴府"
+    },
+    "polyu": {
+      "description": "The Mid-Autumn banner quotes Su Shi’s 千里共嬋娟; converted from simplified to traditional without proofreading, 里 came out as 裡, “inside.”",
+      "alt": "A purple banner reading 但願人長久，千裡共嬋娟",
+      "intended": "千里共嬋娟",
+      "misread": "千裡共嬋娟"
+    },
+    "haitang": {
+      "description": "The Wujiang shop sells 海棠糕, the begonia-shaped cake; its sign sets 堂 for 棠, and locals argue over whether the slip is carelessness or marketing.",
+      "alt": "A snack shop sign reading 梅花糕 海堂糕 in yellow characters on teal",
+      "intended": "海棠糕",
+      "misread": "海堂糕"
+    },
+    "disncy": {
+      "description": "A temporary Hong Kong road sign sends drivers to Disncy and Tung Chun, a letter short in both names.",
+      "alt": "A yellow temporary road sign listing Tung Chun and Disncy",
+      "intended": "Disney",
+      "misread": "Disncy"
+    },
+    "human": {
+      "description": "A new Shanghai metro station letters 呼玛路 as Human Road, the input method finishing the word, and 富锦路 as Fujin Poad.",
+      "alt": "A metro sign with 呼玛路 above Human Road, the n circled in red",
+      "intended": "Huma Road",
+      "misread": "Human Road"
+    },
+    "friedfish": {
+      "description": "The park bans 炸鱼, fishing with explosives; the translation takes 炸 as “fried” and outlaws fried fish instead.",
+      "alt": "A park notice board whose 禁止炸鱼 sign is translated No Fried Fish",
+      "intended": "禁止炸鱼",
+      "misread": "No Fried Fish"
+    },
+    "menu-rhythm": {
+      "description": "A Yau Ma Tei cha chaan teng writes its menu by sound: 黑椒雞扒飯 comes out 克召雞扒反, legible only if you say it aloud in Cantonese.",
+      "alt": "A handwritten cha chaan teng menu whose items are spelled by sound",
+      "intended": "黑椒雞扒飯",
+      "misread": "克召雞扒反"
+    },
+    "nuclear": {
+      "description": "The boat ticket board caps 核載12人, certified for twelve passengers; the English renders 核載 as “nuclear loading”, as if the boat ran on a reactor.",
+      "alt": "A ticket board printing 核载12人 and the English nuclear loading 12 people",
+      "intended": "核载 12人",
+      "misread": "nuclear loading"
+    },
+    "carefully": {
+      "description": "A toilet doorway in Zhaoyu’s old town warns 小心碰头, mind your head; the English renders it word for word as “Carefully Meet”.",
+      "alt": "A small sign reading 小心碰头 above the English Carefully Meet",
+      "intended": "小心碰头",
+      "misread": "Carefully Meet"
+    },
+    "lionforest": {
+      "description": "A Suzhou lamp-post sign gives 平江路 the English name of 狮子林, the garden next door, and shortens it to THE LION FOREST GARD.",
+      "alt": "A brown lamp-post sign labelling 平江路 as THE LION FOREST GARD",
+      "intended": "平江路",
+      "misread": "Lion Forest Gard"
+    },
+    "slip": {
+      "description": "The tile warns 小心地滑, “caution: slippery floor”; read word by word, 地 becomes the adverb and the sign orders you to slip carefully.",
+      "alt": "A green sign reading 小心地滑 above Slip carefully",
+      "intended": "小心地滑",
+      "misread": "Slip carefully"
+    },
+    "hottopic": {
+      "description": "The café board writes ホットドック, a kana short of ホットドッグ, and under it offers “Hot topic”—neither a hot dog nor a subject.",
+      "alt": "A chalkboard reading ホットドック above Hot topic",
+      "intended": "ホットドッグ",
+      "misread": "Hot topic"
+    },
+    "ganmo": {
+      "description": "The buffet labels がんも煮物, simmered ganmo tofu; the English reads “Boiled cancer”, as if がん had been taken for 癌.",
+      "alt": "A buffet card reading がんも煮物 above Boiled cancer",
+      "intended": "がんも煮物",
+      "misread": "Boiled cancer"
+    },
+    "emu": {
+      "description": "A toilet on the Xi’an–Chengdu train asks passengers not to flush while passing another 动车; the abbreviation EMU turns the train into an emu.",
+      "alt": "A train toilet sign reading 与动车交汇时请勿冲水 above NO FLUSHING WHILE MEETING EMU",
+      "intended": "勿与动车交汇冲水",
+      "misread": "Meeting EMU"
+    },
+    "civil": {
+      "description": "The board asks drivers to keep the route 文明, civilised; the English orders them to “SET UP THE CIVILIZATION PASSAGE” instead.",
+      "alt": "A blue highway board reading 建文明通道 above SET UP THE CIVILIZATION PASSAGE",
+      "intended": "建文明通道",
+      "misread": "Civil. Passage"
+    },
+    "nocandy": {
+      "description": "The supermarket labels its 无糖食品专架, the sugar-free food shelf, “There be no candy food”—a sentence about absence instead of a section name.",
+      "alt": "A yellow supermarket sign reading 无糖食品专架 above There be no candy food",
+      "intended": "无糖食品",
+      "misread": "no candy food"
+    },
+    "levelgap": {
+      "description": "At a Shanghai ferry dock, 注意高低空档, mind the step between boat and shore, becomes the memo “NOTE THAT THE LEVEL OF GAP”.",
+      "alt": "A Shanghai ferry sign reading 注意高低空档 above NOTE THAT THE LEVEL OF GAP",
+      "intended": "注意高低空档",
+      "misread": "Level of Gap"
+    },
+    "climmbing": {
+      "description": "At the Tiantishan grottoes the sign says 请勿攀爬, do not climb; the English doubles the m and slips a b in: “No climmbing”.",
+      "alt": "A brown sign reading 请勿攀爬 above No climmbing",
+      "intended": "请勿攀爬",
+      "misread": "No climmbing"
+    },
+    "justdoti": {
+      "description": "A Taoyuan campaign billboard borrows the Nike line and prints the last two letters the wrong way round: “JUST DO TI”.",
+      "alt": "A campaign billboard with the large letters DO TI",
+      "intended": "JUST DO IT",
+      "misread": "JUST DO TI"
+    },
+    "shijuku": {
+      "description": "A JR Nishifunabashi sign lists 新宿 as “Shijuku”, one n short; the correction is a white sticker pasted over the missing letter.",
+      "alt": "A station sign reading 新宿 with the English Shijuku pasted over",
+      "intended": "Shinjuku",
+      "misread": "Shijuku"
+    },
+    "yen": {
+      "description": "The sticker sheet prints ￥ signs; turned upside down, their strokes read as 夫, so the shop appears to stock husbands by the sheet.",
+      "alt": "A sheet of red stickers reading 夫, which are upside-down ￥ signs",
+      "intended": "￥",
+      "misread": "夫"
+    },
+    "zibo": {
+      "description": "A Zibo billboard drops the 未 from 关爱未成年人, “care for minors”, so the slogan asks the public to protect adults instead.",
+      "alt": "A billboard whose circled line reads 关爱和保护成年人",
+      "intended": "关爱未成年人",
+      "misread": "关爱成年人"
+    },
+    "henan-beijing": {
+      "description": "The 出口 374 board names 河北 and 南京, one per line. Read down the columns and the four characters become 河南 and 北京. The picture is an edit; the original sign is unknown.",
+      "alt": "A green 出口 374 highway sign showing 河北 over 南京, with an arrow below pointing up and to the right",
+      "intended": "Horizontal LTR",
+      "misread": "Vertical"
+    },
+    "tsutaya": {
+      "description": "A Kōchi card shop congratulated its winner as クソヘタ怪人石神; the handle is クセヘタ, and the swapped セ and ソ call him hopeless at the game.",
+      "alt": "A correction post reading 誤:クソヘタ怪人石神 and 正:クセヘタ怪人石神",
+      "intended": "クセヘタ",
+      "misread": "クソヘタ"
+    },
+    "teabag": {
+      "description": "The tea chain’s bag seals read 打包在忙，吸管别忘; the line needs 再, “however busy packing gets”, so the typo turns a reminder into a status report.",
+      "alt": "A tea-shop bag seal reading 打包在忙 吸管别忘",
+      "intended": "打包再忙",
+      "misread": "打包在忙"
+    },
+    "nowwa": {
+      "description": "A Nowwa Coffee light-box credits its ambassador as 帅气青年男性, “handsome young male”, in the slot where his name belongs.",
+      "alt": "A poster whose vertical title reads 帅气青年男性 beside the brand line",
+      "intended": "杨洋",
+      "misread": "帅气青年男性"
+    },
+    "lamb": {
+      "description": "A Shanghai lamb restaurant prices its cuts at 19元（客）, per portion; 客 was typed 克, so the menu charges 19 yuan a gram—9,500 a jin.",
+      "alt": "A menu pricing three lamb dishes at 19元（克）, circled in red",
+      "intended": "19元（客）",
+      "misread": "19元（克）"
+    },
+    "tuni": {
+      "description": "Shanghai Disney’s annual-pass booklet prints 迪士尼 as 迪土尼, putting 土 for 士, so the park’s name gains a “tu”.",
+      "alt": "A Disneyland annual-pass line reading 上海迪士尼乐园 with an arrow at the 土",
+      "intended": "迪士尼",
+      "misread": "迪土尼"
+    },
+    "killfish": {
+      "description": "Daiso’s soil for medaka promised a comfortable environment “for killifish”; one i went missing, so the label sells a fish-killing substrate.",
+      "alt": "A Daiso apology notice reading 誤:killfish 正:killifish",
+      "intended": "killifish",
+      "misread": "killfish"
+    },
+    "heelo": {
+      "description": "The wash label on Luckin’s Hello Kitty charm prints HELLO as HEELO; online the extra E turned the greeting into 喝喽, “drink up”.",
+      "alt": "A blue wash label reading HEELO KITTY over luckin coffee",
+      "intended": "HELLO KITTY",
+      "misread": "HEELO KITTY"
+    }
+  }
+}
