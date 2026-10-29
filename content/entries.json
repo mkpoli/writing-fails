@@ -1618,5 +1618,25 @@
     },
     "reading": null,
     "keywords": "Chinese packaging IMAGERY IMAGRY 茉莉奶白 typo"
+  },
+  {
+    "id": "yisi",
+    "number": 82,
+    "type": "notice",
+    "language": "chinese",
+    "kind": "typo",
+    "title": "一絲不掛",
+    "titleLang": "zh-Hant",
+    "image": {
+      "src": "assets/yisi.jpg",
+      "href": "https://hk.on.cc/hk/bkn/cnt/news/20260614/bkn-20260614184246553-0614_00822_001.html"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "東網",
+      "href": "https://hk.on.cc/hk/bkn/cnt/news/20260614/bkn-20260614184246553-0614_00822_001.html"
+    },
+    "reading": null,
+    "keywords": "Chinese notice 一絲不苟 一絲不掛 promotion typo"
   }
 ]

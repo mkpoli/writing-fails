@@ -572,6 +572,12 @@
       "alt": "A paper cup with the word IMAGRY boxed in red",
       "intended": "IMAGERY",
       "misread": "IMAGRY"
+    },
+    "yisi": {
+      "description": "A promotion notice praising a colleague’s 一絲不苟, meticulous, work prints 一絲不掛 instead—“stark naked”, one character away.",
+      "alt": "A promotion notice with the phrase 處事一絲不掛 spotlighted",
+      "intended": "一絲不苟",
+      "misread": "一絲不掛"
     }
   }
 }

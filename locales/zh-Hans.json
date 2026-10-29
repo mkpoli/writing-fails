@@ -572,6 +572,12 @@
       "alt": "纸杯上的「IMAGRY」被红框圈出",
       "intended": "IMAGERY",
       "misread": "IMAGRY"
+    },
+    "yisi": {
+      "description": "升职公告称赞同事做事「一丝不苟」，却印成「一丝不挂」，一字之差险些毁了清白。",
+      "alt": "升职公告上被高亮的「處事一絲不掛」",
+      "intended": "一絲不苟",
+      "misread": "一絲不掛"
     }
   }
 }
