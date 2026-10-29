@@ -15,9 +15,10 @@ const locales = [
 ]
 
 const kindKeys = ['direction', 'layout', 'flipped', 'lookalike', 'typo', 'wording', 'unfamiliar', 'translation', 'damage']
-const langKeys = ['korean', 'chinese', 'japanese']
+const langOrder = ['korean', 'chinese', 'japanese', 'english', 'french', 'spanish', 'german', 'italian', 'portuguese', 'other']
 
 const entries = JSON.parse(readFileSync(join(root, 'content/entries.json'), 'utf8'))
+const langKeys = langOrder.filter(key => entries.some(entry => entry.language === key))
 const catalogs = Object.fromEntries(locales.map(locale => [
   locale.code,
   JSON.parse(readFileSync(join(root, `locales/${locale.code}.json`), 'utf8')),
@@ -42,6 +43,7 @@ for (const [index, entry] of entries.entries()) {
   if (ids.has(entry.id)) throw new Error(`Duplicate entry id: ${entry.id}`)
   if (entry.number !== index + 1) throw new Error(`Entry ${entry.id} is out of order`)
   if (!kindKeys.includes(entry.kind)) throw new Error(`Unknown kind on ${entry.id}: ${entry.kind}`)
+  if (!langOrder.includes(entry.language)) throw new Error(`Unknown language on ${entry.id}: ${entry.language}`)
   ids.add(entry.id)
 }
 

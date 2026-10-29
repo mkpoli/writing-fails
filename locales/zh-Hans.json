@@ -29,7 +29,8 @@
     "damage": "破损",
     "korean": "韩语",
     "chinese": "中文",
-    "japanese": "日语"
+    "japanese": "日语",
+    "english": "英语"
   },
   "search": {
     "placeholder": "搜索合集",
@@ -69,7 +70,8 @@
     "wording": "用词",
     "unfamiliar": "生疏",
     "translation": "翻译",
-    "damage": "破损"
+    "damage": "破损",
+    "english": "英语"
   },
   "credits": {
     "photo-by": "图片：{name}",
@@ -614,6 +616,18 @@
       "alt": "机场指示牌上「国际航线 ククチェソン」与「국제선」并列",
       "intended": "国際線",
       "misread": "ククチェソン"
+    },
+    "britian": {
+      "description": "棕色旅游指示牌把「ss Great Britain」印成「ss Great Britian」，少了一个a。",
+      "alt": "写着「ss Great Britian」的棕色路牌",
+      "intended": "Great Britain",
+      "misread": "Great Britian"
+    },
+    "paulente": {
+      "description": "泽西岛的路牌把「La Pulente」写成「La Paulente」，多了一个a。",
+      "alt": "泽西岛写着「La Paulente」的路牌",
+      "intended": "La Pulente",
+      "misread": "La Paulente"
     }
   }
 }

@@ -29,7 +29,8 @@
     "damage": "破損",
     "korean": "韓国語",
     "chinese": "中国語",
-    "japanese": "日本語"
+    "japanese": "日本語",
+    "english": "英語"
   },
   "search": {
     "placeholder": "コレクションを検索",
@@ -69,7 +70,8 @@
     "wording": "誤用",
     "unfamiliar": "不慣れ",
     "translation": "翻訳",
-    "damage": "破損"
+    "damage": "破損",
+    "english": "英語"
   },
   "credits": {
     "photo-by": "写真：{name}",
@@ -614,6 +616,18 @@
       "alt": "「国際線 ククチェソン」と「국제선」が並ぶ空港の案内板",
       "intended": "国際線",
       "misread": "ククチェソン"
+    },
+    "britian": {
+      "description": "観光用の茶色い標識は「ss Great Britain」と書くところを「ss Great Britian」と印字した。",
+      "alt": "「ss Great Britian」と書かれた茶色の道路標識",
+      "intended": "Great Britain",
+      "misread": "Great Britian"
+    },
+    "paulente": {
+      "description": "ジャージー島の道路標識は「La Pulente」を「La Paulente」と表記した。",
+      "alt": "「La Paulente」と書かれたジャージー島の道路標識",
+      "intended": "La Pulente",
+      "misread": "La Paulente"
     }
   }
 }
