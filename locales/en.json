@@ -584,6 +584,12 @@
       "alt": "Menu boards pairing 蘿蔔生菜雙拼 with “Radish and lettuce double fight”",
       "intended": "雙拼",
       "misread": "double fight"
+    },
+    "cold-is-self": {
+      "description": "お冷はセルフサービスです says the cold water is self-service; the English line makes it “cold is self”, as if the self were a temperature.",
+      "alt": "A sign reading お冷はセルフサービスです above “cold is self・冷是自己”",
+      "intended": "セルフサービス",
+      "misread": "cold is self"
     }
   }
 }

@@ -584,6 +584,12 @@
       "alt": "「蘿蔔生菜雙拼」と「Radish and lettuce double fight」を並べたメニュー写真",
       "intended": "雙拼",
       "misread": "double fight"
+    },
+    "cold-is-self": {
+      "description": "「お冷はセルフサービスです」の英訳が「cold is self」。冷たい水はセルフという案内が、「冷たいのは自分自身」になってしまった。",
+      "alt": "「お冷はセルフサービスです」と「cold is self・冷是自己」が並ぶ看板",
+      "intended": "セルフサービス",
+      "misread": "cold is self"
     }
   }
 }
