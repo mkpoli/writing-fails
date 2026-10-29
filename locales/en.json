@@ -666,6 +666,12 @@
       "alt": "Two street signs, G. Donizetti above and G. Donizzetti below",
       "intended": "via Donizetti",
       "misread": "via Donizzetti"
+    },
+    "observatoly": {
+      "description": "A Hong Kong street plate prints Observatory Road as Observatoly Road; the department said a contractor copied an old, scratched marker.",
+      "alt": "A street sign reading Observatoly Road above 天文臺道",
+      "intended": "Observatory Road",
+      "misread": "Observatoly Road"
     }
   }
 }

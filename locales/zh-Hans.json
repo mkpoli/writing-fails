@@ -666,6 +666,12 @@
       "alt": "上下对照的「G. Donizetti」与「G. Donizzetti」路牌",
       "intended": "via Donizetti",
       "misread": "via Donizzetti"
+    },
+    "observatoly": {
+      "description": "香港的路牌把「Observatory Road」写成「Observatoly Road」，路政署称承办商参照了旧而刮花的标牌。",
+      "alt": "写着「Observatoly Road」与「天文臺道」的路牌",
+      "intended": "Observatory Road",
+      "misread": "Observatoly Road"
     }
   }
 }

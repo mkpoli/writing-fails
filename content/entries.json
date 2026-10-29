@@ -1898,5 +1898,25 @@
     },
     "reading": null,
     "keywords": "Italian sign via Donizetti Donizzetti Brembate typo"
+  },
+  {
+    "id": "observatoly",
+    "number": 96,
+    "type": "sign",
+    "language": "english",
+    "kind": "typo",
+    "title": "Observatoly Road",
+    "titleLang": "en",
+    "image": {
+      "src": "assets/observatoly.jpg",
+      "href": "https://www.scmp.com/news/hong-kong/society/article/3360240/observatoly-street-sign-error-prompts-highways-department-review-checks"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "SCMP",
+      "href": "https://www.scmp.com/news/hong-kong/society/article/3360240/observatoly-street-sign-error-prompts-highways-department-review-checks"
+    },
+    "reading": null,
+    "keywords": "English sign Observatory Road Observatoly Hong Kong typo"
   }
 ]
