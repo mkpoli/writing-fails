@@ -672,6 +672,12 @@
       "alt": "'Observatoly Road'와 '天文臺道'가 나란히 적힌 도로 표지판",
       "intended": "Observatory Road",
       "misread": "Observatoly Road"
+    },
+    "visivting": {
+      "description": "로젤 다리의 환영 현수막이 'Thanks for visivting'으로 적혀, visiting의 두 번째 i가 v가 되었다.",
+      "alt": "'Thanks for visivting'이 적힌 현수막",
+      "intended": "visiting",
+      "misread": "visivting"
     }
   }
 }

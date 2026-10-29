@@ -1918,5 +1918,25 @@
     },
     "reading": null,
     "keywords": "English sign Observatory Road Observatoly Hong Kong typo"
+  },
+  {
+    "id": "visivting",
+    "number": 97,
+    "type": "banner",
+    "language": "english",
+    "kind": "typo",
+    "title": "visivting",
+    "titleLang": "en",
+    "image": {
+      "src": "assets/visivting.jpg",
+      "href": "https://newjersey.news12.com/2026/10/06/roselle-gets-the-last-word-misspelled-visivting-sign-fixed/5hQknMwGcHKcSmTeLMIpwy"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "NEWS 12 NEW JERSEY",
+      "href": "https://newjersey.news12.com/2026/10/06/roselle-gets-the-last-word-misspelled-visivting-sign-fixed/5hQknMwGcHKcSmTeLMIpwy"
+    },
+    "reading": null,
+    "keywords": "English banner visiting visivting Roselle typo"
   }
 ]
