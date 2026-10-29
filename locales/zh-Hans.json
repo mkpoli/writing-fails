@@ -31,7 +31,8 @@
     "chinese": "中文",
     "japanese": "日语",
     "english": "英语",
-    "spanish": "西班牙语"
+    "spanish": "西班牙语",
+    "french": "法语"
   },
   "search": {
     "placeholder": "搜索合集",
@@ -73,7 +74,8 @@
     "translation": "翻译",
     "damage": "破损",
     "english": "英语",
-    "spanish": "西班牙语"
+    "spanish": "西班牙语",
+    "french": "法语"
   },
   "credits": {
     "photo-by": "图片：{name}",
@@ -642,6 +644,12 @@
       "alt": "写着「Rue St. Patick Street」的渥太华路牌",
       "intended": "St. Patrick",
       "misread": "St. Patick"
+    },
+    "neufchateau": {
+      "description": "莱格利斯的路牌把「Neufchâteau」写成「Neuchâteau」，少了一个f，从2020年一直挂到有司机举报。",
+      "alt": "写着「Neuchâteau」的蓝色公路指示牌",
+      "intended": "Neufchâteau",
+      "misread": "Neuchâteau"
     }
   }
 }

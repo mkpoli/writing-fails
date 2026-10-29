@@ -31,7 +31,8 @@
     "chinese": "Chinese",
     "japanese": "Japanese",
     "english": "English",
-    "spanish": "Spanish"
+    "spanish": "Spanish",
+    "french": "French"
   },
   "search": {
     "placeholder": "Search the collection",
@@ -73,7 +74,8 @@
     "translation": "TRANSLATION",
     "damage": "DAMAGE",
     "english": "English",
-    "spanish": "Spanish"
+    "spanish": "Spanish",
+    "french": "French"
   },
   "credits": {
     "photo-by": "PHOTO BY {name}",
@@ -642,6 +644,12 @@
       "alt": "A green Ottawa street sign reading Rue St. Patick Street",
       "intended": "St. Patrick",
       "misread": "St. Patick"
+    },
+    "neufchateau": {
+      "description": "A sign at Léglise pointed to Neuchâteau — Neufchâteau minus its f — and stood that way from 2020 until a driver reported it.",
+      "alt": "A blue motorway sign reading Neuchâteau",
+      "intended": "Neufchâteau",
+      "misread": "Neuchâteau"
     }
   }
 }
