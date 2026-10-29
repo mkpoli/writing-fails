@@ -32,7 +32,8 @@
     "japanese": "Japanese",
     "english": "English",
     "spanish": "Spanish",
-    "french": "French"
+    "french": "French",
+    "german": "German"
   },
   "search": {
     "placeholder": "Search the collection",
@@ -75,7 +76,8 @@
     "damage": "DAMAGE",
     "english": "English",
     "spanish": "Spanish",
-    "french": "French"
+    "french": "French",
+    "german": "German"
   },
   "credits": {
     "photo-by": "PHOTO BY {name}",
@@ -650,6 +652,12 @@
       "alt": "A blue motorway sign reading Neuchâteau",
       "intended": "Neufchâteau",
       "misread": "Neuchâteau"
+    },
+    "weisenfels": {
+      "description": "An overhead sign on the B91 sends drivers to Weisenfels, while the plate beside it reads Weißenfels-Süd — the town name lost its ß.",
+      "alt": "An overhead sign reading Weisenfels, with a neighbouring plate reading Weißenfels-Süd",
+      "intended": "Weißenfels",
+      "misread": "Weisenfels"
     }
   }
 }

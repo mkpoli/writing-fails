@@ -32,7 +32,8 @@
     "japanese": "일본어",
     "english": "영어",
     "spanish": "스페인어",
-    "french": "프랑스어"
+    "french": "프랑스어",
+    "german": "독일어"
   },
   "search": {
     "placeholder": "컬렉션 검색",
@@ -75,7 +76,8 @@
     "damage": "훼손",
     "english": "영어",
     "spanish": "스페인어",
-    "french": "프랑스어"
+    "french": "프랑스어",
+    "german": "독일어"
   },
   "credits": {
     "photo-by": "사진: {name}",
@@ -650,6 +652,12 @@
       "alt": "'Neuchâteau'라고 적힌 파란 도로 표지판",
       "intended": "Neufchâteau",
       "misread": "Neuchâteau"
+    },
+    "weisenfels": {
+      "description": "B91 도로의 머리 위 표지판이 'Weißenfels'를 'Weisenfels'로 적었다. 옆 표지판은 'Weißenfels-Süd'로 바르게 적혀 있다.",
+      "alt": "'Weisenfels'가 적힌 표지판과 옆의 'Weißenfels-Süd'",
+      "intended": "Weißenfels",
+      "misread": "Weisenfels"
     }
   }
 }

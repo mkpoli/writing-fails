@@ -32,7 +32,8 @@
     "japanese": "日语",
     "english": "英语",
     "spanish": "西班牙语",
-    "french": "法语"
+    "french": "法语",
+    "german": "德语"
   },
   "search": {
     "placeholder": "搜索合集",
@@ -75,7 +76,8 @@
     "damage": "破损",
     "english": "英语",
     "spanish": "西班牙语",
-    "french": "法语"
+    "french": "法语",
+    "german": "德语"
   },
   "credits": {
     "photo-by": "图片：{name}",
@@ -650,6 +652,12 @@
       "alt": "写着「Neuchâteau」的蓝色公路指示牌",
       "intended": "Neufchâteau",
       "misread": "Neuchâteau"
+    },
+    "weisenfels": {
+      "description": "B91公路的高架路牌把「Weißenfels」写成「Weisenfels」，旁边的路牌却正确写着「Weißenfels-Süd」。",
+      "alt": "写着「Weisenfels」的路牌，旁边是「Weißenfels-Süd」",
+      "intended": "Weißenfels",
+      "misread": "Weisenfels"
     }
   }
 }
