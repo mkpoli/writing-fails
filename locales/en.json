@@ -560,6 +560,12 @@
       "alt": "A red signboard reading 美味 豬排屋 with three lunch lines set as うンチ",
       "intended": "ランチ",
       "misread": "うンチ"
+    },
+    "noppo": {
+      "description": "Noppo-kun’s profile card gives his height as 10.5m. The unit should be centimetres, which makes the hamster more than ten metres tall.",
+      "alt": "The shop’s notice comparing the card reading 10.5m with the corrected 10.5cm",
+      "intended": "10.5cm",
+      "misread": "10.5m"
     }
   }
 }
