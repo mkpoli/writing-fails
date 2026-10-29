@@ -18,6 +18,10 @@ Opening `index.html` from disk shows the English page, but its language links ne
 
 The favicon and app icons live in `assets/`, with `favicon.ico` at the root for older clients. The build writes a manifest for each language.
 
+## Metadata
+
+Each page is built with canonical and hreflang links, Open Graph and Twitter metadata, and JSON-LD. The social cards live in `assets/og/`. The build also writes `sitemap.xml` and `robots.txt`.
+
 ## Development
 
 ```sh
