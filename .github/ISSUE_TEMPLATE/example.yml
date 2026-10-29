@@ -1,5 +1,5 @@
 name: Submit an example
-description: Share a documented writing-direction or layout misunderstanding.
+description: Share a documented writing-direction, layout or translation misunderstanding.
 title: "Example: "
 body:
   - type: input
