@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Writing fails">
+<title>Writing fails</title>
+<defs><clipPath id="tile"><rect x="32" y="32" width="960" height="960" rx="224"/></clipPath></defs>
+<g clip-path="url(#tile)">
+<rect x="32" y="32" width="960" height="960" fill="#171b1c"/>
+<g transform="translate(238.1 724.75) scale(0.55 -0.55)"><path d="M40 626 49 598H263C296 422 355 286 438 180C339 76 204 -12 30 -77L36 -88C228 -44 378 26 495 117C587 23 703 -43 838 -91C860 -32 904 4 964 12L966 24C821 58 686 109 573 187C686 301 758 440 798 598H933C948 598 958 603 961 614C915 657 835 721 835 721L764 626H560V805C587 808 595 818 597 832L439 845V626ZM281 598H652C627 471 576 352 496 248C398 335 323 449 281 598Z" fill="#f7f6f4"/></g>
+<g fill="none" stroke="#8aa39a" stroke-width="54" stroke-linecap="round" stroke-linejoin="round">
+<path d="M786 792 L894 900"/>
+<path d="M812 900 H894 V818"/>
+</g>
+</g>
+</svg>

@@ -14,6 +14,10 @@ python3 -m http.server
 
 Opening `index.html` from disk shows the English page, but its language links need the server.
 
+## Icons
+
+The favicon and app icons live in `assets/`, with `favicon.ico` at the root for older clients. The build writes a manifest for each language.
+
 ## Development
 
 ```sh

@@ -69,6 +69,11 @@ function head(locale, prefix) {
 <link rel="canonical" href="${site}/${locale.path}">
 ${alternates}
 <link rel="alternate" hreflang="x-default" href="${site}/">
+<link rel="icon" href="${prefix}favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="${prefix}assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="${prefix}assets/apple-touch-icon.png" sizes="180x180">
+<link rel="manifest" href="./site.webmanifest">
+<meta name="theme-color" content="#f7f6f4">
 <meta property="og:type" content="website">
 <meta property="og:title" content="${esc(t(locale.code, 'meta.title'))}">
 <meta property="og:description" content="${esc(t(locale.code, 'meta.description'))}">
@@ -157,9 +162,33 @@ ${entries.map(entry => card(entry, locale)).join('\n')}
 `
 }
 
+function webManifest(locale) {
+  return `${JSON.stringify({
+    id: '/',
+    name: t(locale.code, 'meta.title'),
+    short_name: brand,
+    description: t(locale.code, 'meta.description'),
+    lang: locale.code,
+    start_url: `/${locale.path}`,
+    scope: '/',
+    display: 'standalone',
+    background_color: '#f7f6f4',
+    theme_color: '#f7f6f4',
+    icons: [
+      { src: '/assets/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
+      { src: '/assets/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
+      { src: '/assets/icon-maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+    ],
+  }, null, 2)}\n`
+}
+
 for (const locale of locales) {
-  const out = join(root, locale.path, 'index.html')
-  mkdirSync(dirname(out), { recursive: true })
-  writeFileSync(out, page(locale))
+  const dir = join(root, locale.path)
+  mkdirSync(dir, { recursive: true })
+
+  writeFileSync(join(dir, 'index.html'), page(locale))
   console.log(`wrote ${locale.path || './'}index.html`)
+
+  writeFileSync(join(dir, 'site.webmanifest'), webManifest(locale))
+  console.log(`wrote ${locale.path || './'}site.webmanifest`)
 }
