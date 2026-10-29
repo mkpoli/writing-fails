@@ -602,6 +602,12 @@
       "alt": "A slip reading 固障 stuck to a shop counter",
       "intended": "故障",
       "misread": "固障"
+    },
+    "wuxian": {
+      "description": "A campaign billboard promised 你＋台北 就是無限 but went up as 就無是限, with 是 and 無 swapped, so the slogan stops parsing.",
+      "alt": "A campaign billboard reading 台北 就無是限, circled in red",
+      "intended": "就是無限",
+      "misread": "就無是限"
     }
   }
 }
