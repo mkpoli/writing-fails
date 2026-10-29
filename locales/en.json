@@ -547,6 +547,12 @@
       "alt": "A construction sign reading ご迷惑をお願いします above 原状回復工事を行っています",
       "intended": "ご迷惑をおかけします",
       "misread": "ご迷惑をお願いします"
+    },
+    "unchi": {
+      "description": "The pork-chop shop 豬排屋 lists 極上, 絶品中華 and 和風 lunches, but every ラ came out as う: 極上うンチ, 絶品中華うンチ and 和風うンチ.",
+      "alt": "A red signboard reading 美味 豬排屋 with three lunch lines set as うンチ",
+      "intended": "ランチ",
+      "misread": "うンチ"
     }
   }
 }

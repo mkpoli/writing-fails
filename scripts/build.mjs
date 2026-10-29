@@ -96,15 +96,22 @@ function card(entry, locale) {
   const creditLabel = creditParts.length === 2
     ? format(esc(t(code, 'credits.via')), { a: esc(creditParts[0]), b: esc(creditParts[1]) })
     : esc(entry.credit.label)
+  const creditName = entry.credit.href
+    ? `<a href="${esc(entry.credit.href)}">${creditLabel} ↗</a>`
+    : creditLabel
   const credit = format(esc(t(code, `credits.${entry.credit.role}`)), {
-    name: `<a href="${esc(entry.credit.href)}">${creditLabel} ↗</a>`,
+    name: creditName,
   })
   const reading = entry.reading
     ? `<a href="${esc(entry.reading)}">${esc(t(code, 'reading'))} ↗</a>`
     : ''
+  const imageInner = `<img src="${localePrefix(code)}${esc(entry.image.src)}" alt="${esc(t(code, `entries.${entry.id}.alt`))}" loading="lazy"><span class="image-index">${String(entry.number).padStart(2, '0')} / ${esc(t(code, `types.${entry.type}`))}</span>`
+  const image = entry.image.href
+    ? `<a class="card-image" href="${esc(entry.image.href)}">${imageInner}<span class="image-link">↗</span></a>`
+    : `<div class="card-image">${imageInner}</div>`
 
   return `<article class="card" data-lang="${entry.language}" data-topics="${entry.topics.join(' ')}" data-keywords="${esc(entry.keywords)}">
-<a class="card-image" href="${esc(entry.image.href)}"><img src="${localePrefix(code)}${esc(entry.image.src)}" alt="${esc(t(code, `entries.${entry.id}.alt`))}" loading="lazy"><span class="image-index">${String(entry.number).padStart(2, '0')} / ${esc(t(code, `types.${entry.type}`))}</span><span class="image-link">↗</span></a>
+${image}
 <div class="card-content">
 <div class="tags">${tagsHtml}</div>
 <h3 lang="${entry.titleLang}">${esc(entry.title)}</h3>

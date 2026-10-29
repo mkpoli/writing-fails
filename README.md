@@ -4,7 +4,7 @@ A collection of accidental readings caused by writing direction, layout or trans
 
 ## Languages
 
-English is at `/`, Japanese at `/ja/`, Simplified Chinese at `/zh/` and Korean at `/ko/`. Each page is generated from `content/entries.json` and the message catalogues in `locales/`. Images are credited and linked to their sources in the gallery.
+English is at `/`, Japanese at `/ja/`, Simplified Chinese at `/zh/` and Korean at `/ko/`. Each page is generated from `content/entries.json` and the message catalogues in `locales/`. Images are credited, and linked to their sources where a public one exists.
 
 Serve the directory with any HTTP server to move between languages:
 

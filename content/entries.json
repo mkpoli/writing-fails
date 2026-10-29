@@ -1770,5 +1770,29 @@
     },
     "reading": null,
     "keywords": "Japanese Signs wording ご迷惑をお願いします construction sign"
+  },
+  {
+    "id": "unchi",
+    "number": 79,
+    "type": "sign",
+    "language": "japanese",
+    "topics": [
+      "signs",
+      "wording",
+      "bad-meaning"
+    ],
+    "title": "うンチ",
+    "titleLang": "ja",
+    "image": {
+      "src": "assets/unchi-sign.jpg",
+      "href": null
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "TELEGRAM",
+      "href": null
+    },
+    "reading": null,
+    "keywords": "Japanese Signs wording ランチ うンチ 看板 豬排屋 typo Bad meaning"
   }
 ]
