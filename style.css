@@ -82,3 +82,27 @@ html:lang(ja) .filters .filter-label,html:lang(zh-Hans) .filters .filter-label,h
 .filters-lang{flex-wrap:nowrap}
 @media(max-width:1499px){.toolbar{display:block;padding-bottom:12px}.toolbar-end{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin:10px 0 0}.search{border-top:0;padding-top:0}}
 @media(max-width:800px){.filters button{padding-inline:6px}.filters button span{display:none}}
+
+/* Toolbar groups: language filters and search share one row on wide screens. */
+.toolbar-end{display:flex;align-items:center;gap:18px;min-width:0;flex-wrap:wrap}
+.filter-label{font:700 9px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:#8b887e;padding:0 8px 0 0;align-self:center}
+@media(max-width:1239px){
+  .toolbar-end{display:block;margin-top:8px}
+  .filters-lang{flex-wrap:wrap}
+  .filter-label{padding:0 0 6px}
+  .search{margin-top:10px}
+  .search input{flex:1;width:auto;min-width:0}
+  .toolbar .filters button{padding:11px 10px;font-size:11.5px}
+  .filters button span{margin-left:4px}
+}
+
+/* Hover description: the lower half of the photo, faded so the sign stays visible. */
+@media(hover:hover) and (min-width:605px){
+  .card p{position:absolute;top:0;left:0;right:0;height:300px;min-height:0;flex:none;margin:0;padding:186px 16px 14px;
+    background:linear-gradient(180deg,rgba(20,22,20,0) 0%,rgba(20,22,20,.42) 46%,rgba(20,22,20,.88) 100%);
+    color:#f6f4ee;font-size:13px;line-height:1.55;text-shadow:0 1px 2px rgba(0,0,0,.35);
+    opacity:0;transition:opacity .16s ease;pointer-events:none;overflow:hidden;
+    display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical}
+  .card:hover p,.card:focus-within p{opacity:1}
+  @media(prefers-reduced-motion:reduce){.card p{transition:none}}
+}
