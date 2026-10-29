@@ -1747,5 +1747,28 @@
     },
     "reading": null,
     "keywords": "Japanese Signs wording 高市早苗 高市早笛 signboard"
+  },
+  {
+    "id": "meiwaku",
+    "number": 78,
+    "type": "sign",
+    "language": "japanese",
+    "topics": [
+      "signs",
+      "wording"
+    ],
+    "title": "ご迷惑をお願いします",
+    "titleLang": "ja",
+    "image": {
+      "src": "assets/meiwaku.jpg",
+      "href": "https://nlab.itmedia.co.jp/cont/articles/4011094/"
+    },
+    "credit": {
+      "role": "photo",
+      "label": "@SAMELOVE0609 VIA ねとらぼ",
+      "href": "https://nlab.itmedia.co.jp/cont/articles/4011094/"
+    },
+    "reading": null,
+    "keywords": "Japanese Signs wording ご迷惑をお願いします construction sign"
   }
 ]

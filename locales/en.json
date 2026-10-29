@@ -541,6 +541,12 @@
       "alt": "A rally signboard reading 高市 早笛",
       "intended": "高市早苗",
       "misread": "高市早笛"
+    },
+    "meiwaku": {
+      "description": "A construction sign merges ご迷惑をおかけします and ご協力をお願いします into ご迷惑をお願いします—“please be inconvenienced”.",
+      "alt": "A construction sign reading ご迷惑をお願いします above 原状回復工事を行っています",
+      "intended": "ご迷惑をおかけします",
+      "misread": "ご迷惑をお願いします"
     }
   }
 }
