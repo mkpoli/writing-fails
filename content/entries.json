@@ -1678,5 +1678,25 @@
     },
     "reading": null,
     "keywords": "Japanese sign お冷 セルフサービス cold is self translation"
+  },
+  {
+    "id": "faan",
+    "number": 85,
+    "type": "menu",
+    "language": "chinese",
+    "kind": "typo",
+    "title": "咖喱肉片反",
+    "titleLang": "zh-Hant",
+    "image": {
+      "src": "assets/faan.jpg",
+      "href": "https://www.dotdotnews.com/a/202609/17/AP6aabd6dce4b02724bdb4cabd.html"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "點新聞",
+      "href": "https://www.dotdotnews.com/a/202609/17/AP6aabd6dce4b02724bdb4cabd.html"
+    },
+    "reading": null,
+    "keywords": "Chinese menu 飯 反 咖喱肉片反 handwritten board typo"
   }
 ]

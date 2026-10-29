@@ -590,6 +590,12 @@
       "alt": "A sign reading お冷はセルフサービスです above “cold is self・冷是自己”",
       "intended": "セルフサービス",
       "misread": "cold is self"
+    },
+    "faan": {
+      "description": "The handwritten fast-food board ends every rice dish in 反, “reverse”, where 飯, rice, belongs, so curry pork slices become 咖喱肉片反.",
+      "alt": "A handwritten fast-food board listing 咖喱肉片反 and 雞反",
+      "intended": "咖喱肉片飯",
+      "misread": "咖喱肉片反"
     }
   }
 }
