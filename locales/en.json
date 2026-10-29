@@ -29,7 +29,8 @@
     "damage": "Damage",
     "korean": "Korean",
     "chinese": "Chinese",
-    "japanese": "Japanese"
+    "japanese": "Japanese",
+    "english": "English"
   },
   "search": {
     "placeholder": "Search the collection",
@@ -69,7 +70,8 @@
     "wording": "WORDING",
     "unfamiliar": "UNFAMILIAR",
     "translation": "TRANSLATION",
-    "damage": "DAMAGE"
+    "damage": "DAMAGE",
+    "english": "English"
   },
   "credits": {
     "photo-by": "PHOTO BY {name}",
@@ -614,6 +616,18 @@
       "alt": "An airport sign pairing 国际航线 ククチェソン with 국제선",
       "intended": "国際線",
       "misread": "ククチェソン"
+    },
+    "britian": {
+      "description": "The brown tourist sign points to the ss Great Britain but prints it Great Britian, one letter short of the ship.",
+      "alt": "A brown road sign reading ss Great Britian",
+      "intended": "Great Britain",
+      "misread": "Great Britian"
+    },
+    "paulente": {
+      "description": "A Jersey road sign sends drivers to La Paulente; the coastal slipway it means is La Pulente.",
+      "alt": "A Jersey road sign listing La Paulente",
+      "intended": "La Pulente",
+      "misread": "La Paulente"
     }
   }
 }

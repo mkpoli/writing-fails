@@ -29,7 +29,8 @@
     "damage": "훼손",
     "korean": "한국어",
     "chinese": "중국어",
-    "japanese": "일본어"
+    "japanese": "일본어",
+    "english": "영어"
   },
   "search": {
     "placeholder": "컬렉션 검색",
@@ -69,7 +70,8 @@
     "wording": "표현",
     "unfamiliar": "미숙",
     "translation": "번역",
-    "damage": "훼손"
+    "damage": "훼손",
+    "english": "영어"
   },
   "credits": {
     "photo-by": "사진: {name}",
@@ -614,6 +616,18 @@
       "alt": "'国际航线 ククチェソン'과 '국제선'이 나란히 적힌 공항 안내판",
       "intended": "国際線",
       "misread": "ククチェソン"
+    },
+    "britian": {
+      "description": "관광 안내 표지판이 'ss Great Britain'을 'ss Great Britian'으로 인쇄했다.",
+      "alt": "'ss Great Britian'이 적힌 갈색 도로 표지판",
+      "intended": "Great Britain",
+      "misread": "Great Britian"
+    },
+    "paulente": {
+      "description": "저지섬 도로 표지판이 'La Pulente'를 'La Paulente'로 적었다.",
+      "alt": "'La Paulente'가 적힌 저지섬 도로 표지판",
+      "intended": "La Pulente",
+      "misread": "La Paulente"
     }
   }
 }
