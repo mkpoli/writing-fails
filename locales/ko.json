@@ -30,7 +30,8 @@
     "korean": "한국어",
     "chinese": "중국어",
     "japanese": "일본어",
-    "english": "영어"
+    "english": "영어",
+    "spanish": "스페인어"
   },
   "search": {
     "placeholder": "컬렉션 검색",
@@ -71,7 +72,8 @@
     "unfamiliar": "미숙",
     "translation": "번역",
     "damage": "훼손",
-    "english": "영어"
+    "english": "영어",
+    "spanish": "스페인어"
   },
   "credits": {
     "photo-by": "사진: {name}",
@@ -628,6 +630,12 @@
       "alt": "'La Paulente'가 적힌 저지섬 도로 표지판",
       "intended": "La Pulente",
       "misread": "La Paulente"
+    },
+    "consejales": {
+      "description": "루케 시의 안내판은 시의원을 'CONSEJALES'로 적었다. 바른 스페인어는 'concejales'이며 c가 하나 빠졌다.",
+      "alt": "'CONSEJALES'를 빨간 동그라미로 표시한 시 안내판",
+      "intended": "CONCEJALES",
+      "misread": "CONSEJALES"
     }
   }
 }
