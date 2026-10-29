@@ -1798,5 +1798,25 @@
     },
     "reading": null,
     "keywords": "English sign La Pulente La Paulente Jersey road typo"
+  },
+  {
+    "id": "consejales",
+    "number": 91,
+    "type": "sign",
+    "language": "spanish",
+    "kind": "typo",
+    "title": "CONSEJALES",
+    "titleLang": "es",
+    "image": {
+      "src": "assets/consejales.jpg",
+      "href": "https://www.rdn.com.py/2026/03/05/luque-error-ortografico-en-cartel-se-vuelve-viral/"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "RDN",
+      "href": "https://www.rdn.com.py/2026/03/05/luque-error-ortografico-en-cartel-se-vuelve-viral/"
+    },
+    "reading": null,
+    "keywords": "Spanish sign concejales consejales Luque typo"
   }
 ]

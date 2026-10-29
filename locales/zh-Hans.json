@@ -30,7 +30,8 @@
     "korean": "韩语",
     "chinese": "中文",
     "japanese": "日语",
-    "english": "英语"
+    "english": "英语",
+    "spanish": "西班牙语"
   },
   "search": {
     "placeholder": "搜索合集",
@@ -71,7 +72,8 @@
     "unfamiliar": "生疏",
     "translation": "翻译",
     "damage": "破损",
-    "english": "英语"
+    "english": "英语",
+    "spanish": "西班牙语"
   },
   "credits": {
     "photo-by": "图片：{name}",
@@ -628,6 +630,12 @@
       "alt": "泽西岛写着「La Paulente」的路牌",
       "intended": "La Pulente",
       "misread": "La Paulente"
+    },
+    "consejales": {
+      "description": "卢克市的指示牌把市议员写成「CONSEJALES」，正确的西班牙语是「concejales」，少了一个c。",
+      "alt": "用红圈标出「CONSEJALES」的市政指示牌",
+      "intended": "CONCEJALES",
+      "misread": "CONSEJALES"
     }
   }
 }

@@ -30,7 +30,8 @@
     "korean": "Korean",
     "chinese": "Chinese",
     "japanese": "Japanese",
-    "english": "English"
+    "english": "English",
+    "spanish": "Spanish"
   },
   "search": {
     "placeholder": "Search the collection",
@@ -71,7 +72,8 @@
     "unfamiliar": "UNFAMILIAR",
     "translation": "TRANSLATION",
     "damage": "DAMAGE",
-    "english": "English"
+    "english": "English",
+    "spanish": "Spanish"
   },
   "credits": {
     "photo-by": "PHOTO BY {name}",
@@ -628,6 +630,12 @@
       "alt": "A Jersey road sign listing La Paulente",
       "intended": "La Pulente",
       "misread": "La Paulente"
+    },
+    "consejales": {
+      "description": "A municipal directory in Luque lists the councillors as CONSEJALES; the Spanish word is concejales, and the missing c is the story.",
+      "alt": "A municipal directory with CONSEJALES circled in red",
+      "intended": "CONCEJALES",
+      "misread": "CONSEJALES"
     }
   }
 }

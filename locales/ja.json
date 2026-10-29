@@ -30,7 +30,8 @@
     "korean": "韓国語",
     "chinese": "中国語",
     "japanese": "日本語",
-    "english": "英語"
+    "english": "英語",
+    "spanish": "スペイン語"
   },
   "search": {
     "placeholder": "コレクションを検索",
@@ -71,7 +72,8 @@
     "unfamiliar": "不慣れ",
     "translation": "翻訳",
     "damage": "破損",
-    "english": "英語"
+    "english": "英語",
+    "spanish": "スペイン語"
   },
   "credits": {
     "photo-by": "写真：{name}",
@@ -628,6 +630,12 @@
       "alt": "「La Paulente」と書かれたジャージー島の道路標識",
       "intended": "La Pulente",
       "misread": "La Paulente"
+    },
+    "consejales": {
+      "description": "ルケ市の案内板は市議会議員を「CONSEJALES」と表記した。正しくは「concejales」で、cが一つ抜けている。",
+      "alt": "「CONSEJALES」を赤丸で囲んだ市の案内板",
+      "intended": "CONCEJALES",
+      "misread": "CONSEJALES"
     }
   }
 }
