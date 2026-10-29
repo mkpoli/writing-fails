@@ -2,7 +2,7 @@
   "id": "/",
   "name": "Writing fails: 잘못 읽힌 글자들",
   "short_name": "Writing fails",
-  "description": "읽는 방향과 배치, 번역 실수 때문에 생긴 잘못된 읽기를 모은 사이트.",
+  "description": "읽는 방향과 배치, 글자 모양, 오타, 표현, 낯선 문자, 번역 실수 때문에 생긴 잘못된 읽기를 모은 사이트.",
   "lang": "ko",
   "start_url": "/ko/",
   "scope": "/",

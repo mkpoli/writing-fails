@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Writing fails｜読み違いの記録",
-    "description": "読みの向きやレイアウト、翻訳の取り違えから生まれた誤読を集めたサイト。"
+    "description": "読みの向き、配置、字形、誤字、誤用、不慣れな文字、翻訳の取り違えから生まれた誤読を集めたサイト。"
   },
   "nav": {
     "collection": "コレクション",
@@ -17,15 +17,19 @@
   "filters": {
     "label": "コレクションを絞り込む",
     "all": "すべて{count}",
+    "langLabel": "言語",
+    "direction": "読み方向",
+    "layout": "配置",
+    "flipped": "裏返し・逆さ",
+    "lookalike": "似た字",
+    "typo": "誤字",
+    "wording": "誤用",
+    "unfamiliar": "不慣れ",
+    "translation": "翻訳",
+    "damage": "破損",
     "korean": "韓国語",
     "chinese": "中国語",
-    "japanese": "日本語",
-    "signs": "看板",
-    "layout": "レイアウト",
-    "wording": "表記",
-    "translation": "翻訳",
-    "gibberish": "意味不明",
-    "bad-meaning": "不適切な意味"
+    "japanese": "日本語"
   },
   "search": {
     "placeholder": "コレクションを検索",
@@ -57,12 +61,15 @@
     "korean": "韓国語",
     "chinese": "中国語",
     "japanese": "日本語",
-    "signs": "看板",
-    "layout": "レイアウト",
-    "wording": "表記",
+    "direction": "読み方向",
+    "layout": "配置",
+    "flipped": "裏返し・逆さ",
+    "lookalike": "似た字",
+    "typo": "誤字",
+    "wording": "誤用",
+    "unfamiliar": "不慣れ",
     "translation": "翻訳",
-    "gibberish": "意味不明",
-    "bad-meaning": "不適切な意味"
+    "damage": "破損"
   },
   "credits": {
     "photo-by": "写真：{name}",

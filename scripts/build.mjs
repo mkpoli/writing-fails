@@ -14,10 +14,8 @@ const locales = [
   { code: 'ko', path: 'ko/', label: '한국어', ogLocale: 'ko_KR' },
 ]
 
-const filterKeys = [
-  'all', 'korean', 'chinese', 'japanese', 'signs',
-  'layout', 'wording', 'translation', 'gibberish', 'bad-meaning',
-]
+const kindKeys = ['direction', 'layout', 'flipped', 'lookalike', 'typo', 'wording', 'unfamiliar', 'translation', 'damage']
+const langKeys = ['korean', 'chinese', 'japanese']
 
 const entries = JSON.parse(readFileSync(join(root, 'content/entries.json'), 'utf8'))
 const catalogs = Object.fromEntries(locales.map(locale => [
@@ -43,6 +41,7 @@ const ids = new Set()
 for (const [index, entry] of entries.entries()) {
   if (ids.has(entry.id)) throw new Error(`Duplicate entry id: ${entry.id}`)
   if (entry.number !== index + 1) throw new Error(`Entry ${entry.id} is out of order`)
+  if (!kindKeys.includes(entry.kind)) throw new Error(`Unknown kind on ${entry.id}: ${entry.kind}`)
   ids.add(entry.id)
 }
 
@@ -88,7 +87,7 @@ ${ogAlternates}
 
 function card(entry, locale) {
   const code = locale.code
-  const tags = [entry.language, ...entry.topics]
+  const tags = [entry.language, entry.kind]
   const tagsHtml = tags
     .map(tag => `<span>${esc(t(code, `tags.${tag}`))}</span>`)
     .join('')
@@ -110,7 +109,7 @@ function card(entry, locale) {
     ? `<a class="card-image" href="${esc(entry.image.href)}">${imageInner}<span class="image-link">↗</span></a>`
     : `<div class="card-image">${imageInner}</div>`
 
-  return `<article class="card" data-lang="${entry.language}" data-topics="${entry.topics.join(' ')}" data-keywords="${esc(entry.keywords)}">
+  return `<article class="card" data-lang="${entry.language}" data-kind="${entry.kind}" data-keywords="${esc(entry.keywords)}">
 ${image}
 <div class="card-content">
 <div class="tags">${tagsHtml}</div>
@@ -129,12 +128,18 @@ function localePrefix(code) {
 function page(locale) {
   const prefix = localePrefix(locale.code)
   const code = locale.code
-  const filters = filterKeys.map(key => {
-    const label = key === 'all'
-      ? esc(t(code, 'filters.all')).replace('{count}', `<span>${entries.length}</span>`)
-      : esc(t(code, `filters.${key}`))
-    return `<button${key === 'all' ? ' class="active"' : ''} aria-pressed="${key === 'all'}" data-filter="${key}">${label}</button>`
-  }).join('')
+  const kindCounts = Object.fromEntries(kindKeys.map(key => [
+    key,
+    entries.filter(entry => entry.kind === key).length,
+  ]))
+  const kindFilters = [
+    `<button class="active" aria-pressed="true" data-facet="all" data-filter="all">${esc(t(code, 'filters.all')).replace('{count}', `<span>${entries.length}</span>`)}</button>`,
+    ...kindKeys.map(key => `<button aria-pressed="false" data-facet="kind" data-filter="${key}">${esc(t(code, `filters.${key}`))}<span>${kindCounts[key]}</span></button>`),
+  ].join('')
+  const langFilters = [
+    `<span class="filter-label">${esc(t(code, 'filters.langLabel'))}</span>`,
+    ...langKeys.map(key => `<button aria-pressed="false" data-facet="lang" data-filter="${key}">${esc(t(code, `filters.${key}`))}</button>`),
+  ].join('')
 
   return `<!doctype html>
 <html lang="${code}">
@@ -153,8 +158,11 @@ ${head(locale, prefix)}
 <section id="collection" class="collection">
 <div class="section-heading"><div><h1>${brand}</h1><p>${esc(t(code, 'hero.tagline'))}</p></div></div>
 <div class="toolbar">
-<div class="filters" role="group" aria-label="${esc(t(code, 'filters.label'))}">${filters}</div>
+<div class="filters" role="group" aria-label="${esc(t(code, 'filters.label'))}">${kindFilters}</div>
+<div class="toolbar-end">
+<div class="filters filters-lang" role="group" aria-label="${esc(t(code, 'filters.langLabel'))}">${langFilters}</div>
 <label class="search"><span>⌕</span><input id="search" type="search" placeholder="${esc(t(code, 'search.placeholder'))}" aria-label="${esc(t(code, 'search.label'))}"><span class="search-key">/</span></label>
+</div>
 </div>
 <div class="cards">
 ${entries.map(entry => card(entry, locale)).join('\n')}

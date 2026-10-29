@@ -1,10 +1,10 @@
 # Writing fails
 
-A collection of accidental readings caused by writing direction, layout or translation. Browse the gallery at [writing-fails.mkpo.li](https://writing-fails.mkpo.li/) or [submit an example](https://github.com/mkpoli/writing-fails/issues/new?template=example.yml).
+A collection of accidental readings, from flipped signs and bad line breaks to typos and mistranslations. Browse the gallery at [writing-fails.mkpo.li](https://writing-fails.mkpo.li/) or [submit an example](https://github.com/mkpoli/writing-fails/issues/new?template=example.yml).
 
 ## Languages
 
-English is at `/`, Japanese at `/ja/`, Simplified Chinese at `/zh/` and Korean at `/ko/`. Each page is generated from `content/entries.json` and the message catalogues in `locales/`. Images are credited, and linked to their sources where a public one exists.
+English is at `/`, Japanese at `/ja/`, Simplified Chinese at `/zh/` and Korean at `/ko/`. Each page is generated from `content/entries.json` and the message catalogues in `locales/`. Entries carry a language and a kind: direction, layout, flipped, look-alike, typo, wording, unfamiliar, translation or damage. Images are credited, and linked to their sources where a public one exists.
 
 Serve the directory with any HTTP server to move between languages:
 

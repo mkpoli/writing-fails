@@ -4,9 +4,7 @@
     "number": 1,
     "type": "sign",
     "language": "korean",
-    "topics": [
-      "gibberish"
-    ],
+    "kind": "direction",
     "title": "상대임 가지야",
     "titleLang": "ko",
     "image": {
@@ -19,16 +17,14 @@
       "href": "https://x.com/kyomo_ninnin_/status/2114639578623824085"
     },
     "reading": "https://x.com/GengoJiro/status/2114743570225860918",
-    "keywords": "Korean Signs vertical land property Gibberish"
+    "keywords": "Korean Signs vertical land property direction"
   },
   {
     "id": "poem",
     "number": 2,
     "type": "text",
     "language": "chinese",
-    "topics": [
-      "bad-meaning"
-    ],
+    "kind": "direction",
     "title": "吃人吃人",
     "titleLang": "zh-Hans",
     "image": {
@@ -41,16 +37,14 @@
       "href": "https://x.com/Litx4i/status/2114551461640384650"
     },
     "reading": "https://x.com/mkpoli/status/2114746940135289011",
-    "keywords": "Chinese vertical horizontal poem proverb rich poor Bad meaning"
+    "keywords": "Chinese vertical horizontal poem proverb rich poor direction"
   },
   {
     "id": "sign",
     "number": 3,
     "type": "sign",
     "language": "korean",
-    "topics": [
-      "bad-meaning"
-    ],
+    "kind": "direction",
     "title": "탕탕탕탕",
     "titleLang": "ko",
     "image": {
@@ -63,16 +57,14 @@
       "href": "https://x.com/nashshdjfjcj_9/status/2100515620706201674"
     },
     "reading": "https://x.com/sanoyugioh/status/2100796531125465123",
-    "keywords": "Korean Signs horizontal vertical 보추오삼 Bad meaning"
+    "keywords": "Korean Signs horizontal vertical 보추오삼 direction"
   },
   {
     "id": "udon",
     "number": 4,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "gibberish"
-    ],
+    "kind": "direction",
     "title": "そどうばん",
     "titleLang": "ja",
     "image": {
@@ -85,16 +77,14 @@
       "href": "https://www.nanghi.net/?p=2789"
     },
     "reading": null,
-    "keywords": "Japanese Signs vertical horizontal udon soba Gibberish"
+    "keywords": "Japanese Signs vertical horizontal udon soba direction"
   },
   {
     "id": "converter",
     "number": 5,
     "type": "packaging",
     "language": "japanese",
-    "topics": [
-      "bad-meaning"
-    ],
+    "kind": "flipped",
     "title": "HD or エロ?",
     "titleLang": "ja",
     "image": {
@@ -107,16 +97,14 @@
       "href": "https://soranews24.com/2017/07/01/mistaking-vertical-for-horizontal-readings-in-japanese-can-have-hilarious-consequences/"
     },
     "reading": null,
-    "keywords": "Japanese vertical horizontal video converter Bad meaning"
+    "keywords": "Japanese vertical horizontal video converter flipped"
   },
   {
     "id": "meat",
     "number": 6,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "bad-meaning"
-    ],
+    "kind": "direction",
     "title": "やべーこの肉",
     "titleLang": "ja",
     "image": {
@@ -129,16 +117,14 @@
       "href": "https://j-town.net/2018/12/20269589.html?p=all"
     },
     "reading": null,
-    "keywords": "Japanese Signs horizontal reverse Bad meaning"
+    "keywords": "Japanese Signs horizontal reverse direction"
   },
   {
     "id": "menu",
     "number": 7,
     "type": "menu",
     "language": "japanese",
-    "topics": [
-      "gibberish"
-    ],
+    "kind": "direction",
     "title": "ばんばんばん…",
     "titleLang": "ja",
     "image": {
@@ -151,16 +137,14 @@
       "href": "https://maidonanews.jp/article/16317418?page=1"
     },
     "reading": null,
-    "keywords": "Japanese Signs menu horizontal vertical Gibberish"
+    "keywords": "Japanese Signs menu horizontal vertical direction"
   },
   {
     "id": "warning",
     "number": 8,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "gibberish"
-    ],
+    "kind": "direction",
     "title": "台い意",
     "titleLang": "ja",
     "image": {
@@ -173,16 +157,14 @@
       "href": "https://x.com/bojan_intl/status/510418091382034432"
     },
     "reading": null,
-    "keywords": "Japanese Signs horizontal vertical Gibberish"
+    "keywords": "Japanese Signs horizontal vertical direction"
   },
   {
     "id": "pillow",
     "number": 9,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "gibberish"
-    ],
+    "kind": "direction",
     "title": "スま ゴく イら",
     "titleLang": "ja",
     "image": {
@@ -195,16 +177,14 @@
       "href": "https://x.com/paratata/status/419713269448708096"
     },
     "reading": null,
-    "keywords": "Japanese Signs horizontal vertical Gibberish"
+    "keywords": "Japanese Signs horizontal vertical direction"
   },
   {
     "id": "drinks",
     "number": 10,
     "type": "menu",
     "language": "japanese",
-    "topics": [
-      "bad-meaning"
-    ],
+    "kind": "direction",
     "title": "コロン",
     "titleLang": "ja",
     "image": {
@@ -217,16 +197,14 @@
       "href": "https://x.com/iurei_oni/status/2115216985156116545"
     },
     "reading": null,
-    "keywords": "Japanese Signs menu drinks horizontal vertical コロン colon Bad meaning"
+    "keywords": "Japanese Signs menu drinks horizontal vertical コロン colon direction"
   },
   {
     "id": "lift",
     "number": 11,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "gibberish"
-    ],
+    "kind": "direction",
     "title": "リベリ / フヤフ",
     "titleLang": "ja",
     "image": {
@@ -239,16 +217,14 @@
       "href": "https://x.com/iurei_oni/status/2115220860542021745"
     },
     "reading": null,
-    "keywords": "Japanese Signs station vertical horizontal リベリ フヤフ Gibberish"
+    "keywords": "Japanese Signs station vertical horizontal リベリ フヤフ direction"
   },
   {
     "id": "dental",
     "number": 12,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "bad-meaning"
-    ],
+    "kind": "direction",
     "title": "修正牙口",
     "titleLang": "zh-Hans",
     "image": {
@@ -261,16 +237,14 @@
       "href": "https://x.com/iurei_oni/status/2115324569536139386"
     },
     "reading": null,
-    "keywords": "Chinese Signs dental clinic horizontal vertical 修正牙口 牙口好 Bad meaning"
+    "keywords": "Chinese Signs dental clinic horizontal vertical 修正牙口 牙口好 direction"
   },
   {
     "id": "banner",
     "number": 13,
     "type": "banner",
     "language": "chinese",
-    "topics": [
-      "bad-meaning"
-    ],
+    "kind": "direction",
     "title": "生活没有出路",
     "titleLang": "zh-Hans",
     "image": {
@@ -283,16 +257,14 @@
       "href": "https://www.bjnews.com.cn/detail/154901361414365.html"
     },
     "reading": null,
-    "keywords": "Chinese Signs banner vertical 传销 生活没有出路 Bad meaning"
+    "keywords": "Chinese Signs banner vertical 传销 生活没有出路 direction"
   },
   {
     "id": "inari",
     "number": 14,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "gibberish"
-    ],
+    "kind": "direction",
     "title": "すまし車停…",
     "titleLang": "ja",
     "image": {
@@ -305,16 +277,14 @@
       "href": "https://limo.media/articles/-/142244"
     },
     "reading": null,
-    "keywords": "Japanese Signs station horizontal reverse 稲荷 停車 Gibberish"
+    "keywords": "Japanese Signs station horizontal reverse 稲荷 停車 direction"
   },
   {
     "id": "yoyaku",
     "number": 15,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "gibberish"
-    ],
+    "kind": "direction",
     "title": "ご受予付約中",
     "titleLang": "ja",
     "image": {
@@ -327,17 +297,14 @@
       "href": "http://hiro666.sakura.ne.jp/myview.cgi?y=2015&m=08&d=01"
     },
     "reading": null,
-    "keywords": "Japanese Signs panel horizontal vertical ご予約受付中 Gibberish"
+    "keywords": "Japanese Signs panel horizontal vertical ご予約受付中 direction"
   },
   {
     "id": "slogans",
     "number": 16,
     "type": "poster",
     "language": "chinese",
-    "topics": [
-      "layout",
-      "bad-meaning"
-    ],
+    "kind": "layout",
     "title": "人民相信党，没有好下场",
     "titleLang": "zh-Hans",
     "image": {
@@ -350,17 +317,14 @@
       "href": "https://x.com/seikamorino/status/2115439605982040338"
     },
     "reading": null,
-    "keywords": "Chinese Signs poster layout horizontal two lines 人民相信党 Bad meaning"
+    "keywords": "Chinese Signs poster horizontal two lines 人民相信党 layout"
   },
   {
     "id": "sign-order",
     "number": 17,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "layout",
-      "bad-meaning"
-    ],
+    "kind": "layout",
     "title": "没有手艺，都是科技",
     "titleLang": "zh-Hans",
     "image": {
@@ -373,17 +337,14 @@
       "href": "https://m.gmw.cn/toutiao/2026-09/01/content_1304557538.htm"
     },
     "reading": null,
-    "keywords": "Chinese Signs layout panels swapped 没有手艺 没有科技 Bad meaning"
+    "keywords": "Chinese Signs panels swapped 没有手艺 没有科技 layout"
   },
   {
     "id": "rumeso",
     "number": 18,
     "type": "banner",
     "language": "japanese",
-    "topics": [
-      "layout",
-      "gibberish"
-    ],
+    "kind": "flipped",
     "title": "ルーメソ",
     "titleLang": "ja",
     "image": {
@@ -396,16 +357,14 @@
       "href": "https://nlab.itmedia.co.jp/cont/articles/3368283/"
     },
     "reading": null,
-    "keywords": "Japanese Signs layout banner mirrored ラーメン ルーメソ Gibberish"
+    "keywords": "Japanese Signs banner mirrored ラーメン ルーメソ flipped"
   },
   {
     "id": "billboard",
     "number": 19,
     "type": "billboard",
     "language": "chinese",
-    "topics": [
-      "layout"
-    ],
+    "kind": "flipped",
     "title": "666",
     "titleLang": "en",
     "image": {
@@ -418,17 +377,14 @@
       "href": "https://www.adquan.com/article/361095"
     },
     "reading": null,
-    "keywords": "Chinese Signs layout billboard inverted 999 666"
+    "keywords": "Chinese Signs billboard inverted 999 666 flipped"
   },
   {
     "id": "noren",
     "number": 20,
     "type": "noren",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "gibberish"
-    ],
+    "kind": "direction",
     "title": "ぎなう",
     "titleLang": "ja",
     "image": {
@@ -441,17 +397,14 @@
       "href": "https://commons.wikimedia.org/wiki/File:%E3%81%8E%E3%81%AA%E3%81%86_%E3%81%86%E3%81%AA%E3%81%8E_(3202896753).jpg"
     },
     "reading": null,
-    "keywords": "Japanese Signs noren horizontal RTL うなぎ ぎなう Gibberish"
+    "keywords": "Japanese Signs noren horizontal RTL うなぎ ぎなう direction"
   },
   {
     "id": "toraya",
     "number": 21,
     "type": "noren",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "gibberish"
-    ],
+    "kind": "direction",
     "title": "やらと",
     "titleLang": "ja",
     "image": {
@@ -464,17 +417,14 @@
       "href": "https://commons.wikimedia.org/wiki/File:Toraya-1.jpg"
     },
     "reading": null,
-    "keywords": "Japanese Signs noren horizontal RTL とらや やらと Gibberish"
+    "keywords": "Japanese Signs noren horizontal RTL とらや やらと direction"
   },
   {
     "id": "florist",
     "number": 22,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "gibberish"
-    ],
+    "kind": "direction",
     "title": "ナハ",
     "titleLang": "ja",
     "image": {
@@ -487,17 +437,14 @@
       "href": "https://commons.wikimedia.org/wiki/File:Signboard_of_Hanaichi_Flower_Shop.jpg"
     },
     "reading": null,
-    "keywords": "Japanese Signs shop horizontal RTL ハナ ナハ Gibberish"
+    "keywords": "Japanese Signs shop horizontal RTL ハナ ナハ direction"
   },
   {
     "id": "yamaki",
     "number": 23,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "gibberish"
-    ],
+    "kind": "direction",
     "title": "社会式株業産基山",
     "titleLang": "ja",
     "image": {
@@ -510,17 +457,14 @@
       "href": "https://commons.wikimedia.org/wiki/File:Japanese_shop_signs_from_late_1800s_and_early_1900s_on_display.jpg"
     },
     "reading": null,
-    "keywords": "Japanese Signs horizontal RTL 山基産業 社会式 Gibberish"
+    "keywords": "Japanese Signs horizontal RTL 山基産業 社会式 direction"
   },
   {
     "id": "tenpura",
     "number": 24,
     "type": "noren",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "gibberish"
-    ],
+    "kind": "direction",
     "title": "羅婦天",
     "titleLang": "ja",
     "image": {
@@ -533,17 +477,14 @@
       "href": "https://commons.wikimedia.org/wiki/File:Yatsudeya2.jpg"
     },
     "reading": null,
-    "keywords": "Japanese Signs noren horizontal RTL 天婦羅 羅婦天 Gibberish"
+    "keywords": "Japanese Signs noren horizontal RTL 天婦羅 羅婦天 direction"
   },
   {
     "id": "yuujin",
     "number": 25,
     "type": "note",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "bad-meaning"
-    ],
+    "kind": "direction",
     "title": "友人レジ",
     "titleLang": "ja",
     "image": {
@@ -556,17 +497,14 @@
       "href": "https://grapetrend.jp/buzz/2187520"
     },
     "reading": null,
-    "keywords": "Japanese Signs note vertical 有人レジ 友人レジ Bad meaning"
+    "keywords": "Japanese Signs note vertical 有人レジ 友人レジ direction"
   },
   {
     "id": "nhyo",
     "number": 26,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "gibberish"
-    ],
+    "kind": "damage",
     "title": "ンョ゛ハー",
     "titleLang": "ja",
     "image": {
@@ -579,16 +517,14 @@
       "href": "https://www.yamareco.com/modules/diary/737982-detail-407059"
     },
     "reading": null,
-    "keywords": "Japanese Signs weathered ショッパーズ ンョハー Gibberish"
+    "keywords": "Japanese Signs weathered ショッパーズ ンョハー damage"
   },
   {
     "id": "kaoliang",
     "number": 27,
     "type": "label",
     "language": "chinese",
-    "topics": [
-      "gibberish"
-    ],
+    "kind": "direction",
     "title": "酒粱高級特",
     "titleLang": "zh-Hans",
     "image": {
@@ -601,16 +537,14 @@
       "href": "https://news.tvbs.com.tw/life/3122469"
     },
     "reading": null,
-    "keywords": "Chinese Labels horizontal RTL 特級高粱酒 酒粱高級特 Gibberish"
+    "keywords": "Chinese Labels horizontal RTL 特級高粱酒 酒粱高級特 direction"
   },
   {
     "id": "karamen",
     "number": 28,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "wording"
-    ],
+    "kind": "lookalike",
     "title": "カラーメン",
     "titleLang": "ja",
     "image": {
@@ -623,17 +557,14 @@
       "href": "https://kitaq.media/104704/"
     },
     "reading": null,
-    "keywords": "Japanese Signs wording カラーメン ちからラーメン"
+    "keywords": "Japanese Signs カラーメン ちからラーメン lookalike"
   },
   {
     "id": "graduation",
     "number": 29,
     "type": "banner",
     "language": "chinese",
-    "topics": [
-      "wording",
-      "bad-meaning"
-    ],
+    "kind": "typo",
     "title": "前途亦烂烂",
     "titleLang": "zh-Hans",
     "image": {
@@ -646,17 +577,14 @@
       "href": "https://www.chineseherald.co.nz/news/education/cuobiezi/"
     },
     "reading": null,
-    "keywords": "Chinese Signs wording 前途亦灿灿 前途亦烂烂 Bad meaning"
+    "keywords": "Chinese Signs 前途亦灿灿 前途亦烂烂 typo"
   },
   {
     "id": "poster-711",
     "number": 30,
     "type": "poster",
     "language": "chinese",
-    "topics": [
-      "wording",
-      "bad-meaning"
-    ],
+    "kind": "typo",
     "title": "劣爆了",
     "titleLang": "zh-Hans",
     "image": {
@@ -669,17 +597,14 @@
       "href": "https://www.163.com/dy/article/KU29NGBV0550LJ66.html"
     },
     "reading": null,
-    "keywords": "Chinese Signs wording 夯爆了 劣爆了 Bad meaning"
+    "keywords": "Chinese Signs 夯爆了 劣爆了 typo"
   },
   {
     "id": "mirrored-gate",
     "number": 31,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "gibberish"
-    ],
+    "kind": "flipped",
     "title": "金秋小区",
     "titleLang": "zh-Hans",
     "image": {
@@ -692,17 +617,14 @@
       "href": "https://www.sohu.com/a/1017586649_121455647"
     },
     "reading": null,
-    "keywords": "Chinese Signs mirrored 金秋小区 stencil Gibberish"
+    "keywords": "Chinese Signs mirrored 金秋小区 stencil flipped"
   },
   {
     "id": "kitasenju",
     "number": 32,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "wording"
-    ],
+    "kind": "typo",
     "title": "北干住",
     "titleLang": "ja",
     "image": {
@@ -715,17 +637,14 @@
       "href": "https://j-town.net/2015/07/29209499.html"
     },
     "reading": null,
-    "keywords": "Japanese Signs wording 北千住 北干住 station board"
+    "keywords": "Japanese Signs 北千住 北干住 station board typo"
   },
   {
     "id": "wife",
     "number": 33,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "wording",
-      "bad-meaning"
-    ],
+    "kind": "typo",
     "title": "wifeあります",
     "titleLang": "ja",
     "image": {
@@ -738,16 +657,14 @@
       "href": "https://j-town.net/2019/11/19297799.html"
     },
     "reading": null,
-    "keywords": "Japanese Signs wording Wi-Fi wife Bad meaning"
+    "keywords": "Japanese Signs Wi-Fi wife typo"
   },
   {
     "id": "mataichi",
     "number": 34,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "wording"
-    ],
+    "kind": "lookalike",
     "title": "ヌー",
     "titleLang": "ja",
     "image": {
@@ -760,17 +677,14 @@
       "href": "https://j-town.net/2019/02/20271689.html"
     },
     "reading": null,
-    "keywords": "Japanese Signs wording 又一 ヌー eel"
+    "keywords": "Japanese Signs 又一 ヌー eel lookalike"
   },
   {
     "id": "spouse",
     "number": 35,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "translation"
-    ],
+    "kind": "translation",
     "title": "Spouse Exchange Village",
     "titleLang": "en",
     "image": {
@@ -783,17 +697,14 @@
       "href": "https://udn.com/news/story/120912/6616593"
     },
     "reading": null,
-    "keywords": "Japanese Signs translation Sports Exchange Village Spouse Exchange Village"
+    "keywords": "Japanese Signs Sports Exchange Village Spouse translation"
   },
   {
     "id": "summit",
     "number": 36,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "translation"
-    ],
+    "kind": "translation",
     "title": "Click here for the summit",
     "titleLang": "en",
     "image": {
@@ -806,17 +717,14 @@
       "href": "https://udn.com/news/story/120912/5490547"
     },
     "reading": null,
-    "keywords": "Japanese Signs translation 山頂はこちら Click here summit"
+    "keywords": "Japanese Signs 山頂はこちら Click here summit translation"
   },
   {
     "id": "panda",
     "number": 37,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "translation"
-    ],
+    "kind": "translation",
     "title": "静静請看",
     "titleLang": "ja",
     "image": {
@@ -829,17 +737,14 @@
       "href": "https://withnews.jp/article/f0160930002qq000000000000000W02310701qq000013995A"
     },
     "reading": null,
-    "keywords": "Japanese Signs translation 静静請看 お静かに panda"
+    "keywords": "Japanese Signs 静静請看 お静かに panda translation"
   },
   {
     "id": "soldout",
     "number": 38,
     "type": "board",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "translation"
-    ],
+    "kind": "translation",
     "title": "Sold Out",
     "titleLang": "en",
     "image": {
@@ -852,18 +757,14 @@
       "href": "https://nlab.itmedia.co.jp/cont/articles/3386906/"
     },
     "reading": null,
-    "keywords": "Japanese Signs translation 満席 Sold Out station board"
+    "keywords": "Japanese Signs 満席 Sold Out station board translation"
   },
   {
     "id": "lunch",
     "number": 39,
     "type": "banner",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "wording",
-      "bad-meaning"
-    ],
+    "kind": "damage",
     "title": "うんち",
     "titleLang": "ja",
     "image": {
@@ -876,17 +777,14 @@
       "href": "https://j-town.net/2022/04/09333192.html"
     },
     "reading": null,
-    "keywords": "Japanese Signs wording ランチ うんち banner Bad meaning"
+    "keywords": "Japanese Signs ランチ うんち banner damage"
   },
   {
     "id": "rikei",
     "number": 40,
     "type": "banner",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "layout"
-    ],
+    "kind": "flipped",
     "title": "理系直売所",
     "titleLang": "ja",
     "image": {
@@ -899,17 +797,14 @@
       "href": "http://blog.masuseki.com/?p=128"
     },
     "reading": null,
-    "keywords": "Japanese Signs layout banner mirrored 野菜直売所 理系直売所"
+    "keywords": "Japanese Signs banner mirrored 野菜直売所 理系直売所 flipped"
   },
   {
     "id": "irasshai",
     "number": 41,
     "type": "banner",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "layout"
-    ],
+    "kind": "flipped",
     "title": "りさっしゃいまサ",
     "titleLang": "ja",
     "image": {
@@ -922,17 +817,14 @@
       "href": "http://blog.masuseki.com/?p=128"
     },
     "reading": null,
-    "keywords": "Japanese Signs layout banner mirrored いらっしゃいませ りさっしゃいまサ"
+    "keywords": "Japanese Signs banner mirrored いらっしゃいませ りさっしゃいまサ flipped"
   },
   {
     "id": "shachi",
     "number": 42,
     "type": "banner",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "layout"
-    ],
+    "kind": "flipped",
     "title": "シャチ鍋",
     "titleLang": "ja",
     "image": {
@@ -945,17 +837,14 @@
       "href": "http://blog.masuseki.com/?p=128"
     },
     "reading": null,
-    "keywords": "Japanese Signs layout banner mirrored シャモ鍋 シャチ鍋"
+    "keywords": "Japanese Signs banner mirrored シャモ鍋 シャチ鍋 flipped"
   },
   {
     "id": "bonkhatsu",
     "number": 43,
     "type": "banner",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "layout"
-    ],
+    "kind": "flipped",
     "title": "盆髪城",
     "titleLang": "ja",
     "image": {
@@ -968,17 +857,14 @@
       "href": "http://blog.masuseki.com/?p=128"
     },
     "reading": null,
-    "keywords": "Japanese Signs layout banner mirrored 盆提灯 盆髪城"
+    "keywords": "Japanese Signs banner mirrored 盆提灯 盆髪城 flipped"
   },
   {
     "id": "usomasakoshi",
     "number": 44,
     "type": "banner",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "layout"
-    ],
+    "kind": "flipped",
     "title": "うそまさこし",
     "titleLang": "ja",
     "image": {
@@ -991,17 +877,14 @@
       "href": "http://blog.masuseki.com/?p=128"
     },
     "reading": null,
-    "keywords": "Japanese Signs layout banner mirrored とうもろこし うそまさこし"
+    "keywords": "Japanese Signs banner mirrored とうもろこし うそまさこし flipped"
   },
   {
     "id": "mad",
     "number": 45,
     "type": "banner",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "layout"
-    ],
+    "kind": "flipped",
     "title": "ＭＡＤ",
     "titleLang": "en",
     "image": {
@@ -1014,17 +897,14 @@
       "href": "http://blog.masuseki.com/?p=128"
     },
     "reading": null,
-    "keywords": "Japanese Signs layout banner mirrored DAM MAD karaoke"
+    "keywords": "Japanese Signs banner mirrored DAM MAD karaoke flipped"
   },
   {
     "id": "ryuma",
     "number": 46,
     "type": "banner",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "layout"
-    ],
+    "kind": "flipped",
     "title": "リューマの村日",
     "titleLang": "ja",
     "image": {
@@ -1037,17 +917,14 @@
       "href": "http://blog.masuseki.com/?p=128"
     },
     "reading": null,
-    "keywords": "Japanese Signs layout banner mirrored リョーマの休日 リューマの村日"
+    "keywords": "Japanese Signs banner mirrored リョーマの休日 リューマの村日 flipped"
   },
   {
     "id": "huixiang",
     "number": 47,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "wording"
-    ],
+    "kind": "typo",
     "title": "微乡宴府",
     "titleLang": "zh-Hans",
     "image": {
@@ -1060,17 +937,14 @@
       "href": "https://www.sohu.com/a/1020460778_393071"
     },
     "reading": null,
-    "keywords": "Chinese Signs wording 徽乡宴府 微乡宴府 restaurant"
+    "keywords": "Chinese Signs 徽乡宴府 微乡宴府 restaurant typo"
   },
   {
     "id": "polyu",
     "number": 48,
     "type": "banner",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "wording"
-    ],
+    "kind": "typo",
     "title": "千裡共嬋娟",
     "titleLang": "zh-Hans",
     "image": {
@@ -1083,17 +957,14 @@
       "href": "https://news.now.com/watch/content/%e3%80%90%e7%84%a1%e4%ba%ba%e6%a0%a1%e5%b0%8d%ef%bc%9f%e3%80%91%e7%90%86%e5%a4%a7%e4%b8%ad%e7%a7%8b%e6%a9%ab%e9%a1%8d%e3%80%80%e8%98%87%e8%bb%be%e5%90%8d%e4%bd%9c%e3%80%8a%e6%b0%b4%e8%aa%bf%e6%ad%8c/"
     },
     "reading": null,
-    "keywords": "Chinese Signs wording 千里共嬋娟 千裡共嬋娟 banner"
+    "keywords": "Chinese Signs 千里共嬋娟 千裡共嬋娟 banner typo"
   },
   {
     "id": "haitang",
     "number": 49,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "wording"
-    ],
+    "kind": "typo",
     "title": "海堂糕",
     "titleLang": "zh-Hans",
     "image": {
@@ -1106,17 +977,14 @@
       "href": "https://www.sohu.com/a/984002694_121123895"
     },
     "reading": null,
-    "keywords": "Chinese Signs wording 海棠糕 海堂糕 shop"
+    "keywords": "Chinese Signs 海棠糕 海堂糕 shop typo"
   },
   {
     "id": "disncy",
     "number": 50,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "wording"
-    ],
+    "kind": "typo",
     "title": "Disncy",
     "titleLang": "en",
     "image": {
@@ -1129,17 +997,14 @@
       "href": "https://www.tvb.com/hottopic-c/%E8%A1%97%E9%A0%AD%E9%A9%9A%E7%8F%BE%E9%8C%AF%E5%AD%97%E8%B7%AF%E7%89%8CDisney%E8%AE%8ADisncy--%E7%B9%81%E7%B0%A1%E6%B7%B7%E7%94%A8-%E8%8B%B1%E6%96%87%E4%B8%B2%E9%8C%AF%E6%83%B9%E7%88%AD%E8%AD%B0-%E7%B6%B2%E6%B0%91-%E9%82%8A%E6%8F%B8%E8%BB%8A%E9%82%8A%E6%87%B7%E7%96%91%E4%BA%BA%E7%94%9F-1012571"
     },
     "reading": null,
-    "keywords": "Chinese Signs wording Disney Disncy road sign"
+    "keywords": "Chinese Signs Disney Disncy road sign typo"
   },
   {
     "id": "human",
     "number": 51,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "wording"
-    ],
+    "kind": "typo",
     "title": "Human Road",
     "titleLang": "en",
     "image": {
@@ -1152,17 +1017,14 @@
       "href": "https://dushi.singtao.ca/toronto/%e6%96%b0%e9%97%bb/%e5%8d%b3%e6%97%b6%e4%b8%ad%e5%9b%bd/%e4%b8%8a%e6%b5%b7%e6%96%b0%e5%9c%b0%e9%93%81%e7%ab%99%e6%a0%87%e8%af%86%e6%8b%bc%e9%94%99-%e5%91%bc%e7%8e%9b%e8%b7%af%e5%8f%98%e4%ba%ba%e7%b1%bb%e8%b7%af/"
     },
     "reading": null,
-    "keywords": "Chinese Signs wording 呼玛路 Human Road metro"
+    "keywords": "Chinese Signs 呼玛路 Human Road metro typo"
   },
   {
     "id": "friedfish",
     "number": 52,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "translation"
-    ],
+    "kind": "translation",
     "title": "No Fried Fish",
     "titleLang": "en",
     "image": {
@@ -1175,17 +1037,14 @@
       "href": "https://www.163.com/dy/article/KMMHOC6J0550B6IS.html"
     },
     "reading": null,
-    "keywords": "Chinese Signs translation 炸鱼 fried fish"
+    "keywords": "Chinese Signs 炸鱼 fried fish translation"
   },
   {
     "id": "menu-rhythm",
     "number": 53,
     "type": "menu",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "wording"
-    ],
+    "kind": "typo",
     "title": "克召雞扒反",
     "titleLang": "zh-Hans",
     "image": {
@@ -1198,17 +1057,14 @@
       "href": "https://www.dotdotnews.com/a/202609/17/AP6aabd6dce4b02724bdb4cabd.html"
     },
     "reading": null,
-    "keywords": "Chinese Signs wording 黑椒雞扒飯 克召雞扒反 menu homophone"
+    "keywords": "Chinese Signs 黑椒雞扒飯 克召雞扒反 menu homophone typo"
   },
   {
     "id": "nuclear",
     "number": 54,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "translation"
-    ],
+    "kind": "translation",
     "title": "nuclear loading",
     "titleLang": "en",
     "image": {
@@ -1221,17 +1077,14 @@
       "href": "https://www.163.com/dy/article/KRH9CVI2053469M5.html"
     },
     "reading": null,
-    "keywords": "Chinese Signs translation 核载 nuclear loading boat"
+    "keywords": "Chinese Signs 核载 nuclear loading boat translation"
   },
   {
     "id": "carefully",
     "number": 55,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "translation"
-    ],
+    "kind": "translation",
     "title": "Carefully Meet",
     "titleLang": "en",
     "image": {
@@ -1244,17 +1097,14 @@
       "href": "https://news.ifeng.com/c/8pDNfHi0cnS"
     },
     "reading": null,
-    "keywords": "Chinese Signs translation 小心碰头 Carefully Meet toilet"
+    "keywords": "Chinese Signs 小心碰头 Carefully Meet toilet translation"
   },
   {
     "id": "lionforest",
     "number": 56,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "translation"
-    ],
+    "kind": "translation",
     "title": "The Lion Forest Gard",
     "titleLang": "en",
     "image": {
@@ -1267,17 +1117,14 @@
       "href": "https://bbs.hupu.com/635864574.html"
     },
     "reading": null,
-    "keywords": "Chinese Signs translation 平江路 狮子林 Lion Forest Gard road sign"
+    "keywords": "Chinese Signs 平江路 狮子林 Lion Forest Gard road sign translation"
   },
   {
     "id": "slip",
     "number": 57,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "translation"
-    ],
+    "kind": "translation",
     "title": "Slip carefully",
     "titleLang": "en",
     "image": {
@@ -1290,17 +1137,14 @@
       "href": "https://commons.wikimedia.org/wiki/File:%22Slip_carefully%22_sign_in_China.jpg"
     },
     "reading": null,
-    "keywords": "Chinese Signs translation 小心地滑 Slip carefully"
+    "keywords": "Chinese Signs 小心地滑 Slip carefully translation"
   },
   {
     "id": "hottopic",
     "number": 58,
     "type": "menu",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "translation"
-    ],
+    "kind": "translation",
     "title": "Hot topic",
     "titleLang": "en",
     "image": {
@@ -1313,17 +1157,14 @@
       "href": "https://commons.wikimedia.org/wiki/File:Engrish_caused_by_erroneous_Japanese_spelling.jpg"
     },
     "reading": null,
-    "keywords": "Japanese Signs translation ホットドッグ Hot topic"
+    "keywords": "Japanese Signs ホットドッグ Hot topic translation"
   },
   {
     "id": "ganmo",
     "number": 59,
     "type": "label",
     "language": "japanese",
-    "topics": [
-      "translation",
-      "bad-meaning"
-    ],
+    "kind": "translation",
     "title": "Boiled cancer",
     "titleLang": "en",
     "image": {
@@ -1336,17 +1177,14 @@
       "href": "https://commons.wikimedia.org/wiki/File:Engrish-_%E3%81%8C%E3%82%93%E3%82%82%E7%85%AE%E7%89%A9_boiled_cancer.jpg"
     },
     "reading": null,
-    "keywords": "Japanese translation がんも煮物 boiled cancer buffet"
+    "keywords": "Japanese がんも煮物 boiled cancer buffet translation"
   },
   {
     "id": "emu",
     "number": 60,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "translation"
-    ],
+    "kind": "translation",
     "title": "Meeting EMU",
     "titleLang": "en",
     "image": {
@@ -1359,17 +1197,14 @@
       "href": "https://commons.wikimedia.org/wiki/File:No_Flushing_While_Meeting_Emu.JPG"
     },
     "reading": null,
-    "keywords": "Chinese Signs translation 动车 EMU meeting emu"
+    "keywords": "Chinese Signs 动车 EMU meeting translation"
   },
   {
     "id": "civil",
     "number": 61,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "translation"
-    ],
+    "kind": "translation",
     "title": "Civilization Passage",
     "titleLang": "en",
     "image": {
@@ -1382,17 +1217,14 @@
       "href": "https://commons.wikimedia.org/wiki/File:Set_up_the_civilization_passage.jpg"
     },
     "reading": null,
-    "keywords": "Chinese Signs translation 建文明通道 civilization passage"
+    "keywords": "Chinese Signs 建文明通道 civilization passage translation"
   },
   {
     "id": "nocandy",
     "number": 62,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "translation"
-    ],
+    "kind": "translation",
     "title": "There be no candy food",
     "titleLang": "en",
     "image": {
@@ -1405,17 +1237,14 @@
       "href": "https://commons.wikimedia.org/wiki/File:There_be_no_candy_food_(2631475724).jpg"
     },
     "reading": null,
-    "keywords": "Chinese Signs translation 无糖食品 sweetener candy shelf"
+    "keywords": "Chinese Signs 无糖食品 sweetener candy shelf translation"
   },
   {
     "id": "levelgap",
     "number": 63,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "translation"
-    ],
+    "kind": "translation",
     "title": "Level of Gap",
     "titleLang": "en",
     "image": {
@@ -1428,17 +1257,14 @@
       "href": "https://commons.wikimedia.org/wiki/File:Mind_the_gap_Chinglish_sign_in_Shanghai.jpg"
     },
     "reading": null,
-    "keywords": "Chinese Signs translation 注意高低空档 mind the gap ferry"
+    "keywords": "Chinese Signs 注意高低空档 mind the gap ferry translation"
   },
   {
     "id": "climmbing",
     "number": 64,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "translation"
-    ],
+    "kind": "typo",
     "title": "No climmbing",
     "titleLang": "en",
     "image": {
@@ -1451,17 +1277,14 @@
       "href": "https://k.sina.com.cn/article_1895096900_m70f4e24403301rn0u.html"
     },
     "reading": null,
-    "keywords": "Chinese Signs translation 请勿攀爬 No climmbing"
+    "keywords": "Chinese Signs 请勿攀爬 No climmbing typo"
   },
   {
     "id": "justdoti",
     "number": 65,
     "type": "billboard",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "wording"
-    ],
+    "kind": "typo",
     "title": "JUST DO TI",
     "titleLang": "en",
     "image": {
@@ -1474,17 +1297,14 @@
       "href": "https://news.ttv.com.tw/fifa/news/Views/11510160021000N"
     },
     "reading": null,
-    "keywords": "Chinese Signs wording JUST DO IT TI billboard Nike"
+    "keywords": "Chinese Signs JUST DO IT TI billboard Nike typo"
   },
   {
     "id": "shijuku",
     "number": 66,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "wording"
-    ],
+    "kind": "typo",
     "title": "Shijuku",
     "titleLang": "en",
     "image": {
@@ -1497,17 +1317,14 @@
       "href": "https://nlab.itmedia.co.jp/cont/articles/4026498/"
     },
     "reading": null,
-    "keywords": "Japanese Signs wording 新宿 Shijuku station sign"
+    "keywords": "Japanese Signs 新宿 Shijuku station sign typo"
   },
   {
     "id": "yen",
     "number": 67,
     "type": "label",
     "language": "japanese",
-    "topics": [
-      "layout",
-      "bad-meaning"
-    ],
+    "kind": "flipped",
     "title": "夫",
     "titleLang": "ja",
     "image": {
@@ -1520,17 +1337,14 @@
       "href": "https://news.livedoor.com/topics/detail/32640650/"
     },
     "reading": null,
-    "keywords": "Japanese layout ￥ 夫 stickers price"
+    "keywords": "Japanese ￥ 夫 stickers price flipped"
   },
   {
     "id": "zibo",
     "number": 68,
     "type": "billboard",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "wording"
-    ],
+    "kind": "typo",
     "title": "关爱成年人",
     "titleLang": "zh-Hans",
     "image": {
@@ -1543,17 +1357,14 @@
       "href": "https://k.sina.com.cn/article_1769216315_m6974193b03301cuzs.html"
     },
     "reading": null,
-    "keywords": "Chinese Signs wording 关爱未成年人 关爱成年人 billboard"
+    "keywords": "Chinese Signs 关爱未成年人 关爱成年人 billboard typo"
   },
   {
     "id": "henan-beijing",
     "number": 69,
     "type": "sign",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "bad-meaning"
-    ],
+    "kind": "direction",
     "title": "河南 / 北京",
     "titleLang": "zh-Hans",
     "image": {
@@ -1566,17 +1377,14 @@
       "href": "https://www.reddit.com/r/CrappyDesign/comments/p9wdbg/does_it_take_to_henan_and_beijing_or_hebei_and/"
     },
     "reading": null,
-    "keywords": "Chinese Signs vertical horizontal 河南 北京 河北 南京 Hebei Nanjing Henan Beijing road sign Bad meaning"
+    "keywords": "Chinese Signs vertical horizontal 河南 北京 河北 南京 Hebei Nanjing Henan Beijing road sign direction"
   },
   {
     "id": "tsutaya",
     "number": 70,
     "type": "post",
     "language": "japanese",
-    "topics": [
-      "wording",
-      "bad-meaning"
-    ],
+    "kind": "typo",
     "title": "クソヘタ怪人石神",
     "titleLang": "ja",
     "image": {
@@ -1589,16 +1397,14 @@
       "href": "https://sirabee.com/2026/03/31/20163533964/"
     },
     "reading": null,
-    "keywords": "Japanese wording クセヘタ怪人石神 クソヘタ怪人石神 handle typo"
+    "keywords": "Japanese クセヘタ怪人石神 クソヘタ怪人石神 handle typo typo"
   },
   {
     "id": "teabag",
     "number": 71,
     "type": "bag",
     "language": "chinese",
-    "topics": [
-      "wording"
-    ],
+    "kind": "typo",
     "title": "打包在忙",
     "titleLang": "zh-Hans",
     "image": {
@@ -1611,16 +1417,14 @@
       "href": "https://www.163.com/dy/article/L3KQF4P405348O4V.html"
     },
     "reading": null,
-    "keywords": "Chinese wording 打包再忙 打包在忙 bag typo"
+    "keywords": "Chinese 打包再忙 打包在忙 bag typo typo"
   },
   {
     "id": "nowwa",
     "number": 72,
     "type": "poster",
     "language": "chinese",
-    "topics": [
-      "wording"
-    ],
+    "kind": "wording",
     "title": "帅气青年男性",
     "titleLang": "zh-Hans",
     "image": {
@@ -1633,17 +1437,14 @@
       "href": "https://www.163.com/dy/article/L6LH119O05348O4V.html"
     },
     "reading": null,
-    "keywords": "Chinese wording 帅气青年男性 杨洋 ambassador poster"
+    "keywords": "Chinese 帅气青年男性 杨洋 ambassador poster wording"
   },
   {
     "id": "lamb",
     "number": 73,
     "type": "menu",
     "language": "chinese",
-    "topics": [
-      "signs",
-      "wording"
-    ],
+    "kind": "typo",
     "title": "19元（克）",
     "titleLang": "zh-Hans",
     "image": {
@@ -1656,16 +1457,14 @@
       "href": "https://news.china.com/socialgd/10000169/20261016/49797533_all.html"
     },
     "reading": null,
-    "keywords": "Chinese Signs wording 19元 客 克 menu lamb"
+    "keywords": "Chinese Signs 19元 客 克 menu lamb typo"
   },
   {
     "id": "tuni",
     "number": 74,
     "type": "pass",
     "language": "chinese",
-    "topics": [
-      "wording"
-    ],
+    "kind": "typo",
     "title": "迪土尼",
     "titleLang": "zh-Hans",
     "image": {
@@ -1678,17 +1477,14 @@
       "href": "https://www.163.com/dy/article/KSAOA1V305348O4V.html"
     },
     "reading": null,
-    "keywords": "Chinese wording 迪士尼 迪土尼 typo pass"
+    "keywords": "Chinese 迪士尼 迪土尼 typo pass typo"
   },
   {
     "id": "killfish",
     "number": 75,
     "type": "notice",
     "language": "japanese",
-    "topics": [
-      "wording",
-      "bad-meaning"
-    ],
+    "kind": "typo",
     "title": "killfish",
     "titleLang": "en",
     "image": {
@@ -1701,16 +1497,14 @@
       "href": "https://x.com/rainy_trout88sp/status/2012089029509189903"
     },
     "reading": null,
-    "keywords": "Japanese wording killifish killfish メダカ daiso label"
+    "keywords": "Japanese killifish killfish メダカ daiso label typo"
   },
   {
     "id": "heelo",
     "number": 76,
     "type": "label",
     "language": "chinese",
-    "topics": [
-      "wording"
-    ],
+    "kind": "typo",
     "title": "HEELO KITTY",
     "titleLang": "en",
     "image": {
@@ -1723,17 +1517,14 @@
       "href": "https://www.163.com/dy/article/KUEIMVDV05348O4V.html"
     },
     "reading": null,
-    "keywords": "Chinese wording HELLO KITTY HEELO KITTY luckin label"
+    "keywords": "Chinese HELLO KITTY HEELO luckin label typo"
   },
   {
     "id": "hayabue",
     "number": 77,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "wording"
-    ],
+    "kind": "typo",
     "title": "高市早笛",
     "titleLang": "ja",
     "image": {
@@ -1746,17 +1537,14 @@
       "href": "https://x.com/Adepteater029/status/2058682894118465660"
     },
     "reading": null,
-    "keywords": "Japanese Signs wording 高市早苗 高市早笛 signboard"
+    "keywords": "Japanese Signs 高市早苗 高市早笛 signboard typo"
   },
   {
     "id": "meiwaku",
     "number": 78,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "wording"
-    ],
+    "kind": "wording",
     "title": "ご迷惑をお願いします",
     "titleLang": "ja",
     "image": {
@@ -1769,18 +1557,14 @@
       "href": "https://nlab.itmedia.co.jp/cont/articles/4011094/"
     },
     "reading": null,
-    "keywords": "Japanese Signs wording ご迷惑をお願いします construction sign"
+    "keywords": "Japanese Signs ご迷惑をお願いします construction sign wording"
   },
   {
     "id": "unchi",
     "number": 79,
     "type": "sign",
     "language": "japanese",
-    "topics": [
-      "signs",
-      "wording",
-      "bad-meaning"
-    ],
+    "kind": "unfamiliar",
     "title": "うンチ",
     "titleLang": "ja",
     "image": {
@@ -1793,6 +1577,6 @@
       "href": null
     },
     "reading": null,
-    "keywords": "Japanese Signs wording ランチ うンチ 看板 豬排屋 typo Bad meaning"
+    "keywords": "Japanese Signs ランチ うンチ 看板 豬排屋 unfamiliar"
   }
 ]
