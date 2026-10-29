@@ -636,6 +636,12 @@
       "alt": "A municipal directory with CONSEJALES circled in red",
       "intended": "CONCEJALES",
       "misread": "CONSEJALES"
+    },
+    "patick": {
+      "description": "A green street sign in Ottawa sends drivers to St. Patick Street; the R in Patrick never made it onto the plate.",
+      "alt": "A green Ottawa street sign reading Rue St. Patick Street",
+      "intended": "St. Patrick",
+      "misread": "St. Patick"
     }
   }
 }
