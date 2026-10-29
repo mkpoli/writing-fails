@@ -1598,5 +1598,25 @@
     },
     "reading": null,
     "keywords": "Japanese label のっぽくん 10.5m 10.5cm typo"
+  },
+  {
+    "id": "imagry",
+    "number": 81,
+    "type": "packaging",
+    "language": "chinese",
+    "kind": "typo",
+    "title": "IMAGRY",
+    "titleLang": "en",
+    "image": {
+      "src": "assets/imagry.jpg",
+      "href": "https://www.163.com/dy/article/KLGUIRUL05348O4V.html"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "@妍小懿 VIA LOGO研究所",
+      "href": "https://www.163.com/dy/article/KLGUIRUL05348O4V.html"
+    },
+    "reading": null,
+    "keywords": "Chinese packaging IMAGERY IMAGRY 茉莉奶白 typo"
   }
 ]

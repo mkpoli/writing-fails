@@ -566,6 +566,12 @@
       "alt": "'오' 10.5m와 '정' 10.5cm를 나란히 둔 공식 정정 이미지",
       "intended": "10.5cm",
       "misread": "10.5m"
+    },
+    "imagry": {
+      "description": "컵의 슬로건은 IMAGERY여야 하는데 E가 빠져 IMAGRY가 되었다. 존재하지 않는 단어다.",
+      "alt": "IMAGRY를 빨간 상자로 표시한 종이컵",
+      "intended": "IMAGERY",
+      "misread": "IMAGRY"
     }
   }
 }

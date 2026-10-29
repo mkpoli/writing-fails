@@ -566,6 +566,12 @@
       "alt": "「誤」10.5mと「正」10.5cmを並べた公式の訂正画像",
       "intended": "10.5cm",
       "misread": "10.5m"
+    },
+    "imagry": {
+      "description": "カップのスローガンはIMAGERYと書くところ、Eが抜けてIMAGRYになった。存在しない単語である。",
+      "alt": "IMAGRYを赤枠で囲んだ紙コップ",
+      "intended": "IMAGERY",
+      "misread": "IMAGRY"
     }
   }
 }
