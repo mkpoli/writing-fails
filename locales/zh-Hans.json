@@ -678,6 +678,12 @@
       "alt": "写着「Thanks for visivting」的横幅",
       "intended": "visiting",
       "misread": "visivting"
+    },
+    "califorina": {
+      "description": "丹佛的「California Street」路牌印成「Califorina St」，多了一个r，市长发图后路牌被更换。",
+      "alt": "写着「Califorina St」的丹佛绿色路牌",
+      "intended": "California St",
+      "misread": "Califorina St"
     }
   }
 }

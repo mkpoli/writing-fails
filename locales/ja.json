@@ -678,6 +678,12 @@
       "alt": "「Thanks for visivting」と書かれた横断幕",
       "intended": "visiting",
       "misread": "visivting"
+    },
+    "califorina": {
+      "description": "デンバーの「California Street」が「Califorina Street」として掲示され、rが一つ多かった。市長が写真を投稿し、標識は交換された。",
+      "alt": "「Califorina St」と書かれたデンバーの街路標識",
+      "intended": "California St",
+      "misread": "Califorina St"
     }
   }
 }

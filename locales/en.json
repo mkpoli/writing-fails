@@ -678,6 +678,12 @@
       "alt": "A dark banner reading Thanks for visivting over a street",
       "intended": "visiting",
       "misread": "visivting"
+    },
+    "califorina": {
+      "description": "Denver’s California Street went up as Califorina Street, with an extra r; the mayor posted the photo and crews replaced the plate.",
+      "alt": "A green Denver street sign reading Califorina St",
+      "intended": "California St",
+      "misread": "Califorina St"
     }
   }
 }
