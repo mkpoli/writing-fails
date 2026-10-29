@@ -608,6 +608,12 @@
       "alt": "A campaign billboard reading 台北 就無是限, circled in red",
       "intended": "就是無限",
       "misread": "就無是限"
+    },
+    "gimpo": {
+      "description": "Gimpo Airport set its Korean terminal names in katakana, so 国際線 appears as ククチェソン—the hangul 국제선 spelled out in Japanese script.",
+      "alt": "An airport sign pairing 国际航线 ククチェソン with 국제선",
+      "intended": "国際線",
+      "misread": "ククチェソン"
     }
   }
 }

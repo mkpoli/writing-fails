@@ -1738,5 +1738,25 @@
     },
     "reading": null,
     "keywords": "Chinese billboard 就是無限 就無是限 campaign slogan"
+  },
+  {
+    "id": "gimpo",
+    "number": 88,
+    "type": "sign",
+    "language": "korean",
+    "kind": "translation",
+    "title": "ククチェソン",
+    "titleLang": "ja",
+    "image": {
+      "src": "assets/gimpo.jpg",
+      "href": "https://www.seoul.co.kr/news/society/2026/06/15/20260615500085"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "@YUNYEUNGCHA VIA 서울신문",
+      "href": "https://www.seoul.co.kr/news/society/2026/06/15/20260615500085"
+    },
+    "reading": null,
+    "keywords": "Korean sign 김포공항 국제선 ククチェソン katakana translation"
   }
 ]
