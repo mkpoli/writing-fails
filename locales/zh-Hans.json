@@ -697,6 +697,12 @@
       "alt": "写着「ELECTRIC VEHICLS ONLY」的路面标线",
       "intended": "ELECTRIC VEHICLES",
       "misread": "ELECTRIC VEHICLS"
+    },
+    "soul-of-coffee": {
+      "description": "泰国的SoulZen Cafe把英文「SOUL OF COFFEE」用字形相近的假名印在杯子上。按日语读不通，换成形近的拉丁字母才读得出来。",
+      "alt": "一个塑料杯，上行为「らロひレ」，下行为「ロチ てロチチモモ」，下面印着菜单",
+      "intended": "SOUL",
+      "misread": "らロひレ"
     }
   }
 }

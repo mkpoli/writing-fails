@@ -1998,5 +1998,25 @@
     },
     "reading": null,
     "keywords": "English road marking ELECTRIC VEHICLES VEHICLS Cinderford typo"
+  },
+  {
+    "id": "soul-of-coffee",
+    "number": 101,
+    "type": "packaging",
+    "language": "japanese",
+    "kind": "lookalike",
+    "title": "らロひレ",
+    "titleLang": "ja",
+    "image": {
+      "src": "assets/soul-of-coffee.jpg",
+      "href": "https://www.j-cast.com/2023/05/15461495.html"
+    },
+    "credit": {
+      "role": "photo",
+      "label": "@FANDEE VIA J-CAST",
+      "href": "https://www.j-cast.com/2023/05/15461495.html"
+    },
+    "reading": null,
+    "keywords": "Japanese packaging lookalike ら 5 ロチ てロチチモモ SOUL OF COFFEE Thai kana"
   }
 ]

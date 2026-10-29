@@ -697,6 +697,12 @@
       "alt": "Road markings reading ELECTRIC VEHICLS ONLY",
       "intended": "ELECTRIC VEHICLES",
       "misread": "ELECTRIC VEHICLS"
+    },
+    "soul-of-coffee": {
+      "description": "SoulZen Cafe in Thailand prints SOUL OF COFFEE in kana that stand in for the letters. Read as Japanese it is nonsense; swap the kana back.",
+      "alt": "A plastic cup printed らロひレ above ロチ てロチチモモ, with a menu below",
+      "intended": "SOUL",
+      "misread": "らロひレ"
     }
   }
 }

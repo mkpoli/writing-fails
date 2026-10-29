@@ -697,6 +697,12 @@
       "alt": "'ELECTRIC VEHICLS ONLY'라고 칠해진 노면 표시",
       "intended": "ELECTRIC VEHICLES",
       "misread": "ELECTRIC VEHICLS"
+    },
+    "soul-of-coffee": {
+      "description": "태국의 SoulZen Cafe는 컵에 영어 'SOUL OF COFFEE'를 모양이 닮은 가나로 찍었다. 일본어로는 읽히지 않고, 가나를 닮은 로마자로 바꾸면 읽힌다.",
+      "alt": "위에 'らロひレ', 아래에 'ロチ てロチチモモ', 그 밑에 메뉴가 찍힌 플라스틱 컵",
+      "intended": "SOUL",
+      "misread": "らロひレ"
     }
   }
 }
