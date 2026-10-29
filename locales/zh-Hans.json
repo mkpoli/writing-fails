@@ -60,7 +60,8 @@
     "poster": "海报",
     "sign": "招牌",
     "text": "文章",
-    "notice": "告示"
+    "notice": "告示",
+    "marking": "路面标线"
   },
   "tags": {
     "korean": "韩语",
@@ -684,6 +685,12 @@
       "alt": "写着「Califorina St」的丹佛绿色路牌",
       "intended": "California St",
       "misread": "Califorina St"
+    },
+    "electirc": {
+      "description": "莱德尼的路面标线把「ELECTRIC VEHICLES」写成「ELECTIRC VEHICLES」，市长还让员工确认照片不是AI生成的。",
+      "alt": "写着「ELECTIRC VEHICLES」的路面标线",
+      "intended": "ELECTRIC VEHICLES",
+      "misread": "ELECTIRC VEHICLES"
     }
   }
 }

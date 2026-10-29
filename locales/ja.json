@@ -60,7 +60,8 @@
     "poster": "ポスター",
     "sign": "看板",
     "text": "文章",
-    "notice": "お知らせ"
+    "notice": "お知らせ",
+    "marking": "路面標示"
   },
   "tags": {
     "korean": "韓国語",
@@ -684,6 +685,12 @@
       "alt": "「Califorina St」と書かれたデンバーの街路標識",
       "intended": "California St",
       "misread": "Califorina St"
+    },
+    "electirc": {
+      "description": "ライドニーの路面表示は「ELECTRIC VEHICLES」が「ELECTIRC VEHICLES」になった。市長は写真がAIでないか職員に確認させた。",
+      "alt": "「ELECTIRC VEHICLES」と描かれた路面表示",
+      "intended": "ELECTRIC VEHICLES",
+      "misread": "ELECTIRC VEHICLES"
     }
   }
 }

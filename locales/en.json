@@ -60,7 +60,8 @@
     "poster": "POSTER",
     "sign": "SIGN",
     "text": "TEXT",
-    "notice": "NOTICE"
+    "notice": "NOTICE",
+    "marking": "MARKING"
   },
   "tags": {
     "korean": "KOREAN",
@@ -684,6 +685,12 @@
       "alt": "A green Denver street sign reading Califorina St",
       "intended": "California St",
       "misread": "Califorina St"
+    },
+    "electirc": {
+      "description": "Road paint in Lydney turned ELECTRIC VEHICLES into ELECTIRC VEHICLES; the mayor asked a staff member to confirm the photo was not AI.",
+      "alt": "Road markings reading ELECTIRC VEHICLES",
+      "intended": "ELECTRIC VEHICLES",
+      "misread": "ELECTIRC VEHICLES"
     }
   }
 }
