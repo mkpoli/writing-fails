@@ -1938,5 +1938,25 @@
     },
     "reading": null,
     "keywords": "English banner visiting visivting Roselle typo"
+  },
+  {
+    "id": "califorina",
+    "number": 98,
+    "type": "sign",
+    "language": "english",
+    "kind": "typo",
+    "title": "Califorina St",
+    "titleLang": "en",
+    "image": {
+      "src": "assets/califorina.jpg",
+      "href": "https://www.denverpost.com/2026/08/18/mispelled-denver-street-sign-california/"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "DENVER POST",
+      "href": "https://www.denverpost.com/2026/08/18/mispelled-denver-street-sign-california/"
+    },
+    "reading": null,
+    "keywords": "English sign California Califorina Denver typo"
   }
 ]

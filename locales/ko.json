@@ -678,6 +678,12 @@
       "alt": "'Thanks for visivting'이 적힌 현수막",
       "intended": "visiting",
       "misread": "visivting"
+    },
+    "califorina": {
+      "description": "덴버의 'California Street' 표지판이 r이 하나 더 붙은 'Califorina St'로 걸렸고, 시장이 사진을 올린 뒤 교체되었다.",
+      "alt": "'Califorina St'라고 적힌 덴버의 초록색 도로 표지판",
+      "intended": "California St",
+      "misread": "Califorina St"
     }
   }
 }
