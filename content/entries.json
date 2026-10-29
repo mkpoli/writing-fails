@@ -484,7 +484,7 @@
     "number": 25,
     "type": "note",
     "language": "japanese",
-    "kind": "direction",
+    "kind": "typo",
     "title": "友人レジ",
     "titleLang": "ja",
     "image": {
@@ -497,7 +497,7 @@
       "href": "https://grapetrend.jp/buzz/2187520"
     },
     "reading": null,
-    "keywords": "Japanese Signs note vertical 有人レジ 友人レジ direction"
+    "keywords": "Japanese Signs note vertical 有人レジ 友人レジ typo"
   },
   {
     "id": "nhyo",
