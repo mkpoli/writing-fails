@@ -125,8 +125,8 @@
     "converter": {
       "description": "“HD video converter” becomes “erotic video converter” when HD resembles エロ.",
       "alt": "The photographed HD video converter packaging",
-      "intended": "Vertical",
-      "misread": "Horizontal LTR"
+      "intended": "HD",
+      "misread": "エロ"
     },
     "meat": {
       "description": "肉のこーべや (Kobeya Meat) becomes “this meat is bad.”",
@@ -243,10 +243,10 @@
       "misread": "Horizontal LTR"
     },
     "yuujin": {
-      "description": "The notice sets its columns left to right, the opposite of vertical Japanese, so right-to-left readers get the lines backwards—and 有人レジ, the staffed register, is typed 友人レジ.",
+      "description": "The notice tells buyers of this item to pay at the 有人レジ, the staffed register, and types it 友人レジ—both read yūjin—so anyone without a friend is turned away. Its three columns also run left to right, the reverse of vertical Japanese.",
       "alt": "A handwritten notice in three vertical columns",
-      "intended": "Vertical LTR",
-      "misread": "Vertical RTL"
+      "intended": "有人レジ",
+      "misread": "友人レジ"
     },
     "nhyo": {
       "description": "Weathering ate parts of the ショッパーズ sign and left ンョ゛ハー; the rooftop sign above still spells the shop's name.",
