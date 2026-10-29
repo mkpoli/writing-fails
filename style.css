@@ -35,3 +35,5 @@ body{background:var(--paper)}
 @media(max-width:1239px){.cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:999px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:604px){.cards{grid-template-columns:1fr}}
+
+@media(max-width:1239px){.toolbar{display:block;padding-bottom:12px}.search{border-top:1px solid var(--line);padding-top:12px}}
