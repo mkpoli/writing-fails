@@ -691,6 +691,12 @@
       "alt": "写着「ELECTIRC VEHICLES」的路面标线",
       "intended": "ELECTRIC VEHICLES",
       "misread": "ELECTIRC VEHICLES"
+    },
+    "vehicls": {
+      "description": "莱德尼出错几天后，辛德福德的电动车位标线少了一个e：「ELECTRIC VEHICLS ONLY」。两处后来都重画。",
+      "alt": "写着「ELECTRIC VEHICLS ONLY」的路面标线",
+      "intended": "ELECTRIC VEHICLES",
+      "misread": "ELECTRIC VEHICLS"
     }
   }
 }

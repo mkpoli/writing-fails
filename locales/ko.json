@@ -691,6 +691,12 @@
       "alt": "'ELECTIRC VEHICLES'라고 칠해진 노면 표시",
       "intended": "ELECTRIC VEHICLES",
       "misread": "ELECTIRC VEHICLES"
+    },
+    "vehicls": {
+      "description": "라이드니 사건 며칠 뒤 신더퍼드의 노면 표시는 e가 하나 빠진 'ELECTRIC VEHICLS ONLY'가 되었다. 두 곳 모두 다시 칠해졌다.",
+      "alt": "'ELECTRIC VEHICLS ONLY'라고 칠해진 노면 표시",
+      "intended": "ELECTRIC VEHICLES",
+      "misread": "ELECTRIC VEHICLS"
     }
   }
 }
