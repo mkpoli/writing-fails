@@ -146,6 +146,29 @@ ${image}
 </article>`
 }
 
+const heart = 'M12 21s-8.5-5.1-8.5-11.3A4.7 4.7 0 0 1 12 6.9a4.7 4.7 0 0 1 8.5 2.8C20.5 15.9 12 21 12 21Z'
+
+function sponsorButton(code, prefix, place) {
+  return `<button type="button" class="sponsor sponsor-${place}" aria-label="${esc(t(code, 'sponsor.label'))}" aria-haspopup="dialog" aria-controls="sponsor-dialog"><span class="sponsor-face" aria-hidden="true"><img src="${prefix}assets/sponsor-face.webp" alt="" width="26" height="26"><svg viewBox="0 0 24 24"><path d="${heart}"/></svg></span><span class="sponsor-label">${esc(t(code, 'sponsor.label'))}</span></button>`
+}
+
+// The author's portrait, why she needs help, then three steps that end at the Ko-fi button.
+function sponsorDialog(code, prefix) {
+  const steps = [t(code, 'sponsor.step1'), t(code, 'sponsor.step2'), t(code, 'sponsor.step3')].map(step => `<li>${esc(step)}</li>`).join('')
+  return `<dialog id="sponsor-dialog" class="sponsor-dialog" aria-labelledby="sponsor-title">
+<header><h2 id="sponsor-title">${esc(t(code, 'sponsor.label'))}</h2><button type="button" class="sponsor-close" aria-label="${esc(t(code, 'sponsor.close'))}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></header>
+<div class="sponsor-sheet">
+<div class="sponsor-hero" aria-hidden="true"><span class="sponsor-portrait"><img src="${prefix}assets/sponsor-portrait.webp" alt="" width="112" height="112" loading="lazy"><svg viewBox="0 0 24 24"><path d="${heart}"/><ellipse cx="7.6" cy="9.6" rx="1.5" ry="2.1" transform="rotate(-30 7.6 9.6)"/></svg></span><span class="sponsor-spark">✦</span><span class="sponsor-spark">✦</span><span class="sponsor-spark">✦</span></div>
+<p class="sponsor-lead">${esc(t(code, 'sponsor.lead'))}</p>
+<p class="sponsor-ask">${esc(t(code, 'sponsor.ask'))}</p>
+<section class="sponsor-how"><h3>${esc(t(code, 'sponsor.howTo'))}</h3><ol role="list">${steps}</ol></section>
+<a class="sponsor-kofi" href="https://ko-fi.com/mkpoli" target="_blank" rel="noreferrer"><span class="sponsor-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 9h12v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4ZM16 11h2a2.5 2.5 0 0 1 0 5h-2M7 3v3M11 2v3M15 3v3"/></svg></span><span class="sponsor-copy"><strong>Ko-fi</strong><small>${esc(t(code, 'sponsor.kofi'))}</small></span><svg class="sponsor-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+<a class="sponsor-company" href="mailto:mkpoli@mkpo.li?subject=Sponsorship%20on%20writing-fails.mkpo.li"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3zM3 7l9 6 9-6"/></svg><span class="sponsor-copy"><strong>${esc(t(code, 'sponsor.company'))}</strong><small>${esc(t(code, 'sponsor.companyHint'))}</small></span></a>
+<p class="sponsor-thanks">${esc(t(code, 'sponsor.thanks'))}</p>
+</div>
+</dialog>`
+}
+
 function localePrefix(code) {
   return code === 'en' ? '' : '../'
 }
@@ -175,13 +198,14 @@ ${head(locale, prefix)}
 <header class="topbar">
 <a class="brand" href="#top"><span class="brandmark">文<span>↘</span></span><span>writing<br><b>fails.</b></span></a>
 <div class="topbar-right">
+${sponsorButton(code, prefix, 'topbar')}
 <nav class="langs" aria-label="${esc(t(code, 'langs.label'))}">${langLinks(locale, prefix)}</nav>
 <nav class="nav" aria-label="${esc(t(code, 'nav.label'))}"><a href="#collection">${esc(t(code, 'nav.collection'))}</a><a class="submit" href="${submitUrl}">${esc(t(code, 'nav.submit'))} <span>↗</span></a></nav>
 </div>
 </header>
 <main id="top">
 <section id="collection" class="collection">
-<div class="section-heading"><div><h1>${brand}</h1><p>${esc(t(code, 'hero.tagline'))}</p></div></div>
+<div class="section-heading"><div><h1>${brand}</h1><p>${esc(t(code, 'hero.tagline'))}</p>${sponsorButton(code, prefix, 'heading')}</div></div>
 <div class="toolbar">
 <div class="filters" role="group" aria-label="${esc(t(code, 'filters.label'))}">${kindFilters}</div>
 <div class="toolbar-end">
@@ -198,6 +222,7 @@ ${entries.map(entry => card(entry, locale)).join('\n')}
 </section>
 </main>
 <footer><span>${format(esc(t(code, 'footer.license')), { cc0: '<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>' })}</span><a class="footer-brand" href="#top">writing <b>fails.</b></a><span></span><a href="#top">${esc(t(code, 'footer.backToTop'))}</a></footer>
+${sponsorDialog(code, prefix)}
 <script src="${prefix}script.js"></script>
 </body>
 </html>
