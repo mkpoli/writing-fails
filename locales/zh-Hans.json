@@ -636,6 +636,12 @@
       "alt": "用红圈标出「CONSEJALES」的市政指示牌",
       "intended": "CONCEJALES",
       "misread": "CONSEJALES"
+    },
+    "patick": {
+      "description": "渥太华的绿色路牌把「St. Patrick」写成「St. Patick」，少了一个R。",
+      "alt": "写着「Rue St. Patick Street」的渥太华路牌",
+      "intended": "St. Patrick",
+      "misread": "St. Patick"
     }
   }
 }

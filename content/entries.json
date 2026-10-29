@@ -1818,5 +1818,25 @@
     },
     "reading": null,
     "keywords": "Spanish sign concejales consejales Luque typo"
+  },
+  {
+    "id": "patick",
+    "number": 92,
+    "type": "sign",
+    "language": "english",
+    "kind": "typo",
+    "title": "St. Patick",
+    "titleLang": "en",
+    "image": {
+      "src": "assets/patick.jpg",
+      "href": "https://www.cp24.com/news/canada/2026/10/26/missing-r-on-ottawa-street-sign-sends-drivers-to-st-patick-street/"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "CP24",
+      "href": "https://www.cp24.com/news/canada/2026/10/26/missing-r-on-ottawa-street-sign-sends-drivers-to-st-patick-street/"
+    },
+    "reading": null,
+    "keywords": "English sign St Patrick Patick Ottawa typo"
   }
 ]

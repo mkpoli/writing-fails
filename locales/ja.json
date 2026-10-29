@@ -636,6 +636,12 @@
       "alt": "「CONSEJALES」を赤丸で囲んだ市の案内板",
       "intended": "CONCEJALES",
       "misread": "CONSEJALES"
+    },
+    "patick": {
+      "description": "オタワの緑の道路標識は「St. Patrick」を「St. Patick」と表示し、Rが一つ抜けている。",
+      "alt": "「Rue St. Patick Street」と書かれたオタワの道路標識",
+      "intended": "St. Patrick",
+      "misread": "St. Patick"
     }
   }
 }

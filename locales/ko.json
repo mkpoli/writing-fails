@@ -636,6 +636,12 @@
       "alt": "'CONSEJALES'를 빨간 동그라미로 표시한 시 안내판",
       "intended": "CONCEJALES",
       "misread": "CONSEJALES"
+    },
+    "patick": {
+      "description": "오타와의 초록색 도로 표지판이 'St. Patrick'을 'St. Patick'으로 적어 R이 빠졌다.",
+      "alt": "'Rue St. Patick Street'가 적힌 오타와 도로 표지판",
+      "intended": "St. Patrick",
+      "misread": "St. Patick"
     }
   }
 }
