@@ -6,6 +6,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const site = 'https://writing-fails.mkpo.li'
 const brand = 'Writing fails'
 const submitUrl = 'https://github.com/mkpoli/writing-fails/issues/new?template=example.yml'
+const socialCodes = { en: 'en', ja: 'ja', 'zh-Hans': 'zh', ko: 'ko' }
 
 const locales = [
   { code: 'en', path: '', label: 'EN', ogLocale: 'en_US' },
@@ -54,6 +55,42 @@ function langLinks(locale, prefix) {
   }).join('')
 }
 
+const socialImage = locale => `${site}/assets/og/${socialCodes[locale.code]}.png`
+const socialAlt = locale => `${t(locale.code, 'meta.title')} — ${t(locale.code, 'hero.tagline')}`
+
+function structuredData(locale) {
+  const url = `${site}/${locale.path}`
+  const data = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        '@id': `${site}/#website`,
+        url: `${site}/`,
+        name: brand,
+        description: t('en', 'meta.description'),
+        inLanguage: locales.map(target => target.code),
+      },
+      {
+        '@type': 'CollectionPage',
+        '@id': `${url}#page`,
+        url,
+        name: t(locale.code, 'meta.title'),
+        description: t(locale.code, 'meta.description'),
+        inLanguage: locale.code,
+        isPartOf: { '@id': `${site}/#website` },
+        primaryImageOfPage: {
+          '@type': 'ImageObject',
+          url: socialImage(locale),
+          width: 1200,
+          height: 630,
+        },
+      },
+    ],
+  }
+  return `<script type="application/ld+json">${JSON.stringify(data).replaceAll('<', '\\u003c')}</script>`
+}
+
 function head(locale, prefix) {
   const alternates = locales.map(target =>
     `<link rel="alternate" hreflang="${target.code}" href="${site}/${target.path}">`).join('\n')
@@ -66,6 +103,7 @@ function head(locale, prefix) {
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(t(locale.code, 'meta.title'))}</title>
 <meta name="description" content="${esc(t(locale.code, 'meta.description'))}">
+<meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="${site}/${locale.path}">
 ${alternates}
 <link rel="alternate" hreflang="x-default" href="${site}/">
@@ -75,11 +113,23 @@ ${alternates}
 <link rel="manifest" href="./site.webmanifest">
 <meta name="theme-color" content="#f7f6f4">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="${esc(brand)}">
 <meta property="og:title" content="${esc(t(locale.code, 'meta.title'))}">
 <meta property="og:description" content="${esc(t(locale.code, 'meta.description'))}">
 <meta property="og:url" content="${site}/${locale.path}">
 <meta property="og:locale" content="${locale.ogLocale}">
 ${ogAlternates}
+<meta property="og:image" content="${esc(socialImage(locale))}">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(socialAlt(locale))}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(t(locale.code, 'meta.title'))}">
+<meta name="twitter:description" content="${esc(t(locale.code, 'meta.description'))}">
+<meta name="twitter:image" content="${esc(socialImage(locale))}">
+<meta name="twitter:image:alt" content="${esc(socialAlt(locale))}">
+${structuredData(locale)}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -162,6 +212,31 @@ ${entries.map(entry => card(entry, locale)).join('\n')}
 `
 }
 
+function sitemap() {
+  const urls = locales.map(locale => {
+    const links = [
+      ...locales.map(target =>
+        `    <xhtml:link rel="alternate" hreflang="${target.code}" href="${site}/${target.path}"/>`),
+      `    <xhtml:link rel="alternate" hreflang="x-default" href="${site}/"/>`,
+    ]
+    return `  <url>
+    <loc>${site}/${locale.path}</loc>
+${links.join('\n')}
+  </url>`
+  })
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${urls.join('\n')}
+</urlset>
+`
+}
+
+const robots = `User-agent: *
+Allow: /
+
+Sitemap: ${site}/sitemap.xml
+`
+
 function webManifest(locale) {
   return `${JSON.stringify({
     id: '/',
@@ -192,3 +267,9 @@ for (const locale of locales) {
   writeFileSync(join(dir, 'site.webmanifest'), webManifest(locale))
   console.log(`wrote ${locale.path || './'}site.webmanifest`)
 }
+
+writeFileSync(join(root, 'sitemap.xml'), sitemap())
+console.log('wrote sitemap.xml')
+
+writeFileSync(join(root, 'robots.txt'), robots)
+console.log('wrote robots.txt')
