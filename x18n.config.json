@@ -1,0 +1,17 @@
+{
+  "$schema": "https://x18n.dev/schema/config.json",
+  "sourceLocale": "en",
+  "locales": ["en", "ja", "zh-Hans", "ko"],
+  "resources": [
+    { "pattern": "locales/{locale}.json" }
+  ],
+  "usage": {
+    "include": ["scripts/**/*.mjs"],
+    "calls": [
+      { "callee": "t", "key": 1 }
+    ]
+  },
+  "write": {
+    "indent": 2
+  }
+}

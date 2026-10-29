@@ -1,0 +1,14 @@
+{
+  "name": "writing-fails",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun scripts/build.mjs",
+    "check": "x18n check --strict",
+    "verify": "bun run check && bun run build && git diff --exit-code",
+    "i18n": "x18n"
+  },
+  "devDependencies": {
+    "@x18n/cli": "^0.1.3"
+  }
+}
