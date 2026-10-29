@@ -59,3 +59,14 @@ document.addEventListener('keydown', event => {
     search.focus();
   }
 });
+
+// The sponsor dialog. A click on the backdrop closes it; one on its own scrollbar also targets the
+// dialog, so only a click outside its box counts.
+const sponsorDialog = document.querySelector('#sponsor-dialog');
+document.querySelectorAll('.sponsor').forEach(button => button.addEventListener('click', () => sponsorDialog.showModal()));
+sponsorDialog.querySelector('.sponsor-close').addEventListener('click', () => sponsorDialog.close());
+sponsorDialog.addEventListener('click', event => {
+  if (event.target !== sponsorDialog) return;
+  const box = sponsorDialog.getBoundingClientRect();
+  if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) sponsorDialog.close();
+});

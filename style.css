@@ -106,3 +106,69 @@ html:lang(ja) .filters .filter-label,html:lang(zh-Hans) .filters .filter-label,h
   .card:hover p,.card:focus-within p{opacity:1}
   @media(prefers-reduced-motion:reduce){.card p{transition:none}}
 }
+
+/* Sponsor: a pink pill led by the author's face, and the dialog it opens. */
+.sponsor{display:inline-flex;align-items:center;gap:9px;flex:none;height:38px;padding:0 15px 0 6px;border:1px solid #ffc2d6;border-radius:999px;background:linear-gradient(135deg,#ffe6ef,#fff0e0);color:#c2185b;font-size:13px;font-weight:700;white-space:nowrap;cursor:pointer;box-shadow:0 1px 2px rgba(194,24,91,.12)}
+.sponsor:focus-visible,.sponsor-close:focus-visible,.sponsor-kofi:focus-visible,.sponsor-company:focus-visible{outline:2px solid #c2185b;outline-offset:2px}
+.sponsor-face{position:relative;flex:none;width:26px;height:26px}
+.sponsor-face img{display:block;width:100%;height:100%;border-radius:50%;object-fit:cover;box-shadow:0 0 0 1.5px #fff,0 0 0 2.5px #ffc2d6}
+.sponsor-face svg{position:absolute;right:-4px;bottom:-3px;width:12px;height:12px;fill:#ff4f88;stroke:#fff;stroke-width:2.5;paint-order:stroke;overflow:visible;transform-origin:50% 60%}
+/* The top bar has no room for the pill on phones, so it moves under the title there. */
+.sponsor-heading{display:none;margin-top:16px}
+@media(max-width:800px){.sponsor-topbar{width:40px;height:40px;padding:0;justify-content:center}.sponsor-topbar .sponsor-label{display:none}.sponsor-topbar .sponsor-face{width:30px;height:30px}}
+@media(max-width:520px){.sponsor-topbar{display:none}.sponsor-heading{display:inline-flex}}
+.sponsor-dialog{width:min(480px,calc(100vw - 32px));max-height:calc(100dvh - 32px);padding:0;border:1px solid var(--line);border-radius:16px;background:#fff;color:var(--ink);box-shadow:0 30px 90px rgba(23,27,28,.3);overflow:auto}
+.sponsor-dialog::backdrop{background:rgba(23,27,28,.45);backdrop-filter:blur(6px)}
+.sponsor-dialog header{display:flex;align-items:center;justify-content:space-between;padding:14px 14px 0 24px}
+.sponsor-dialog h2{margin:0;font:700 22px Georgia,'Times New Roman',serif;letter-spacing:-.03em}
+.sponsor-close{display:grid;place-items:center;width:36px;height:36px;padding:0;border:0;border-radius:50%;background:none;color:#62645f;cursor:pointer}
+.sponsor-close:hover{background:#f0f0ed;color:var(--ink)}
+.sponsor-close svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}
+.sponsor-sheet{display:flex;flex-direction:column;gap:14px;padding:4px 24px 22px}
+.sponsor-hero{position:relative;display:grid;place-items:center;height:136px;background:radial-gradient(closest-side,#ffd9e5,transparent)}
+.sponsor-portrait{position:relative;width:112px;height:112px}
+.sponsor-portrait img{display:block;width:100%;height:100%;border-radius:50%;object-fit:cover;box-shadow:0 0 0 4px #fff,0 0 0 6px #ffc2d6,0 10px 24px rgba(255,79,136,.3)}
+.sponsor-portrait svg{position:absolute;right:-2px;bottom:2px;width:34px;height:34px;fill:#ff4f88;stroke:#fff;stroke-width:2;paint-order:stroke;overflow:visible;transform-origin:50% 60%;filter:drop-shadow(0 3px 6px rgba(255,79,136,.35))}
+.sponsor-portrait ellipse{fill:#fff;stroke:none;opacity:.6}
+.sponsor-spark{position:absolute;color:#ff4f88;opacity:.75}
+.sponsor-spark:nth-of-type(2){top:22px;left:calc(50% - 84px);font-size:14px}
+.sponsor-spark:nth-of-type(3){top:12px;left:calc(50% + 66px);font-size:10px}
+.sponsor-spark:nth-of-type(4){bottom:20px;left:calc(50% - 76px);font-size:11px}
+.sponsor-lead{margin:0;font-size:14px;line-height:1.65}
+.sponsor-ask{margin:0;font-size:14.5px;font-weight:700;line-height:1.5;color:#c2185b}
+html:lang(ko) .sponsor-sheet{word-break:keep-all}
+.sponsor-how{padding:12px 14px;border:1px dashed #ffc2d6;border-radius:14px;background:#fff1f5}
+.sponsor-how h3{margin:0 0 8px;font-size:12px;font-weight:700;color:#c2185b}
+.sponsor-how ol{display:flex;flex-direction:column;gap:6px;margin:0;padding:0;list-style:none;counter-reset:step}
+.sponsor-how li{display:flex;align-items:baseline;gap:8px;font-size:13px;line-height:1.45;counter-increment:step}
+.sponsor-how li::before{content:counter(step);display:grid;place-items:center;flex:none;width:20px;height:20px;border-radius:50%;background:#c2185b;color:#fff1f5;font-size:11px;font-weight:700;line-height:1;transform:translateY(-1px)}
+.sponsor-kofi{display:flex;align-items:center;gap:12px;padding:12px 18px 12px 12px;border-radius:999px;background:linear-gradient(135deg,#d81b60,#b0124f);color:#fff;box-shadow:0 6px 16px rgba(216,27,96,.32)}
+.sponsor-mark{display:grid;place-items:center;flex:none;width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.22)}
+.sponsor-mark svg,.sponsor-arrow,.sponsor-company svg{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.sponsor-mark svg{width:20px;height:20px}
+.sponsor-arrow{flex:none;width:18px;height:18px}
+.sponsor-copy{display:flex;flex:1;flex-direction:column;gap:1px;min-width:0}
+.sponsor-copy strong{font-size:13.5px}
+.sponsor-copy small{font-size:12px;line-height:1.4}
+.sponsor-kofi .sponsor-copy strong{font-size:15px}
+.sponsor-company{display:flex;align-items:flex-start;gap:10px;padding:8px 12px;border-radius:12px;color:#62645f}
+.sponsor-company:hover{background:#f0f0ed;color:var(--ink)}
+.sponsor-company svg{flex:none;width:16px;height:16px;margin-top:2px}
+.sponsor-company .sponsor-copy strong{font-size:12.5px;color:var(--ink)}
+.sponsor-thanks{margin:0;font-size:12.5px;line-height:1.5;color:#62645f;text-align:center}
+@media(prefers-reduced-motion:no-preference){
+  .sponsor{transition:transform .18s ease,box-shadow .18s ease}
+  .sponsor:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(255,79,136,.28)}
+  .sponsor-face svg,.sponsor-portrait svg{animation:sponsor-beat 2.8s ease-in-out infinite}
+  .sponsor:hover .sponsor-face svg,.sponsor:focus-visible .sponsor-face svg{animation:sponsor-bounce .6s ease-in-out infinite}
+  .sponsor-spark{animation:sponsor-twinkle 2.4s ease-in-out infinite}
+  .sponsor-spark:nth-of-type(3){animation-delay:.8s}
+  .sponsor-spark:nth-of-type(4){animation-delay:1.6s}
+  .sponsor-dialog[open]{animation:sponsor-arrive .32s cubic-bezier(.2,.8,.2,1)}
+  .sponsor-kofi{transition:transform .18s ease,box-shadow .18s ease}
+  .sponsor-kofi:hover{transform:translateY(-1px);box-shadow:0 8px 22px rgba(216,27,96,.42)}
+}
+@keyframes sponsor-beat{0%,70%,100%{transform:scale(1)}78%{transform:scale(1.18)}86%{transform:scale(.96)}93%{transform:scale(1.1)}}
+@keyframes sponsor-bounce{0%,100%{transform:translateY(0) scale(1)}40%{transform:translateY(-2px) scale(1.18) rotate(-8deg)}}
+@keyframes sponsor-twinkle{0%,100%{opacity:.2;transform:scale(.7)}50%{opacity:.9;transform:scale(1)}}
+@keyframes sponsor-arrive{from{opacity:0;transform:translateY(14px) scale(.98)}}

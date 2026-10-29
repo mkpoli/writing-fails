@@ -698,5 +698,19 @@
       "intended": "ELECTRIC VEHICLES",
       "misread": "ELECTRIC VEHICLS"
     }
+  },
+  "sponsor": {
+    "label": "Sponsor",
+    "close": "Close",
+    "lead": "I make Writing Fails on my own, out of love for writing systems, and I pay for it myself. I don't have a job, and my small TA pay doesn't cover rent and food. Some days I can barely afford to eat.",
+    "ask": "Please help me keep going 🥺 Even one dollar helps me eat today.",
+    "howTo": "How to help",
+    "step1": "Tap Ko-fi below.",
+    "step2": "Pick any amount. Small is fine.",
+    "step3": "Pay with PayPal or a card. No sign-up needed.",
+    "kofi": "One-time or monthly",
+    "company": "Company sponsorship",
+    "companyHint": "I'd love to put your ad on this site. Please write to mkpoli@mkpo.li.",
+    "thanks": "Thank you for reading this far. Your help keeps me fed and keeps Writing Fails growing 💗"
   }
 }
