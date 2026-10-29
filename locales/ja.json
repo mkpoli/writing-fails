@@ -40,6 +40,9 @@
     "placeholder": "コレクションを検索",
     "label": "コレクションを検索"
   },
+  "gallery": {
+    "status": "全{total}件中{shown}件を表示中。"
+  },
   "empty": "該当する項目がありません。検索語か絞り込みを変えてください。",
   "labels": {
     "intended": "本来",
@@ -697,6 +700,12 @@
       "alt": "「ELECTRIC VEHICLS ONLY」と描かれた路面表示",
       "intended": "ELECTRIC VEHICLES",
       "misread": "ELECTRIC VEHICLS"
+    },
+    "soul-of-coffee": {
+      "description": "タイのカフェ「SoulZen Cafe」は「SOUL OF COFFEE」を形の似た仮名で印字している。日本語として読めず、仮名をラテン文字に置き換えると読める。",
+      "alt": "上段に「らロひレ」、下段に「ロチ てロチチモモ」、その下にメニューが印字されたプラスチックカップ",
+      "intended": "SOUL",
+      "misread": "らロひレ"
     }
   },
   "sponsor": {

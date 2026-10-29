@@ -38,6 +38,27 @@ const esc = value => String(value)
 
 const format = (template, values) => template.replace(/\{(\w+)\}/g, (_, key) => values[key] ?? `{${key}}`)
 
+// The intended and misread strings are often in the sign's own language, not
+// the page language. Declaring it lets the browser pick the right CJK face.
+const sampleLang = (value, entry) => {
+  if (/\p{Script=Hangul}/u.test(value)) return 'ko'
+  if (/[\p{Script=Hiragana}\p{Script=Katakana}]/u.test(value)) return 'ja'
+  if (!/\p{Script=Han}/u.test(value)) return ''
+  if (['zh-Hans', 'zh-Hant', 'ja', 'ko'].includes(entry.titleLang)) return entry.titleLang
+  if (entry.language === 'chinese') return 'zh-Hans'
+  if (entry.language === 'korean') return 'ko'
+  return 'ja'
+}
+
+const langAttr = (value, field, entry, code) => {
+  // Direction labels are translated per page; anything unchanged from English
+  // is the quoted sign text and can be in another language.
+  const lang = value === t('en', `entries.${entry.id}.${field}`)
+    ? sampleLang(value, entry)
+    : code
+  return lang ? ` lang="${lang}"` : ''
+}
+
 const ids = new Set()
 for (const [index, entry] of entries.entries()) {
   if (ids.has(entry.id)) throw new Error(`Duplicate entry id: ${entry.id}`)
@@ -110,13 +131,15 @@ function card(entry, locale) {
   const image = entry.image.href
     ? `<a class="card-image" href="${esc(entry.image.href)}">${imageInner}<span class="image-link">↗</span></a>`
     : `<div class="card-image">${imageInner}</div>`
+  const intended = t(code, `entries.${entry.id}.intended`)
+  const misread = t(code, `entries.${entry.id}.misread`)
 
   return `<article class="card" data-lang="${entry.language}" data-kind="${entry.kind}" data-keywords="${esc(entry.keywords)}">
 ${image}
 <div class="card-content">
 <div class="tags">${tagsHtml}</div>
 <h3 lang="${entry.titleLang}">${esc(entry.title)}</h3>
-<div class="direction"><span class="dir"><span>${esc(t(code, 'labels.intended'))}</span><b>${esc(t(code, `entries.${entry.id}.intended`))}</b></span><span class="dir-arrow">→</span><span class="dir"><span>${esc(t(code, 'labels.misread'))}</span><b>${esc(t(code, `entries.${entry.id}.misread`))}</b></span></div>
+<div class="direction"><span class="dir"><span>${esc(t(code, 'labels.intended'))}</span><b${langAttr(intended, 'intended', entry, code)}>${esc(intended)}</b></span><span class="dir-arrow">→</span><span class="dir"><span>${esc(t(code, 'labels.misread'))}</span><b${langAttr(misread, 'misread', entry, code)}>${esc(misread)}</b></span></div>
 <p>${esc(t(code, `entries.${entry.id}.description`))}</p>
 <div class="card-footer"><span>${credit}</span>${reading}</div>
 </div>
@@ -193,6 +216,8 @@ ${sponsorButton(code, prefix, 'topbar')}
 <div class="cards">
 ${entries.map(entry => card(entry, locale)).join('\n')}
 </div>
+<div class="cards-sentinel" aria-hidden="true" hidden></div>
+<p class="gallery-status sr-only" role="status" aria-live="polite" data-template="${esc(t(code, 'gallery.status'))}"></p>
 <p class="empty" hidden>${esc(t(code, 'empty'))}</p>
 </section>
 </main>
