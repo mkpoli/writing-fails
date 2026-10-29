@@ -192,6 +192,8 @@ ${head(locale, prefix)}
 <div class="cards">
 ${entries.map(entry => card(entry, locale)).join('\n')}
 </div>
+<div class="cards-sentinel" aria-hidden="true" hidden></div>
+<p class="gallery-status sr-only" role="status" aria-live="polite" data-template="${esc(t(code, 'gallery.status'))}"></p>
 <p class="empty" hidden>${esc(t(code, 'empty'))}</p>
 </section>
 </main>

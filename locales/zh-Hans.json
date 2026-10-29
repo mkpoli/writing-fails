@@ -40,6 +40,9 @@
     "placeholder": "搜索合集",
     "label": "搜索合集"
   },
+  "gallery": {
+    "status": "已显示{shown}条，共{total}条。"
+  },
   "empty": "没有找到条目。换个关键词或筛选条件试试。",
   "labels": {
     "intended": "原意",

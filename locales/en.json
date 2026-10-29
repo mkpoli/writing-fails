@@ -40,6 +40,9 @@
     "placeholder": "Search the collection",
     "label": "Search the collection"
   },
+  "gallery": {
+    "status": "Showing {shown} of {total} entries."
+  },
   "empty": "No entries found. Try another search or filter.",
   "labels": {
     "intended": "INTENDED",
