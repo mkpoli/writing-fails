@@ -1,5 +1,5 @@
 name: Submit an example
-description: Share a documented writing-direction, layout or translation misunderstanding.
+description: Share a documented sign, label or translation that says something other than intended.
 title: "Example: "
 body:
   - type: input
@@ -13,6 +13,22 @@ body:
     id: language
     attributes:
       label: Language
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of fail
+      options:
+        - Direction
+        - Layout
+        - Flipped
+        - Look-alike
+        - Typo
+        - Wording
+        - Unfamiliar
+        - Translation
+        - Damage
     validations:
       required: true
   - type: textarea

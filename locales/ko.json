@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Writing fails: 잘못 읽힌 글자들",
-    "description": "읽는 방향과 배치, 번역 실수 때문에 생긴 잘못된 읽기를 모은 사이트."
+    "description": "읽는 방향과 배치, 글자 모양, 오타, 표현, 낯선 문자, 번역 실수 때문에 생긴 잘못된 읽기를 모은 사이트."
   },
   "nav": {
     "collection": "컬렉션",
@@ -17,15 +17,19 @@
   "filters": {
     "label": "컬렉션 필터",
     "all": "전체 {count}",
+    "langLabel": "언어",
+    "direction": "방향",
+    "layout": "배치",
+    "flipped": "뒤집힘",
+    "lookalike": "비슷한 글자",
+    "typo": "오타",
+    "wording": "표현",
+    "unfamiliar": "미숙",
+    "translation": "번역",
+    "damage": "훼손",
     "korean": "한국어",
     "chinese": "중국어",
-    "japanese": "일본어",
-    "signs": "간판",
-    "layout": "배치",
-    "wording": "표기",
-    "translation": "번역",
-    "gibberish": "알 수 없음",
-    "bad-meaning": "부적절한 의미"
+    "japanese": "일본어"
   },
   "search": {
     "placeholder": "컬렉션 검색",
@@ -57,12 +61,15 @@
     "korean": "한국어",
     "chinese": "중국어",
     "japanese": "일본어",
-    "signs": "간판",
+    "direction": "방향",
     "layout": "배치",
-    "wording": "표기",
+    "flipped": "뒤집힘",
+    "lookalike": "비슷한 글자",
+    "typo": "오타",
+    "wording": "표현",
+    "unfamiliar": "미숙",
     "translation": "번역",
-    "gibberish": "알 수 없음",
-    "bad-meaning": "부적절한 의미"
+    "damage": "훼손"
   },
   "credits": {
     "photo-by": "사진: {name}",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Writing fails｜误读与排版失误",
-    "description": "收录因阅读方向、排版或翻译失误而产生的误读。"
+    "description": "收录因阅读方向、排版、字形、错字、用词、生疏文字与翻译失误而产生的误读。"
   },
   "nav": {
     "collection": "合集",
@@ -17,15 +17,19 @@
   "filters": {
     "label": "筛选合集",
     "all": "全部{count}",
+    "langLabel": "语言",
+    "direction": "方向",
+    "layout": "排版",
+    "flipped": "翻转",
+    "lookalike": "形近字",
+    "typo": "错字",
+    "wording": "用词",
+    "unfamiliar": "生疏",
+    "translation": "翻译",
+    "damage": "破损",
     "korean": "韩语",
     "chinese": "中文",
-    "japanese": "日语",
-    "signs": "招牌",
-    "layout": "排版",
-    "wording": "用字",
-    "translation": "翻译",
-    "gibberish": "无法解读",
-    "bad-meaning": "负面含义"
+    "japanese": "日语"
   },
   "search": {
     "placeholder": "搜索合集",
@@ -57,12 +61,15 @@
     "korean": "韩语",
     "chinese": "中文",
     "japanese": "日语",
-    "signs": "招牌",
+    "direction": "方向",
     "layout": "排版",
-    "wording": "用字",
+    "flipped": "翻转",
+    "lookalike": "形近字",
+    "typo": "错字",
+    "wording": "用词",
+    "unfamiliar": "生疏",
     "translation": "翻译",
-    "gibberish": "无法解读",
-    "bad-meaning": "负面含义"
+    "damage": "破损"
   },
   "credits": {
     "photo-by": "图片：{name}",

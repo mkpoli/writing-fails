@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Writing fails",
-    "description": "A collection of writing direction and layout misunderstandings."
+    "description": "A collection of misreadings caused by direction, layout, letterforms, typos, wording, unfamiliar scripts or translation."
   },
   "nav": {
     "collection": "Collection",
@@ -17,15 +17,19 @@
   "filters": {
     "label": "Filter collection",
     "all": "All fails {count}",
+    "langLabel": "Language",
+    "direction": "Direction",
+    "layout": "Layout",
+    "flipped": "Flipped",
+    "lookalike": "Look-alike",
+    "typo": "Typo",
+    "wording": "Wording",
+    "unfamiliar": "Unfamiliar",
+    "translation": "Translation",
+    "damage": "Damage",
     "korean": "Korean",
     "chinese": "Chinese",
-    "japanese": "Japanese",
-    "signs": "Signs",
-    "layout": "Layout",
-    "wording": "Wording",
-    "translation": "Translation",
-    "gibberish": "Gibberish",
-    "bad-meaning": "Bad meaning"
+    "japanese": "Japanese"
   },
   "search": {
     "placeholder": "Search the collection",
@@ -57,12 +61,15 @@
     "korean": "KOREAN",
     "chinese": "CHINESE",
     "japanese": "JAPANESE",
-    "signs": "SIGNS",
+    "direction": "DIRECTION",
     "layout": "LAYOUT",
+    "flipped": "FLIPPED",
+    "lookalike": "LOOK-ALIKE",
+    "typo": "TYPO",
     "wording": "WORDING",
+    "unfamiliar": "UNFAMILIAR",
     "translation": "TRANSLATION",
-    "gibberish": "GIBBERISH",
-    "bad-meaning": "BAD MEANING"
+    "damage": "DAMAGE"
   },
   "credits": {
     "photo-by": "PHOTO BY {name}",
