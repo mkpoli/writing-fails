@@ -32,7 +32,8 @@
     "japanese": "日本語",
     "english": "英語",
     "spanish": "スペイン語",
-    "french": "フランス語"
+    "french": "フランス語",
+    "german": "ドイツ語"
   },
   "search": {
     "placeholder": "コレクションを検索",
@@ -75,7 +76,8 @@
     "damage": "破損",
     "english": "英語",
     "spanish": "スペイン語",
-    "french": "フランス語"
+    "french": "フランス語",
+    "german": "ドイツ語"
   },
   "credits": {
     "photo-by": "写真：{name}",
@@ -650,6 +652,12 @@
       "alt": "「Neuchâteau」と書かれた青い道路標識",
       "intended": "Neufchâteau",
       "misread": "Neuchâteau"
+    },
+    "weisenfels": {
+      "description": "B91の頭上標識は「Weißenfels」を「Weisenfels」と表示した。隣の標識は正しく「Weißenfels-Süd」と書かれている。",
+      "alt": "「Weisenfels」と書かれた標識（隣は「Weißenfels-Süd」）",
+      "intended": "Weißenfels",
+      "misread": "Weisenfels"
     }
   }
 }

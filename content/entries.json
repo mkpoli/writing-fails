@@ -1858,5 +1858,25 @@
     },
     "reading": null,
     "keywords": "French sign Neufchâteau Neuchâteau Léglise typo"
+  },
+  {
+    "id": "weisenfels",
+    "number": 94,
+    "type": "sign",
+    "language": "german",
+    "kind": "typo",
+    "title": "Weisenfels",
+    "titleLang": "de",
+    "image": {
+      "src": "assets/weisenfels.jpg",
+      "href": "https://www.mz.de/lokal/weissenfels/kurioser-schreibfehler-auf-verkehrsschuld-an-der-b91-was-dagegen-getan-wird-4226849"
+    },
+    "credit": {
+      "role": "photo-via",
+      "label": "ERIC STEHR VIA MZ",
+      "href": "https://www.mz.de/lokal/weissenfels/kurioser-schreibfehler-auf-verkehrsschuld-an-der-b91-was-dagegen-getan-wird-4226849"
+    },
+    "reading": null,
+    "keywords": "German sign Weißenfels Weisenfels B91 typo"
   }
 ]
