@@ -578,6 +578,12 @@
       "alt": "升职公告上被高亮的「處事一絲不掛」",
       "intended": "一絲不苟",
       "misread": "一絲不掛"
+    },
+    "double-fight": {
+      "description": "英文菜单把「雙拼」（双拼，两种配菜）译成「double fight」（双重打斗），把「腸粉」译成「intestine powder」（肠子的粉末）。",
+      "alt": "菜单牌上「蘿蔔生菜雙拼」与「Radish and lettuce double fight」并列",
+      "intended": "雙拼",
+      "misread": "double fight"
     }
   }
 }

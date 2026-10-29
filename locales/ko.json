@@ -578,6 +578,12 @@
       "alt": "'處事一絲不掛'가 강조된 승진 공지",
       "intended": "一絲不苟",
       "misread": "一絲不掛"
+    },
+    "double-fight": {
+      "description": "영어 메뉴는 두 가지 조합을 뜻하는 '雙拼'을 'double fight'(이중 싸움)로, 쌀국수롤 '腸粉'을 'intestine powder'(창자 가루)로 옮겼다.",
+      "alt": "'蘿蔔生菜雙拼'과 'Radish and lettuce double fight'를 나란히 둔 메뉴 사진",
+      "intended": "雙拼",
+      "misread": "double fight"
     }
   }
 }
