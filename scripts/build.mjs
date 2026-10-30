@@ -152,7 +152,7 @@ function sponsorButton(code, prefix, place) {
   return `<button type="button" class="sponsor sponsor-${place}" aria-label="${esc(t(code, 'sponsor.label'))}" aria-haspopup="dialog" aria-controls="sponsor-dialog"><span class="sponsor-face" aria-hidden="true"><img src="${prefix}assets/sponsor-face.webp" alt="" width="26" height="26"><svg viewBox="0 0 24 24"><path d="${heart}"/></svg></span><span class="sponsor-label">${esc(t(code, 'sponsor.label'))}</span></button>`
 }
 
-// The author's portrait, why she needs help, then three steps that end at the Ko-fi button.
+// The author's portrait, what a tip pays for, then three steps that end at the Ko-fi button.
 function sponsorDialog(code, prefix) {
   const steps = [t(code, 'sponsor.step1'), t(code, 'sponsor.step2'), t(code, 'sponsor.step3')].map(step => `<li>${esc(step)}</li>`).join('')
   return `<dialog id="sponsor-dialog" class="sponsor-dialog" aria-labelledby="sponsor-title">
