@@ -28,6 +28,12 @@ bun run check
 
 `bun run build` writes the four HTML pages. `bun run check` runs [x18n](https://x18n.dev/) against the catalogues for missing, unused and invalid keys. `bun run verify` runs the check, rebuilds and fails when the committed pages are out of date. CI runs the same steps.
 
+## Sponsor
+
+I build Writing fails on my own, with no funding behind it, and it's free for everyone. If it's useful to you, a tip on [Ko-fi](https://ko-fi.com/mkpoli) gives me time to keep improving it. Companies interested in sponsoring can write to mkpoli@mkpo.li.
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/mkpoli)
+
 ## License
 
 Original site text and code are dedicated to the public domain under [CC0 1.0](LICENSE). Third-party photographs and images remain subject to their respective rights and are not covered by this dedication; follow the source links for attribution and permissions.
