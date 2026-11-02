@@ -159,6 +159,7 @@ html:lang(ko) .sponsor-sheet{word-break:keep-all}
 .sponsor-company:hover{background:#f0f0ed;color:var(--ink)}
 .sponsor-company svg{flex:none;width:16px;height:16px;margin-top:2px}
 .sponsor-company .sponsor-copy strong{font-size:12.5px;color:var(--ink)}
+.sponsor-roll{--sp-text:var(--ink);--sp-muted:#62645f;--sp-soft:#fff1f5;--sp-line:#ffc2d6}
 .sponsor-thanks{margin:0;font-size:12.5px;line-height:1.5;color:#62645f;text-align:center}
 @media(prefers-reduced-motion:no-preference){
   .sponsor{transition:transform .18s ease,box-shadow .18s ease}

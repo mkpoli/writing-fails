@@ -152,7 +152,7 @@ function sponsorButton(code, prefix, place) {
   return `<button type="button" class="sponsor sponsor-${place}" aria-label="${esc(t(code, 'sponsor.label'))}" aria-haspopup="dialog" aria-controls="sponsor-dialog"><span class="sponsor-face" aria-hidden="true"><img src="${prefix}assets/sponsor-face.webp" alt="" width="26" height="26"><svg viewBox="0 0 24 24"><path d="${heart}"/></svg></span><span class="sponsor-label">${esc(t(code, 'sponsor.label'))}</span></button>`
 }
 
-// The author's portrait, why she needs help, then three steps that end at the Ko-fi button.
+// The author's portrait, what a tip pays for, then three steps that end at the Ko-fi button.
 function sponsorDialog(code, prefix) {
   const steps = [t(code, 'sponsor.step1'), t(code, 'sponsor.step2'), t(code, 'sponsor.step3')].map(step => `<li>${esc(step)}</li>`).join('')
   return `<dialog id="sponsor-dialog" class="sponsor-dialog" aria-labelledby="sponsor-title">
@@ -164,6 +164,8 @@ function sponsorDialog(code, prefix) {
 <section class="sponsor-how"><h3>${esc(t(code, 'sponsor.howTo'))}</h3><ol role="list">${steps}</ol></section>
 <a class="sponsor-kofi" href="https://ko-fi.com/mkpoli" target="_blank" rel="noreferrer"><span class="sponsor-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 9h12v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4ZM16 11h2a2.5 2.5 0 0 1 0 5h-2M7 3v3M11 2v3M15 3v3"/></svg></span><span class="sponsor-copy"><strong>Ko-fi</strong><small>${esc(t(code, 'sponsor.kofi'))}</small></span><svg class="sponsor-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
 <a class="sponsor-company" href="mailto:mkpoli@mkpo.li?subject=Sponsorship%20on%20writing-fails.mkpo.li"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3zM3 7l9 6 9-6"/></svg><span class="sponsor-copy"><strong>${esc(t(code, 'sponsor.company'))}</strong><small>${esc(t(code, 'sponsor.companyHint'))}</small></span></a>
+<script type="module" src="https://supporters.mkpo.li/roll.js"></script>
+<supporters-roll class="sponsor-roll" label="${esc(t(code, 'sponsor.supporters'))}" anonymous="${esc(t(code, 'sponsor.anonymous'))}"></supporters-roll>
 <p class="sponsor-thanks">${esc(t(code, 'sponsor.thanks'))}</p>
 </div>
 </dialog>`
