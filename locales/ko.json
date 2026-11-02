@@ -720,6 +720,8 @@
     "kofi": "1회 또는 매월 후원",
     "company": "기업 후원",
     "companyHint": "기업도 후원할 수 있어요. mkpoli@mkpo.li로 문의해 주세요.",
-    "thanks": "Writing Fails를 이용해 주셔서 고마워요 💗"
+    "thanks": "Writing Fails를 이용해 주셔서 고마워요 💗",
+    "supporters": "최근 후원자",
+    "anonymous": "익명"
   }
 }
