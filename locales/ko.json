@@ -98,7 +98,9 @@
   "reading": "해석",
   "footer": {
     "license": "사이트 텍스트와 코드: {cc0} · 이미지: 출처 참고",
-    "backToTop": "맨 위로 ↑"
+    "backToTop": "맨 위로 ↑",
+    "related": "관련 프로젝트",
+    "gallery": "문자 특집"
   },
   "entries": {
     "land": {

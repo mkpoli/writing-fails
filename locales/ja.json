@@ -98,7 +98,9 @@
   "reading": "読みの解説",
   "footer": {
     "license": "サイト本文とコード：{cc0}、画像は各出典を参照",
-    "backToTop": "ページ上部へ ↑"
+    "backToTop": "ページ上部へ ↑",
+    "related": "関連プロジェクト",
+    "gallery": "文字特集"
   },
   "entries": {
     "land": {

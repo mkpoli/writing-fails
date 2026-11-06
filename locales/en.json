@@ -98,7 +98,9 @@
   "reading": "THE READING",
   "footer": {
     "license": "Site text & code: {cc0} · Images: see sources",
-    "backToTop": "BACK TO TOP ↑"
+    "backToTop": "BACK TO TOP ↑",
+    "related": "Related projects",
+    "gallery": "Writing Systems"
   },
   "entries": {
     "land": {
