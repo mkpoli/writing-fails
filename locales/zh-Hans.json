@@ -98,7 +98,10 @@
   "reading": "解读",
   "footer": {
     "license": "站内文字与代码：{cc0}；图片：见来源",
-    "backToTop": "回到顶部 ↑"
+    "backToTop": "回到顶部 ↑",
+    "related": "相关项目",
+    "gallery": "文字专题",
+    "kanbun": "訓点漢文組版要件"
   },
   "entries": {
     "land": {
