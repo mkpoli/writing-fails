@@ -227,7 +227,7 @@ ${entries.map(entry => card(entry, locale)).join('\n')}
 <p class="empty" hidden>${esc(t(code, 'empty'))}</p>
 </section>
 </main>
-<nav class="related" aria-label="${esc(t(code, 'footer.related'))}"><h2>${esc(t(code, 'footer.related'))}</h2><a href="https://scripts.mkpo.li/${code === 'en' ? '' : `${code}/`}">${esc(t(code, 'footer.gallery'))} ↗</a></nav>
+<nav class="related" aria-label="${esc(t(code, 'footer.related'))}"><h2>${esc(t(code, 'footer.related'))}</h2><a href="https://moji.mkpo.li/${code === 'en' ? '' : `${code}/`}">${esc(t(code, 'footer.gallery'))} ↗</a></nav>
 <footer><span>${format(esc(t(code, 'footer.license')), { cc0: '<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>' })}</span><a class="footer-brand" href="#top">writing <b>fails.</b></a><span></span><a href="#top">${esc(t(code, 'footer.backToTop'))}</a></footer>
 ${sponsorDialog(code, prefix)}
 <script src="${prefix}script.js"></script>
