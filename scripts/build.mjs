@@ -198,7 +198,7 @@ ${head(locale, prefix)}
 </head>
 <body>
 <header class="topbar">
-<a class="brand" href="#top"><span class="brandmark">文<span>↘</span></span><span>writing<br><b>fails.</b></span></a>
+<site-switcher current="writing-fails"><a class="brand" href="#top"><span class="brandmark">文<span>↘</span></span><span>writing<br><b>fails.</b></span></a></site-switcher>
 <div class="topbar-right">
 ${sponsorButton(code, prefix, 'topbar')}
 <nav class="langs" aria-label="${esc(t(code, 'langs.label'))}">${langLinks(locale, prefix)}</nav>
@@ -226,6 +226,7 @@ ${entries.map(entry => card(entry, locale)).join('\n')}
 <footer><span>${format(esc(t(code, 'footer.license')), { cc0: '<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>' })}</span><a class="footer-brand" href="#top">writing <b>fails.</b></a><span></span><a href="#top">${esc(t(code, 'footer.backToTop'))}</a></footer>
 ${sponsorDialog(code, prefix)}
 <script src="${prefix}script.js"></script>
+<script defer src="https://scripts.mkpo.li/switcher.js"></script>
 </body>
 </html>
 `
