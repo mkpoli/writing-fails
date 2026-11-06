@@ -120,13 +120,21 @@ document.addEventListener('keydown', event => {
   }
 });
 
-// The sponsor dialog. A click on the backdrop closes it; one on its own scrollbar also targets the
-// dialog, so only a click outside its box counts.
+// The sponsor dialog. A click on the backdrop closes it, but only when the press and the release both
+// land outside its box, so a text selection dragged out of the box stays open. A click on the dialog's
+// own scrollbar also targets the dialog, which the box test rules out.
 const sponsorDialog = document.querySelector('#sponsor-dialog');
+const outsideSponsorBox = event => {
+  const box = sponsorDialog.getBoundingClientRect();
+  return event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom;
+};
+let sponsorPressedOutside = false;
 document.querySelectorAll('.sponsor').forEach(button => button.addEventListener('click', () => sponsorDialog.showModal()));
 sponsorDialog.querySelector('.sponsor-close').addEventListener('click', () => sponsorDialog.close());
+sponsorDialog.addEventListener('pointerdown', event => {
+  sponsorPressedOutside = event.target === sponsorDialog && outsideSponsorBox(event);
+});
 sponsorDialog.addEventListener('click', event => {
-  if (event.target !== sponsorDialog) return;
-  const box = sponsorDialog.getBoundingClientRect();
-  if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) sponsorDialog.close();
+  if (event.target === sponsorDialog && sponsorPressedOutside && outsideSponsorBox(event)) sponsorDialog.close();
+  sponsorPressedOutside = false;
 });
