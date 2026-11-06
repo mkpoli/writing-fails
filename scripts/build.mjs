@@ -152,9 +152,13 @@ function sponsorButton(code, prefix, place) {
   return `<button type="button" class="sponsor sponsor-${place}" aria-label="${esc(t(code, 'sponsor.label'))}" aria-haspopup="dialog" aria-controls="sponsor-dialog"><span class="sponsor-face" aria-hidden="true"><img src="${prefix}assets/sponsor-face.webp" alt="" width="26" height="26"><svg viewBox="0 0 24 24"><path d="${heart}"/></svg></span><span class="sponsor-label">${esc(t(code, 'sponsor.label'))}</span></button>`
 }
 
-// The author's portrait, what a tip pays for, then three steps that end at the Ko-fi button.
+// The author's portrait, what a tip pays for, then three steps that end at the Ko-fi and OFUSE buttons.
 function sponsorDialog(code, prefix) {
   const steps = [t(code, 'sponsor.step1'), t(code, 'sponsor.step2'), t(code, 'sponsor.step3')].map(step => `<li>${esc(step)}</li>`).join('')
+  const tip = (name, href, mark, width, height, note) => `<a class="sponsor-tip sponsor-${name}" href="${href}" target="_blank" rel="noreferrer"><img class="sponsor-mark" src="${prefix}assets/brand/${mark}" alt="" width="${width}" height="${height}"><span class="sponsor-copy"><strong>${esc(name === 'kofi' ? 'Ko-fi' : 'OFUSE')}</strong><small>${esc(note)}</small></span><svg class="sponsor-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>`
+  const kofi = tip('kofi', 'https://ko-fi.com/mkpoli', 'kofi-symbol.svg', 34, 27, t(code, 'sponsor.kofi'))
+  const ofuse = tip('ofuse', 'https://ofuse.me/mkpoli', 'ofuse-icon.svg', 26, 28, t(code, 'sponsor.ofuse'))
+  const tips = code === 'ja' ? ofuse + kofi : kofi + ofuse
   return `<dialog id="sponsor-dialog" class="sponsor-dialog" aria-labelledby="sponsor-title">
 <header><h2 id="sponsor-title">${esc(t(code, 'sponsor.label'))}</h2><button type="button" class="sponsor-close" aria-label="${esc(t(code, 'sponsor.close'))}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></header>
 <div class="sponsor-sheet">
@@ -162,7 +166,7 @@ function sponsorDialog(code, prefix) {
 <p class="sponsor-lead">${esc(t(code, 'sponsor.lead'))}</p>
 <p class="sponsor-ask">${esc(t(code, 'sponsor.ask'))}</p>
 <section class="sponsor-how"><h3>${esc(t(code, 'sponsor.howTo'))}</h3><ol role="list">${steps}</ol></section>
-<a class="sponsor-kofi" href="https://ko-fi.com/mkpoli" target="_blank" rel="noreferrer"><span class="sponsor-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 9h12v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4ZM16 11h2a2.5 2.5 0 0 1 0 5h-2M7 3v3M11 2v3M15 3v3"/></svg></span><span class="sponsor-copy"><strong>Ko-fi</strong><small>${esc(t(code, 'sponsor.kofi'))}</small></span><svg class="sponsor-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+<div class="sponsor-tips">${tips}</div>
 <a class="sponsor-company" href="mailto:mkpoli@mkpo.li?subject=Sponsorship%20on%20writing-fails.mkpo.li"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3zM3 7l9 6 9-6"/></svg><span class="sponsor-copy"><strong>${esc(t(code, 'sponsor.company'))}</strong><small>${esc(t(code, 'sponsor.companyHint'))}</small></span></a>
 <script type="module" src="https://supporters.mkpo.li/roll.js"></script>
 <supporters-roll class="sponsor-roll" label="${esc(t(code, 'sponsor.supporters'))}" anonymous="${esc(t(code, 'sponsor.anonymous'))}"></supporters-roll>
