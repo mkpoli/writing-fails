@@ -93,6 +93,7 @@
     "reported-by": "REPORTED BY {name}",
     "photo-reading": "PHOTO & READING {name}",
     "edited-via": "EDITED IMAGE VIA {name}",
+    "source-unknown": "SOURCE UNKNOWN",
     "via": "{a} VIA {b}"
   },
   "reading": "THE READING",
@@ -708,6 +709,12 @@
       "alt": "A plastic cup printed らロひレ above ロチ てロチチモモ, with a menu below",
       "intended": "SOUL",
       "misread": "らロひレ"
+    },
+    "dumpling-menu": {
+      "description": "The 新增：水饺 board lists four dumpling fillings—猪肉大葱, 猪肉芹菜, 猪肉香菇 and 韭菜鸡蛋—plus 炒方便面, set as five rows of four characters. Each column gathers one character from every dish; read down and they become 葱菜菇蛋面, 大芹香鸡便, 肉肉肉菜方 and 猪猪猪韭炒.",
+      "alt": "A printed sign announcing 新增：水饺, its dishes set in four columns of single characters",
+      "intended": "Horizontal LTR",
+      "misread": "Vertical RTL"
     }
   },
   "sponsor": {
