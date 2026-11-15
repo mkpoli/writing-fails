@@ -2018,5 +2018,25 @@
     },
     "reading": null,
     "keywords": "Japanese packaging lookalike ら 5 ロチ てロチチモモ SOUL OF COFFEE Thai kana"
+  },
+  {
+    "id": "dumpling-menu",
+    "number": 102,
+    "type": "menu",
+    "language": "chinese",
+    "kind": "direction",
+    "title": "葱菜菇蛋面",
+    "titleLang": "zh-Hans",
+    "image": {
+      "src": "assets/dumplings.jpg",
+      "href": null
+    },
+    "credit": {
+      "role": "source-unknown",
+      "label": "GROUP CHAT",
+      "href": null
+    },
+    "reading": null,
+    "keywords": "Chinese menu 水饺 葱菜菇蛋面 猪肉大葱 猪肉芹菜 猪肉香菇 韭菜鸡蛋 炒方便面 vertical horizontal group chat direction"
   }
 ]
