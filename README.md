@@ -26,7 +26,7 @@ bun run build
 bun run check
 ```
 
-`bun run build` writes the four HTML pages. `bun run check` runs [x18n](https://x18n.dev/) against the catalogues for missing, unused and invalid keys. `bun run verify` runs the check, rebuilds and fails when the committed pages are out of date. CI runs the same steps.
+`bun run build` writes the four HTML pages, `sitemap.xml` and `robots.txt`. `bun run check` runs [x18n](https://x18n.dev/) against the catalogues for missing, unused and invalid keys. `bun run verify` runs the check, rebuilds and fails when the committed pages are out of date. CI runs the same steps.
 
 ## Sponsor
 
