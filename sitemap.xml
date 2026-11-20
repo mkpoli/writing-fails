@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://writing-fails.mkpo.li/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://writing-fails.mkpo.li/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://writing-fails.mkpo.li/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://writing-fails.mkpo.li/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://writing-fails.mkpo.li/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://writing-fails.mkpo.li/"/>
+  </url>
+  <url>
+    <loc>https://writing-fails.mkpo.li/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://writing-fails.mkpo.li/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://writing-fails.mkpo.li/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://writing-fails.mkpo.li/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://writing-fails.mkpo.li/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://writing-fails.mkpo.li/"/>
+  </url>
+  <url>
+    <loc>https://writing-fails.mkpo.li/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://writing-fails.mkpo.li/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://writing-fails.mkpo.li/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://writing-fails.mkpo.li/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://writing-fails.mkpo.li/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://writing-fails.mkpo.li/"/>
+  </url>
+  <url>
+    <loc>https://writing-fails.mkpo.li/ko/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://writing-fails.mkpo.li/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://writing-fails.mkpo.li/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://writing-fails.mkpo.li/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://writing-fails.mkpo.li/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://writing-fails.mkpo.li/"/>
+  </url>
+</urlset>
