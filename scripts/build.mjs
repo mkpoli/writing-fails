@@ -266,3 +266,23 @@ for (const locale of locales) {
   writeFileSync(join(dir, 'site.webmanifest'), webManifest(locale))
   console.log(`wrote ${locale.path || './'}site.webmanifest`)
 }
+
+const alternateLinks = [
+  ...locales.map(target => ({ lang: target.code, href: `${site}/${target.path}` })),
+  { lang: 'x-default', href: `${site}/` },
+]
+  .map(alternate => `    <xhtml:link rel="alternate" hreflang="${alternate.lang}" href="${alternate.href}"/>`)
+  .join('\n')
+const urls = locales
+  .map(locale => `  <url>\n    <loc>${site}/${locale.path}</loc>\n${alternateLinks}\n  </url>`)
+  .join('\n')
+
+writeFileSync(join(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${urls}
+</urlset>
+`)
+console.log('wrote sitemap.xml')
+
+writeFileSync(join(root, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${site}/sitemap.xml\n`)
+console.log('wrote robots.txt')
